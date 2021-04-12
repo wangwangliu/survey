@@ -59,8 +59,18 @@ function index(props) {
                   return get(n, 'qnrId') != get(item, 'qnrId')
                 })
               }
+              if(get(item,'type')==2&&!get(item,'answer').length){
+                dispatch({
+                  type: 'discover/update',
+                  payload: {
+                    percent: ((parameter.length) / (question.length + 1)) * 100
+                  }
+                })
+                setParam(parameter);
+                // console.log(parameter,'parameter===')
+                return
+              }
               parameter.push(item);
-
               setParam(parameter);
               dispatch({
                 type: 'discover/update',
@@ -79,7 +89,17 @@ function index(props) {
               phone = value;
               parameter = parameter.filter((n, index) => {
                 return get(n, 'qnrId') != 12
-              })
+              });
+              if(value==''){
+                dispatch({
+                  type: 'discover/update',
+                  payload: {
+                    percent: ((parameter.length) / (question.length + 1)) * 100
+                  }
+                })
+                setParam(parameter);
+                return
+              }
               parameter.push({ "qnrId": 12, "type": 3, "answer": [], "content": value });
               setParam(parameter);
               dispatch({
@@ -98,7 +118,7 @@ function index(props) {
             if (param.length != 12) {
               return Toast.info('请填写完调研', 1);
             }
-            if (!/^1[3|4|5|7|8][0-9]{9}$/.test(phone)) {
+            if (!/^1[3|4|5|7|8][0-9]{9}$/.test(phone.trim())) {
               return Toast.info('请填写正确手机号', 1);
             }
             Toast.loading('系统分析中....', 1000000);
