@@ -1,0 +1,93 @@
+@import '../../mixin.scss';
+.card{
+  width: 100%;
+  border-radius: px2rem(8);
+  box-shadow: 0 px2rem(3) px2rem(6) 0 rgba(195, 203, 212, 0.35);
+  border: solid px2rem(1) $border;
+  box-sizing: border-box;
+  .header_{
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background:$active;
+    font-size:rem(10);
+    color:$deepColor;
+    padding:rem(8);
+    border-top-left-radius: px2rem(8);
+    border-top-right-radius: px2rem(8);
+    line-height: 1.3;
+  }
+  .list_{
+    display: flex;
+    align-items: center;
+    // border-bottom: 0.5px solid $border;
+    font-size:rem(8);
+    padding:rem(8);
+    width:100%;
+    box-sizing: border-box;
+    line-height: 1.3;
+    position: relative;
+    border:none;
+    &:after{
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background: #cccccc;
+      width: 100%;
+      height: 1px;
+      -webkit-transform: scaleY(0.5);
+      transform: scaleY(0.5);
+      -webkit-transform-origin: 0 0;
+      transform-origin: 0 0;
+    }
+    &.ed{
+      background:#fbf7f7;
+    }
+    &:active{
+      background:#fbf7f7;
+    }
+    &:last-child{
+      &:after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: none;
+        width: 100%;
+        height: 1px;
+        -webkit-transform: scaleY(0.5);
+        transform: scaleY(0.5);
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+      }
+    }
+    .radio{
+      width:rem(15);
+      height:rem(15);
+      flex-shrink: 0;
+      background:url(#{$path}/radio.png) center center no-repeat;
+      background-size: contain;
+      &.ed{
+        background:url(#{$path}/radioed.png) center center no-repeat;
+        background-size: contain;
+      }
+    }
+    .checkbox{
+      width:rem(15);
+      height:rem(15);
+      flex-shrink: 0;
+      background:url(#{$path}/checkbox.png) center center no-repeat;
+      background-size: contain;
+      &.ed{
+        background:url(#{$path}/checkboxed.png) center center no-repeat;
+        background-size: contain;
+      }
+    }
+    .content{
+      margin-left:rem(8)
+    }
+  }
+}

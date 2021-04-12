@@ -1,0 +1,26 @@
+@import '../../pages/index/mixin.scss';
+.top_h{
+  width:100vw;
+  height:px2rem(51);
+  background:#fff;
+  background-size: cover;
+  position: fixed;
+  left:0;
+  top:0;
+  z-index:10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:0rem 0.11rem 0.22rem 0rem rgba(0,0,0,0.06),0rem 0rem 0rem 0rem rgba(0,0,0,0.08);
+  .logo{
+    width:rem(200);
+    height:rem(30);
+    display: block;
+    background: url(./logo_jd.png) center center no-repeat;
+    background-size: contain;
+  }
+}
+.placeholder{
+  height:rem(51);
+  width:100vw;
+}

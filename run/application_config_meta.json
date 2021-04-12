@@ -1,0 +1,449 @@
+{
+  "keys": "/Volumes/PSSD/JDP/config/config.default.js",
+  "router": "/Volumes/PSSD/JDP/config/config.default.js",
+  "security": {
+    "xframe": {
+      "enable": "/Volumes/PSSD/JDP/config/config.default.js",
+      "value": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "type": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "value": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "value": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "policy": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "static": {
+    "dir": "/Volumes/PSSD/JDP/config/config.default.js",
+    "prefix": "/Volumes/PSSD/JDP/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Volumes/PSSD/JDP/node_modules/egg-static/config/config.default.js",
+    "preload": "/Volumes/PSSD/JDP/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Volumes/PSSD/JDP/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Volumes/PSSD/JDP/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "useHashAsset": "/Volumes/PSSD/JDP/config/config.default.js",
+    "root": "/Volumes/PSSD/JDP/node_modules/beidou-view-react/config/config.default.js",
+    "cache": "/Volumes/PSSD/JDP/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Volumes/PSSD/JDP/node_modules/beidou-view-react/config/config.default.js",
+    "defaultViewEngine": "/Volumes/PSSD/JDP/node_modules/beidou-view-react/config/config.default.js",
+    "mapping": "/Volumes/PSSD/JDP/node_modules/egg-view/config/config.default.js",
+    "hashAssetPath": "/Volumes/PSSD/JDP/node_modules/beidou-view/config/config.default.js"
+  },
+  "siteFile": {
+    "/783moqzre26o7d2dtjspy8yeuzsgq9.html": "/Volumes/PSSD/JDP/config/config.default.js",
+    "/favicon.ico": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+  },
+  "webpack": {
+    "custom": {
+      "configPath": "/Volumes/PSSD/JDP/config/config.default.js",
+      "depth": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+      "cssExtract": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js"
+    },
+    "resolve": {
+      "extensions": "/Volumes/PSSD/JDP/config/config.default.js",
+      "alias": {
+        "client": "/Volumes/PSSD/JDP/config/config.default.js"
+      }
+    },
+    "mode": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+    "output": {
+      "path": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+      "filename": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+      "chunkFilename": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+      "publicPath": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js"
+    },
+    "optimization": {
+      "splitChunks": {
+        "chunks": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+        "name": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+        "cacheGroups": {
+          "default": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+          "vendors": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+          "manifest": {
+            "test": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js"
+          }
+        }
+      },
+      "noEmitOnErrors": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js"
+    },
+    "devServer": {
+      "contentBase": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+      "port": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+      "noInfo": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+      "quiet": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+      "clientLogLevel": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+      "lazy": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+      "watchOptions": {
+        "aggregateTimeout": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js"
+      },
+      "headers": {
+        "X-Custom-Header": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js"
+      },
+      "stats": {
+        "colors": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+        "chunks": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js"
+      },
+      "publicPath": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js",
+      "hot": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/config/config.default.js"
+    }
+  },
+  "react": {
+    "static": "/Volumes/PSSD/JDP/config/config.local.js",
+    "middlewares": "/Volumes/PSSD/JDP/node_modules/beidou-view-react/config/config.default.js",
+    "beautify": "/Volumes/PSSD/JDP/node_modules/beidou-view-react/config/config.default.js",
+    "cache": "/Volumes/PSSD/JDP/node_modules/beidou-view-react/config/config.local.js",
+    "doctype": "/Volumes/PSSD/JDP/node_modules/beidou-view-react/config/config.default.js",
+    "assetHost": "/Volumes/PSSD/JDP/node_modules/beidou-view-react/config/config.default.js",
+    "assetPath": "/Volumes/PSSD/JDP/node_modules/beidou-view-react/config/config.default.js",
+    "placeHolder": "/Volumes/PSSD/JDP/node_modules/beidou-view-react/config/config.default.js"
+  },
+  "api": {
+    "domain": "/Volumes/PSSD/JDP/config/config.local.js",
+    "reportApi": "/Volumes/PSSD/JDP/config/config.local.js",
+    "cid": "/Volumes/PSSD/JDP/config/config.local.js",
+    "sign_key": "/Volumes/PSSD/JDP/config/config.local.js",
+    "codapay": "/Volumes/PSSD/JDP/config/config.local.js",
+    "ryid": "/Volumes/PSSD/JDP/config/config.local.js",
+    "web": "/Volumes/PSSD/JDP/config/config.local.js"
+  },
+  "session": {
+    "maxAge": "/Volumes/PSSD/JDP/node_modules/egg-session/config/config.default.js",
+    "key": "/Volumes/PSSD/JDP/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Volumes/PSSD/JDP/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Volumes/PSSD/JDP/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Volumes/PSSD/JDP/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Volumes/PSSD/JDP/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Volumes/PSSD/JDP/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Volumes/PSSD/JDP/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Volumes/PSSD/JDP/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Volumes/PSSD/JDP/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Volumes/PSSD/JDP/node_modules/egg-onerror/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Volumes/PSSD/JDP/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Volumes/PSSD/JDP/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Volumes/PSSD/JDP/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Volumes/PSSD/JDP/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Volumes/PSSD/JDP/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Volumes/PSSD/JDP/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Volumes/PSSD/JDP/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Volumes/PSSD/JDP/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Volumes/PSSD/JDP/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Volumes/PSSD/JDP/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Volumes/PSSD/JDP/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Volumes/PSSD/JDP/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Volumes/PSSD/JDP/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Volumes/PSSD/JDP/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Volumes/PSSD/JDP/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Volumes/PSSD/JDP/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Volumes/PSSD/JDP/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Volumes/PSSD/JDP/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Volumes/PSSD/JDP/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Volumes/PSSD/JDP/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Volumes/PSSD/JDP/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Volumes/PSSD/JDP/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Volumes/PSSD/JDP/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Volumes/PSSD/JDP/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Volumes/PSSD/JDP/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Volumes/PSSD/JDP/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Volumes/PSSD/JDP/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Volumes/PSSD/JDP/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Volumes/PSSD/JDP/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Volumes/PSSD/JDP/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "isomorphic": {
+    "polyfill": "/Volumes/PSSD/JDP/node_modules/beidou-isomorphic/config/config.default.js",
+    "universal": {
+      "assetsFilePath": "/Volumes/PSSD/JDP/node_modules/beidou-isomorphic/config/config.default.js",
+      "assets": "/Volumes/PSSD/JDP/node_modules/beidou-isomorphic/config/config.default.js"
+    },
+    "alias": {
+      "client": "/Volumes/PSSD/JDP/node_modules/beidou-isomorphic/config/config.default.js"
+    }
+  },
+  "env": "/Volumes/PSSD/JDP/node_modules/beidou-core/config/config.default.js",
+  "name": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "cookies": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "proxy": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "version": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "description": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "start": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "develop": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "stop": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "debug": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "dev": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "develop:zip": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "build:zip": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "build": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "build:node": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "lint": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@material-ui/core": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@tweenjs/tween.js": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "antd": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "antd-mobile": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "axios": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "babel-polyfill": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "beidou": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "beidou-cli": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "canvas-exif-orientation": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "classnames": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "clipboard": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "dva": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "dva-loading": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "exif-js": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "fastclick": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "filemanager-webpack-plugin": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "hammerjs": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "image-conversion": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "immutable": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "js-md5": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "lodash": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "memoize-one": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "moment": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "node-sass": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "phaser": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "qs": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-addons-css-transition-group": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-dom": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-hot-loader": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-i18nify": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-redux": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-ripples": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-router": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-spring": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-sticky": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-swipe": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-swipeable-views": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-transition-group": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-wx-images-viewer": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "redux": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "redux-actions": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "redux-saga": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "reqwest": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "store2": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "svga.lite": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "swipe-js-iso": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "swiper": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "uuid": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "viewerjs": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@types/clipboard": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@types/fastclick": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@types/js-md5": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@types/lodash": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@types/qs": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@types/react": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@types/react-addons-css-transition-group": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@types/react-dom": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@types/react-redux": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@types/react-router": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@types/react-router-dom": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@types/react-sticky": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "@types/react-swipe": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "babel-eslint": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "babel-plugin-import": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "clean-webpack-plugin": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "eslint": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "eslint-config-beidou": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "eslint-plugin-import": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "eslint-plugin-react": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "image-webpack-loader": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "jquery": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "rc-form": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-app-polyfill": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "react-hammerjs": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "regenerator-runtime": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "url-loader": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "webpack-bundle-analyzer": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "webpack-html-plugin": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "workbox-webpack-plugin": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "zepto": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+    },
+    "browserslist": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "engines": {
+      "node": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+    },
+    "license": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "gitHead": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "boilerplate": {
+      "name": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "version": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "description": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+    },
+    "config": {
+      "typescript": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "HOME": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "rundir": "/Volumes/PSSD/JDP/node_modules/beidou-core/config/config.default.js",
+  "dump": {
+    "ignore": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "notFound": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "sitefile": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "middlewares": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "httpClient": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "encoding": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "formLimit": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "textLimit": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "strict": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "depth": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "encoding": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "env": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "level": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "buffer": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "appLogName": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Volumes/PSSD/JDP/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "logging": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Volumes/PSSD/JDP/node_modules/beidou-core/config/config.default.js",
+  "workerStartTimeout": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "port": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+      "hostname": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Volumes/PSSD/JDP/node_modules/egg/config/config.default.js",
+  "client": "/Volumes/PSSD/JDP/node_modules/beidou-core/config/config.default.js",
+  "core": {
+    "name": "/Volumes/PSSD/JDP/node_modules/beidou-core/config/config.default.js"
+  }
+}

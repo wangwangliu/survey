@@ -1,0 +1,2204 @@
+2020-12-05 07:32:13,372 ERROR 1809 nodejs.ClusterClientNoResponseError: client no response in 36056974ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/liuriwang/Documents/matche/matche-h5/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1809
+hostname: senla.local
+
+2020-12-05 09:15:04,220 ERROR 1809 nodejs.ClusterClientNoResponseError: client no response in 6170708ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/liuriwang/Documents/matche/matche-h5/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1809
+hostname: senla.local
+
+2020-12-06 04:39:39,263 ERROR 1809 nodejs.ClusterClientNoResponseError: client no response in 69874565ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/liuriwang/Documents/matche/matche-h5/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1809
+hostname: senla.local
+
+2020-12-06 05:45:32,505 ERROR 1809 nodejs.ClusterClientNoResponseError: client no response in 3932692ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/liuriwang/Documents/matche/matche-h5/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1809
+hostname: senla.local
+
+2020-12-06 17:47:51,976 ERROR 1809 nodejs.ClusterClientNoResponseError: client no response in 43253479ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/liuriwang/Documents/matche/matche-h5/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1809
+hostname: senla.local
+
+2020-12-07 08:30:04,023 ERROR 1809 nodejs.ClusterClientNoResponseError: client no response in 52931556ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/liuriwang/Documents/matche/matche-h5/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1809
+hostname: senla.local
+
+2020-12-07 10:00:36,512 ERROR 1809 nodejs.ClusterClientNoResponseError: client no response in 5432405ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/liuriwang/Documents/matche/matche-h5/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1809
+hostname: senla.local
+
+2020-12-07 10:22:56,382 ERROR 7701 [-/undefined/-/7602ms GET /build/new_task_center.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 7701
+hostname: senla.local
+
+2020-12-07 10:55:12,768 ERROR 10182 [-/undefined/-/4471ms GET /public/images/big_shards.png] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 10182
+hostname: senla.local
+
+2020-12-07 11:25:35,367 ERROR 10182 [-/undefined/-/8048ms GET /build/react.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 10182
+hostname: senla.local
+
+2020-12-07 11:25:35,370 ERROR 10182 [-/undefined/-/8014ms GET /build/new_task_center.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 10182
+hostname: senla.local
+
+2020-12-07 12:56:23,865 ERROR 10182 [-/undefined/-/7838ms GET /build/react.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 10182
+hostname: senla.local
+
+2020-12-07 12:56:23,873 ERROR 10182 [-/undefined/-/7903ms GET /build/new_task_center.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 10182
+hostname: senla.local
+
+2020-12-07 15:06:40,748 ERROR 17296 [-/undefined/-/17832ms GET /build/new_task_center.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 17296
+hostname: senla.local
+
+2020-12-24 14:03:23,043 ERROR 8484 [-/undefined/-/8252ms GET /build/react.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 8484
+hostname: senla.local
+
+2020-12-24 14:03:23,050 ERROR 8484 [-/undefined/-/8270ms GET /build/wallet.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 8484
+hostname: senla.local
+
+2020-12-24 14:26:25,384 ERROR 11361 [-/::1/-/1045ms GET /wallet] nodejs.SyntaxError: /Users/liuriwang/Documents/matche/matche-h5/client/pages/wallet/redux/wallet.js: Unexpected token (161:4)
+
+[0m [90m 159 | [39m    [36mcase[39m [32m'SET_LOADING'[39m[33m:[39m[0m
+[0m [90m 160 | [39m      [36mreturn[39m payload}[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 161 | [39m    [36mdefault[39m[33m:[39m[0m
+[0m [90m     | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 162 | [39m      [36mreturn[39m state[33m;[39m[0m
+[0m [90m 163 | [39m  }[0m
+[0m [90m 164 | [39m}[0m
+
+[0m [90m 159 | [39m    [36mcase[39m [32m'SET_LOADING'[39m[33m:[39m[0m
+[0m [90m 160 | [39m      [36mreturn[39m payload}[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 161 | [39m    [36mdefault[39m[33m:[39m[0m
+[0m [90m     | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 162 | [39m      [36mreturn[39m state[33m;[39m[0m
+[0m [90m 163 | [39m  }[0m
+[0m [90m 164 | [39m}[0m
+    at Object._raise (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.parseExprAtom (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:1144:20)
+    at Object.parseExprAtom (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/plugins/jsx/index.js:532:22)
+    at Object.parseExprSubscripts (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseExprOps (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:311:23)
+    at Object.parseMaybeConditional (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:263:23)
+loc: {"line":161,"column":4}
+pos: 3082
+code: "BABEL_PARSE_ERROR"
+pid: 11361
+hostname: senla.local
+
+2020-12-24 14:26:25,622 ERROR 11361 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 11361
+hostname: senla.local
+
+2020-12-24 14:58:57,834 ERROR 12416 [-/::1/-/758ms GET /] nodejs.TypeError: Cannot read property 'page' of undefined
+    at getPartial (/Users/liuriwang/Documents/matche/matche-h5/client/pages/main/mobile.js:86:32)
+    at module.exports (/Users/liuriwang/Documents/matche/matche-h5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Users/liuriwang/Documents/matche/matche-h5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Users/liuriwang/Documents/matche/matche-h5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Users/liuriwang/Documents/matche/matche-h5/node_modules/beidou-view/app/view-middlewares/cache.js:18:9)
+    at dispatch (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa-compose/index.js:42:32)
+    at ReactView.fn (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa-compose/index.js:34:12)
+
+pid: 12416
+hostname: senla.local
+
+2020-12-28 12:05:09,448 ERROR 26763 nodejs.TypeError: Cannot read property 'env' of undefined
+    at Ibridge.getAppInfo (/Users/liuriwang/Documents/matche/matche-h5/client/utils/Ibridge.ts:261:74)
+    at /Users/liuriwang/Documents/matche/matche-h5/client/utils/index.js:104:13
+    at new Promise (<anonymous>)
+    at getLocaleLan (/Users/liuriwang/Documents/matche/matche-h5/client/utils/index.js:103:10)
+    at Object.<anonymous> (/Users/liuriwang/Documents/matche/matche-h5/client/pages/feedback/Layout.js:14:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Module._compile (/Users/liuriwang/Documents/matche/matche-h5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .js] (/Users/liuriwang/Documents/matche/matche-h5/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+
+pid: 26763
+hostname: senla.local
+
+2021-01-04 17:02:32,048 ERROR 27412 [-/::1/-/472ms GET /wallet/history/1] nodejs.SyntaxError: /Users/liuriwang/Documents/matche/matche-h5/client/pages/wallet/History.tsx: Unexpected token, expected "," (96:49)
+
+[0m [90m 94 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetOrderHistoryLog[33m,[39m{is_vip[33m:[39m[35m2[39m})[33m,[39m[0m
+[0m [90m 95 | [39m        request[0m
+[0m[31m[1m>[22m[39m[90m 96 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetDiamondHistoryLog))[0m
+[0m [90m    | [39m                                                 [31m[1m^[22m[39m[0m
+[0m [90m 97 | [39m        [33m.[39mthen(res [33m=>[39m {[0m
+[0m [90m 98 | [39m          [36mconst[39m { data[33m,[39m code } [33m=[39m res[33m;[39m[0m
+[0m [90m 99 | [39m          [36mif[39m (code [33m==[39m [35m200[39m) {[0m
+
+[0m [90m 94 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetOrderHistoryLog[33m,[39m{is_vip[33m:[39m[35m2[39m})[33m,[39m[0m
+[0m [90m 95 | [39m        request[0m
+[0m[31m[1m>[22m[39m[90m 96 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetDiamondHistoryLog))[0m
+[0m [90m    | [39m                                                 [31m[1m^[22m[39m[0m
+[0m [90m 97 | [39m        [33m.[39mthen(res [33m=>[39m {[0m
+[0m [90m 98 | [39m          [36mconst[39m { data[33m,[39m code } [33m=[39m res[33m;[39m[0m
+[0m [90m 99 | [39m          [36mif[39m (code [33m==[39m [35m200[39m) {[0m
+    at Object._raise (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseExprList (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:2045:14)
+    at Object.parseExprAtom (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:1056:30)
+    at Object.parseExprAtom (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/plugins/jsx/index.js:532:22)
+    at Object.parseExprSubscripts (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+loc: {"line":96,"column":49}
+pos: 2884
+code: "BABEL_PARSE_ERROR"
+pid: 27412
+hostname: senla.local
+
+2021-01-04 17:02:32,062 ERROR 27412 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 27412
+hostname: senla.local
+
+2021-01-04 17:04:31,437 ERROR 27412 [-/::1/-/138ms GET /wallet/history/1] nodejs.SyntaxError: /Users/liuriwang/Documents/matche/matche-h5/client/pages/wallet/History.tsx: Unexpected token, expected "," (96:49)
+
+[0m [90m 94 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetOrderHistoryLog[33m,[39m{is_vip[33m:[39m[35m2[39m})[33m,[39m[0m
+[0m [90m 95 | [39m        request[0m
+[0m[31m[1m>[22m[39m[90m 96 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetDiamondHistoryLog))[0m
+[0m [90m    | [39m                                                 [31m[1m^[22m[39m[0m
+[0m [90m 97 | [39m        [33m.[39mthen(res [33m=>[39m {[0m
+[0m [90m 98 | [39m          [36mconst[39m { data[33m,[39m code } [33m=[39m res[33m;[39m[0m
+[0m [90m 99 | [39m          [36mif[39m (code [33m==[39m [35m200[39m) {[0m
+
+[0m [90m 94 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetOrderHistoryLog[33m,[39m{is_vip[33m:[39m[35m2[39m})[33m,[39m[0m
+[0m [90m 95 | [39m        request[0m
+[0m[31m[1m>[22m[39m[90m 96 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetDiamondHistoryLog))[0m
+[0m [90m    | [39m                                                 [31m[1m^[22m[39m[0m
+[0m [90m 97 | [39m        [33m.[39mthen(res [33m=>[39m {[0m
+[0m [90m 98 | [39m          [36mconst[39m { data[33m,[39m code } [33m=[39m res[33m;[39m[0m
+[0m [90m 99 | [39m          [36mif[39m (code [33m==[39m [35m200[39m) {[0m
+    at Object._raise (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseExprList (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:2045:14)
+    at Object.parseExprAtom (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:1056:30)
+    at Object.parseExprAtom (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/plugins/jsx/index.js:532:22)
+    at Object.parseExprSubscripts (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+loc: {"line":96,"column":49}
+pos: 2884
+code: "BABEL_PARSE_ERROR"
+pid: 27412
+hostname: senla.local
+
+2021-01-04 17:04:31,444 ERROR 27412 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 27412
+hostname: senla.local
+
+2021-01-04 17:06:32,620 ERROR 27412 [-/::1/-/145ms GET /wallet/history/1] nodejs.SyntaxError: /Users/liuriwang/Documents/matche/matche-h5/client/pages/wallet/History.tsx: Unexpected token, expected "," (96:49)
+
+[0m [90m 94 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetOrderHistoryLog[33m,[39m{is_vip[33m:[39m[35m2[39m})[33m,[39m[0m
+[0m [90m 95 | [39m        request[0m
+[0m[31m[1m>[22m[39m[90m 96 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetDiamondHistoryLog))[0m
+[0m [90m    | [39m                                                 [31m[1m^[22m[39m[0m
+[0m [90m 97 | [39m        [33m.[39mthen(res [33m=>[39m {[0m
+[0m [90m 98 | [39m          [36mconst[39m { data[33m,[39m code } [33m=[39m res[33m;[39m[0m
+[0m [90m 99 | [39m          [36mif[39m (code [33m==[39m [35m200[39m) {[0m
+
+[0m [90m 94 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetOrderHistoryLog[33m,[39m{is_vip[33m:[39m[35m2[39m})[33m,[39m[0m
+[0m [90m 95 | [39m        request[0m
+[0m[31m[1m>[22m[39m[90m 96 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetDiamondHistoryLog))[0m
+[0m [90m    | [39m                                                 [31m[1m^[22m[39m[0m
+[0m [90m 97 | [39m        [33m.[39mthen(res [33m=>[39m {[0m
+[0m [90m 98 | [39m          [36mconst[39m { data[33m,[39m code } [33m=[39m res[33m;[39m[0m
+[0m [90m 99 | [39m          [36mif[39m (code [33m==[39m [35m200[39m) {[0m
+    at Object._raise (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseExprList (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:2045:14)
+    at Object.parseExprAtom (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:1056:30)
+    at Object.parseExprAtom (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/plugins/jsx/index.js:532:22)
+    at Object.parseExprSubscripts (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+loc: {"line":96,"column":49}
+pos: 2884
+code: "BABEL_PARSE_ERROR"
+pid: 27412
+hostname: senla.local
+
+2021-01-04 17:06:32,622 ERROR 27412 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 27412
+hostname: senla.local
+
+2021-01-04 17:08:32,593 ERROR 27412 [-/::1/-/108ms GET /wallet/history/1] nodejs.SyntaxError: /Users/liuriwang/Documents/matche/matche-h5/client/pages/wallet/History.tsx: Unexpected token, expected "," (96:49)
+
+[0m [90m 94 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetOrderHistoryLog[33m,[39m{is_vip[33m:[39m[35m2[39m})[33m,[39m[0m
+[0m [90m 95 | [39m        request[0m
+[0m[31m[1m>[22m[39m[90m 96 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetDiamondHistoryLog))[0m
+[0m [90m    | [39m                                                 [31m[1m^[22m[39m[0m
+[0m [90m 97 | [39m        [33m.[39mthen(res [33m=>[39m {[0m
+[0m [90m 98 | [39m          [36mconst[39m { data[33m,[39m code } [33m=[39m res[33m;[39m[0m
+[0m [90m 99 | [39m          [36mif[39m (code [33m==[39m [35m200[39m) {[0m
+
+[0m [90m 94 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetOrderHistoryLog[33m,[39m{is_vip[33m:[39m[35m2[39m})[33m,[39m[0m
+[0m [90m 95 | [39m        request[0m
+[0m[31m[1m>[22m[39m[90m 96 | [39m          [33m.[39msend(request[33m.[39mapi[33m.[39mgetDiamondHistoryLog))[0m
+[0m [90m    | [39m                                                 [31m[1m^[22m[39m[0m
+[0m [90m 97 | [39m        [33m.[39mthen(res [33m=>[39m {[0m
+[0m [90m 98 | [39m          [36mconst[39m { data[33m,[39m code } [33m=[39m res[33m;[39m[0m
+[0m [90m 99 | [39m          [36mif[39m (code [33m==[39m [35m200[39m) {[0m
+    at Object._raise (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseExprList (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:2045:14)
+    at Object.parseExprAtom (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:1056:30)
+    at Object.parseExprAtom (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/plugins/jsx/index.js:532:22)
+    at Object.parseExprSubscripts (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+loc: {"line":96,"column":49}
+pos: 2884
+code: "BABEL_PARSE_ERROR"
+pid: 27412
+hostname: senla.local
+
+2021-01-04 17:08:32,596 ERROR 27412 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Users/liuriwang/Documents/matche/matche-h5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Users/liuriwang/Documents/matche/matche-h5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Users/liuriwang/Documents/matche/matche-h5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 27412
+hostname: senla.local
+
+2021-01-04 21:47:21,190 ERROR 38809 nodejs.ClusterClientNoResponseError: client no response in 2616324ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/liuriwang/Documents/matche/matche-h5/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 38809
+hostname: senla.local
+
+2021-01-04 22:07:14,387 ERROR 38809 nodejs.ClusterClientNoResponseError: client no response in 1175107ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/liuriwang/Documents/matche/matche-h5/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 38809
+hostname: senla.local
+
+2021-01-05 10:48:13,837 ERROR 4495 [-/undefined/-/2633ms GET /build/wallet.eb0b4582a09603f01fd0.hot-update.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4495
+hostname: senla.local
+
+2021-01-05 11:14:27,244 ERROR 4495 [-/undefined/-/1506ms GET /build/wallet.b7b89cfa688076032e61.hot-update.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4495
+hostname: senla.local
+
+2021-01-07 11:05:31,803 ERROR 69327 nodejs.WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+ - configuration.entry should be an non-empty object.
+   -> Multiple entry bundles are created. The key is the chunk name. The value can be a string or an array.
+ - configuration.entry should be an non-empty object.
+   -> Multiple entry bundles are created. The key is the chunk name. The value can be a string or an array.
+    at webpack (/Volumes/PSSD/clickh5/node_modules/webpack/lib/webpack.js:31:9)
+    at Object.startServer (/Volumes/PSSD/clickh5/node_modules/beidou-webpack/lib/utils/index.js:195:20)
+    at /Volumes/PSSD/clickh5/node_modules/beidou-webpack/agent.js:23:12
+    at /Volumes/PSSD/clickh5/node_modules/get-ready/index.js:73:53
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+details: undefined
+missing: undefined
+origin: undefined
+dependencies: undefined
+module: undefined
+name: "WebpackOptionsValidationError"
+validationErrors: [{"keyword":"anyOf","dataPath":".entry","schemaPath":"#/properties/entry/anyOf","params":{},"message":"should match some schema in anyOf","schema":[{"$ref":"#/definitions/Entry"}],"parentSchema":{"description":"The entry point(s) of the compilation.","anyOf":"~0~schema"},"data":{},"children":[{"keyword":"instanceof","dataPath":".entry","schemaPath":"#/definitions/EntryDynamic/instanceof","params":{"keyword":"instanceof"},"message":"should pass \"instanceof\" keyword validation","schema":"Function","parentSchema":{"description":"A Function returning an entry object, an entry string, an entry array or a promise to these things.","instanceof":"Function","tsType":"(() => EntryStatic | Promise<EntryStatic>)"},"data":"~0~data"},{"keyword":"minProperties","dataPath":".entry","schemaPath":"#/minProperties","params":{"limit":1},"message":"should NOT have fewer than 1 properties","schema":1,"parentSchema":{"description":"Multiple entry bundles are created. The key is the chunk name. The value can be a string or an array.","type":"object","additionalProperties":{"description":"An entry point with name","oneOf":[{"description":"The string is resolved to a module which is loaded upon startup.","type":"string","minLength":1},{"description":"All modules are loaded upon startup. The last one is exported.","anyOf":[{"$ref":"#/definitions/NonEmptyArrayOfUniqueStringValues"}]}]},"minProperties":1},"data":"~0~data"},{"keyword":"type","dataPath":".entry","schemaPath":"#/oneOf/0/type","params":{"type":"string"},"message":"should be string","schema":"string","parentSchema":{"description":"An entry point without name. The string is resolved to a module which is loaded upon startup.","type":"string","minLength":1},"data":"~0~data"},{"keyword":"type","dataPath":".entry","schemaPath":"#/definitions/NonEmptyArrayOfUniqueStringValues/type","params":{"type":"array"},"message":"should be array","schema":"array","parentSchema":{"description":"A non-empty array of non-empty strings","type":"array","items":{"description":"A non-empty string","type":"string","minLength":1},"minItems":1,"uniqueItems":true},"data":"~0~data"},{"keyword":"anyOf","dataPath":".entry","schemaPath":"#/oneOf/1/anyOf","params":{},"message":"should match some schema in anyOf","schema":[{"$ref":"#/definitions/NonEmptyArrayOfUniqueStringValues"}],"parentSchema":{"description":"An entry point without name. All modules are loaded upon startup. The last one is exported.","anyOf":"~0~children~4~schema"},"data":"~0~data"},{"keyword":"oneOf","dataPath":".entry","schemaPath":"#/oneOf","params":{"passingSchemas":null},"message":"should match exactly one schema in oneOf","schema":["~0~children~2~parentSchema","~0~children~4~parentSchema"],"parentSchema":{"oneOf":"~0~children~5~schema"},"data":"~0~data"},{"keyword":"oneOf","dataPath":".entry","schemaPath":"#/oneOf","params":{"passingSchemas":null},"message":"should match exactly one schema in oneOf","schema":[{"$ref":"#/definitions/EntryObject"},{"$ref":"#/definitions/EntryItem"}],"parentSchema":{"oneOf":"~0~children~6~schema"},"data":"~0~data"},{"keyword":"anyOf","dataPath":".entry","schemaPath":"#/anyOf","params":{},"message":"should match some schema in anyOf","schema":[{"$ref":"#/definitions/EntryDynamic"},{"$ref":"#/definitions/EntryStatic"}],"parentSchema":{"anyOf":"~0~children~7~schema"},"data":"~0~data"}]}]
+pid: 69327
+hostname: senla.local
+
+2021-01-07 11:06:11,607 ERROR 69415 nodejs.WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+ - configuration.entry should be an non-empty object.
+   -> Multiple entry bundles are created. The key is the chunk name. The value can be a string or an array.
+ - configuration.entry should be an non-empty object.
+   -> Multiple entry bundles are created. The key is the chunk name. The value can be a string or an array.
+    at webpack (/Volumes/PSSD/clickh5/node_modules/webpack/lib/webpack.js:31:9)
+    at Object.startServer (/Volumes/PSSD/clickh5/node_modules/beidou-webpack/lib/utils/index.js:195:20)
+    at /Volumes/PSSD/clickh5/node_modules/beidou-webpack/agent.js:23:12
+    at /Volumes/PSSD/clickh5/node_modules/get-ready/index.js:73:53
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+details: undefined
+missing: undefined
+origin: undefined
+dependencies: undefined
+module: undefined
+name: "WebpackOptionsValidationError"
+validationErrors: [{"keyword":"anyOf","dataPath":".entry","schemaPath":"#/properties/entry/anyOf","params":{},"message":"should match some schema in anyOf","schema":[{"$ref":"#/definitions/Entry"}],"parentSchema":{"description":"The entry point(s) of the compilation.","anyOf":"~0~schema"},"data":{},"children":[{"keyword":"instanceof","dataPath":".entry","schemaPath":"#/definitions/EntryDynamic/instanceof","params":{"keyword":"instanceof"},"message":"should pass \"instanceof\" keyword validation","schema":"Function","parentSchema":{"description":"A Function returning an entry object, an entry string, an entry array or a promise to these things.","instanceof":"Function","tsType":"(() => EntryStatic | Promise<EntryStatic>)"},"data":"~0~data"},{"keyword":"minProperties","dataPath":".entry","schemaPath":"#/minProperties","params":{"limit":1},"message":"should NOT have fewer than 1 properties","schema":1,"parentSchema":{"description":"Multiple entry bundles are created. The key is the chunk name. The value can be a string or an array.","type":"object","additionalProperties":{"description":"An entry point with name","oneOf":[{"description":"The string is resolved to a module which is loaded upon startup.","type":"string","minLength":1},{"description":"All modules are loaded upon startup. The last one is exported.","anyOf":[{"$ref":"#/definitions/NonEmptyArrayOfUniqueStringValues"}]}]},"minProperties":1},"data":"~0~data"},{"keyword":"type","dataPath":".entry","schemaPath":"#/oneOf/0/type","params":{"type":"string"},"message":"should be string","schema":"string","parentSchema":{"description":"An entry point without name. The string is resolved to a module which is loaded upon startup.","type":"string","minLength":1},"data":"~0~data"},{"keyword":"type","dataPath":".entry","schemaPath":"#/definitions/NonEmptyArrayOfUniqueStringValues/type","params":{"type":"array"},"message":"should be array","schema":"array","parentSchema":{"description":"A non-empty array of non-empty strings","type":"array","items":{"description":"A non-empty string","type":"string","minLength":1},"minItems":1,"uniqueItems":true},"data":"~0~data"},{"keyword":"anyOf","dataPath":".entry","schemaPath":"#/oneOf/1/anyOf","params":{},"message":"should match some schema in anyOf","schema":[{"$ref":"#/definitions/NonEmptyArrayOfUniqueStringValues"}],"parentSchema":{"description":"An entry point without name. All modules are loaded upon startup. The last one is exported.","anyOf":"~0~children~4~schema"},"data":"~0~data"},{"keyword":"oneOf","dataPath":".entry","schemaPath":"#/oneOf","params":{"passingSchemas":null},"message":"should match exactly one schema in oneOf","schema":["~0~children~2~parentSchema","~0~children~4~parentSchema"],"parentSchema":{"oneOf":"~0~children~5~schema"},"data":"~0~data"},{"keyword":"oneOf","dataPath":".entry","schemaPath":"#/oneOf","params":{"passingSchemas":null},"message":"should match exactly one schema in oneOf","schema":[{"$ref":"#/definitions/EntryObject"},{"$ref":"#/definitions/EntryItem"}],"parentSchema":{"oneOf":"~0~children~6~schema"},"data":"~0~data"},{"keyword":"anyOf","dataPath":".entry","schemaPath":"#/anyOf","params":{},"message":"should match some schema in anyOf","schema":[{"$ref":"#/definitions/EntryDynamic"},{"$ref":"#/definitions/EntryStatic"}],"parentSchema":{"anyOf":"~0~children~7~schema"},"data":"~0~data"}]}]
+pid: 69415
+hostname: senla.local
+
+2021-01-07 11:08:55,339 ERROR 69536 nodejs.WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+ - configuration.entry should be an non-empty object.
+   -> Multiple entry bundles are created. The key is the chunk name. The value can be a string or an array.
+ - configuration.entry should be an non-empty object.
+   -> Multiple entry bundles are created. The key is the chunk name. The value can be a string or an array.
+    at webpack (/Volumes/PSSD/clickh5/node_modules/webpack/lib/webpack.js:31:9)
+    at Object.startServer (/Volumes/PSSD/clickh5/node_modules/beidou-webpack/lib/utils/index.js:195:20)
+    at /Volumes/PSSD/clickh5/node_modules/beidou-webpack/agent.js:23:12
+    at /Volumes/PSSD/clickh5/node_modules/get-ready/index.js:73:53
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+details: undefined
+missing: undefined
+origin: undefined
+dependencies: undefined
+module: undefined
+name: "WebpackOptionsValidationError"
+validationErrors: [{"keyword":"anyOf","dataPath":".entry","schemaPath":"#/properties/entry/anyOf","params":{},"message":"should match some schema in anyOf","schema":[{"$ref":"#/definitions/Entry"}],"parentSchema":{"description":"The entry point(s) of the compilation.","anyOf":"~0~schema"},"data":{},"children":[{"keyword":"instanceof","dataPath":".entry","schemaPath":"#/definitions/EntryDynamic/instanceof","params":{"keyword":"instanceof"},"message":"should pass \"instanceof\" keyword validation","schema":"Function","parentSchema":{"description":"A Function returning an entry object, an entry string, an entry array or a promise to these things.","instanceof":"Function","tsType":"(() => EntryStatic | Promise<EntryStatic>)"},"data":"~0~data"},{"keyword":"minProperties","dataPath":".entry","schemaPath":"#/minProperties","params":{"limit":1},"message":"should NOT have fewer than 1 properties","schema":1,"parentSchema":{"description":"Multiple entry bundles are created. The key is the chunk name. The value can be a string or an array.","type":"object","additionalProperties":{"description":"An entry point with name","oneOf":[{"description":"The string is resolved to a module which is loaded upon startup.","type":"string","minLength":1},{"description":"All modules are loaded upon startup. The last one is exported.","anyOf":[{"$ref":"#/definitions/NonEmptyArrayOfUniqueStringValues"}]}]},"minProperties":1},"data":"~0~data"},{"keyword":"type","dataPath":".entry","schemaPath":"#/oneOf/0/type","params":{"type":"string"},"message":"should be string","schema":"string","parentSchema":{"description":"An entry point without name. The string is resolved to a module which is loaded upon startup.","type":"string","minLength":1},"data":"~0~data"},{"keyword":"type","dataPath":".entry","schemaPath":"#/definitions/NonEmptyArrayOfUniqueStringValues/type","params":{"type":"array"},"message":"should be array","schema":"array","parentSchema":{"description":"A non-empty array of non-empty strings","type":"array","items":{"description":"A non-empty string","type":"string","minLength":1},"minItems":1,"uniqueItems":true},"data":"~0~data"},{"keyword":"anyOf","dataPath":".entry","schemaPath":"#/oneOf/1/anyOf","params":{},"message":"should match some schema in anyOf","schema":[{"$ref":"#/definitions/NonEmptyArrayOfUniqueStringValues"}],"parentSchema":{"description":"An entry point without name. All modules are loaded upon startup. The last one is exported.","anyOf":"~0~children~4~schema"},"data":"~0~data"},{"keyword":"oneOf","dataPath":".entry","schemaPath":"#/oneOf","params":{"passingSchemas":null},"message":"should match exactly one schema in oneOf","schema":["~0~children~2~parentSchema","~0~children~4~parentSchema"],"parentSchema":{"oneOf":"~0~children~5~schema"},"data":"~0~data"},{"keyword":"oneOf","dataPath":".entry","schemaPath":"#/oneOf","params":{"passingSchemas":null},"message":"should match exactly one schema in oneOf","schema":[{"$ref":"#/definitions/EntryObject"},{"$ref":"#/definitions/EntryItem"}],"parentSchema":{"oneOf":"~0~children~6~schema"},"data":"~0~data"},{"keyword":"anyOf","dataPath":".entry","schemaPath":"#/anyOf","params":{},"message":"should match some schema in anyOf","schema":[{"$ref":"#/definitions/EntryDynamic"},{"$ref":"#/definitions/EntryStatic"}],"parentSchema":{"anyOf":"~0~children~7~schema"},"data":"~0~data"}]}]
+pid: 69536
+hostname: senla.local
+
+2021-01-07 11:09:50,481 ERROR 69579 nodejs.WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+ - configuration.entry should be an non-empty object.
+   -> Multiple entry bundles are created. The key is the chunk name. The value can be a string or an array.
+ - configuration.entry should be an non-empty object.
+   -> Multiple entry bundles are created. The key is the chunk name. The value can be a string or an array.
+    at webpack (/Volumes/PSSD/clickh5/node_modules/webpack/lib/webpack.js:31:9)
+    at Object.startServer (/Volumes/PSSD/clickh5/node_modules/beidou-webpack/lib/utils/index.js:195:20)
+    at /Volumes/PSSD/clickh5/node_modules/beidou-webpack/agent.js:23:12
+    at /Volumes/PSSD/clickh5/node_modules/get-ready/index.js:73:53
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+details: undefined
+missing: undefined
+origin: undefined
+dependencies: undefined
+module: undefined
+name: "WebpackOptionsValidationError"
+validationErrors: [{"keyword":"anyOf","dataPath":".entry","schemaPath":"#/properties/entry/anyOf","params":{},"message":"should match some schema in anyOf","schema":[{"$ref":"#/definitions/Entry"}],"parentSchema":{"description":"The entry point(s) of the compilation.","anyOf":"~0~schema"},"data":{},"children":[{"keyword":"instanceof","dataPath":".entry","schemaPath":"#/definitions/EntryDynamic/instanceof","params":{"keyword":"instanceof"},"message":"should pass \"instanceof\" keyword validation","schema":"Function","parentSchema":{"description":"A Function returning an entry object, an entry string, an entry array or a promise to these things.","instanceof":"Function","tsType":"(() => EntryStatic | Promise<EntryStatic>)"},"data":"~0~data"},{"keyword":"minProperties","dataPath":".entry","schemaPath":"#/minProperties","params":{"limit":1},"message":"should NOT have fewer than 1 properties","schema":1,"parentSchema":{"description":"Multiple entry bundles are created. The key is the chunk name. The value can be a string or an array.","type":"object","additionalProperties":{"description":"An entry point with name","oneOf":[{"description":"The string is resolved to a module which is loaded upon startup.","type":"string","minLength":1},{"description":"All modules are loaded upon startup. The last one is exported.","anyOf":[{"$ref":"#/definitions/NonEmptyArrayOfUniqueStringValues"}]}]},"minProperties":1},"data":"~0~data"},{"keyword":"type","dataPath":".entry","schemaPath":"#/oneOf/0/type","params":{"type":"string"},"message":"should be string","schema":"string","parentSchema":{"description":"An entry point without name. The string is resolved to a module which is loaded upon startup.","type":"string","minLength":1},"data":"~0~data"},{"keyword":"type","dataPath":".entry","schemaPath":"#/definitions/NonEmptyArrayOfUniqueStringValues/type","params":{"type":"array"},"message":"should be array","schema":"array","parentSchema":{"description":"A non-empty array of non-empty strings","type":"array","items":{"description":"A non-empty string","type":"string","minLength":1},"minItems":1,"uniqueItems":true},"data":"~0~data"},{"keyword":"anyOf","dataPath":".entry","schemaPath":"#/oneOf/1/anyOf","params":{},"message":"should match some schema in anyOf","schema":[{"$ref":"#/definitions/NonEmptyArrayOfUniqueStringValues"}],"parentSchema":{"description":"An entry point without name. All modules are loaded upon startup. The last one is exported.","anyOf":"~0~children~4~schema"},"data":"~0~data"},{"keyword":"oneOf","dataPath":".entry","schemaPath":"#/oneOf","params":{"passingSchemas":null},"message":"should match exactly one schema in oneOf","schema":["~0~children~2~parentSchema","~0~children~4~parentSchema"],"parentSchema":{"oneOf":"~0~children~5~schema"},"data":"~0~data"},{"keyword":"oneOf","dataPath":".entry","schemaPath":"#/oneOf","params":{"passingSchemas":null},"message":"should match exactly one schema in oneOf","schema":[{"$ref":"#/definitions/EntryObject"},{"$ref":"#/definitions/EntryItem"}],"parentSchema":{"oneOf":"~0~children~6~schema"},"data":"~0~data"},{"keyword":"anyOf","dataPath":".entry","schemaPath":"#/anyOf","params":{},"message":"should match some schema in anyOf","schema":[{"$ref":"#/definitions/EntryDynamic"},{"$ref":"#/definitions/EntryStatic"}],"parentSchema":{"anyOf":"~0~children~7~schema"},"data":"~0~data"}]}]
+pid: 69579
+hostname: senla.local
+
+2021-01-07 11:25:52,255 ERROR 70357 [-/::1/-/953ms GET /] nodejs.ReferenceError: Result is not defined
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/routes.js:24:61)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Module._compile (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .js] (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:2:1)
+
+pid: 70357
+hostname: senla.local
+
+2021-01-07 11:27:08,146 ERROR 70389 [-/::1/-/740ms GET /] nodejs.ReferenceError: Result is not defined
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/routes.js:24:61)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Module._compile (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .js] (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:2:1)
+
+pid: 70389
+hostname: senla.local
+
+2021-01-07 11:30:01,877 ERROR 70548 [-/::1/-/1000ms GET /] nodejs.ReferenceError: Result is not defined
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/routes.js:24:61)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Module._compile (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .js] (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:2:1)
+
+pid: 70548
+hostname: senla.local
+
+2021-01-07 12:48:45,274 ERROR 71753 [-/undefined/-/681ms GET /build/index.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 71753
+hostname: senla.local
+
+2021-01-07 12:48:45,278 ERROR 71753 [-/undefined/-/749ms GET /build/react.js] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 71753
+hostname: senla.local
+
+2021-02-08 17:05:25,737 ERROR 18252 [-/::1/-/1368ms GET /] nodejs.TypeError: Cannot read property 'history' of undefined
+    at useHistory (/Volumes/PSSD/clickh5/node_modules/react-router/modules/hooks.js:17:10)
+    at index (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:13:19)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+
+pid: 18252
+hostname: senla.local
+
+2021-02-08 17:05:51,339 ERROR 18252 [-/::1/-/173ms GET /] nodejs.TypeError: Cannot read property 'history' of undefined
+    at useHistory (/Volumes/PSSD/clickh5/node_modules/react-router/modules/hooks.js:17:10)
+    at index (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:13:19)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+
+pid: 18252
+hostname: senla.local
+
+2021-02-08 17:06:14,471 ERROR 18252 [-/::1/-/275ms GET /] nodejs.TypeError: Cannot read property 'history' of undefined
+    at useHistory (/Volumes/PSSD/clickh5/node_modules/react-router/modules/hooks.js:17:10)
+    at index (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:13:19)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+
+pid: 18252
+hostname: senla.local
+
+2021-02-08 17:06:21,531 ERROR 18252 [-/::1/-/114ms GET /] nodejs.TypeError: Cannot read property 'history' of undefined
+    at useHistory (/Volumes/PSSD/clickh5/node_modules/react-router/modules/hooks.js:17:10)
+    at index (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:13:19)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+
+pid: 18252
+hostname: senla.local
+
+2021-02-08 17:07:08,813 ERROR 18252 [-/::1/-/245ms GET /] nodejs.TypeError: Cannot read property 'history' of undefined
+    at useHistory (/Volumes/PSSD/clickh5/node_modules/react-router/modules/hooks.js:17:10)
+    at index (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:13:19)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+
+pid: 18252
+hostname: senla.local
+
+2021-02-08 17:50:48,091 ERROR 18252 [-/::1/-/205ms GET /index] nodejs.TypeError: Cannot read property 'push' of undefined
+    at index (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:10:12)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 18252
+hostname: senla.local
+
+2021-02-18 12:29:09,891 ERROR 67435 [-/::1/-/117ms GET /] nodejs.Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3743:17)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+
+pid: 67435
+hostname: senla.local
+
+2021-02-18 12:38:22,917 ERROR 68575 [-/::1/-/106ms GET /] nodejs.ReferenceError: Routes is not defined
+    at index (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:16:7)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 68575
+hostname: senla.local
+
+2021-02-18 12:38:48,280 ERROR 68575 [-/::1/-/144ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-router/Router.js:47:53)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 68575
+hostname: senla.local
+
+2021-02-18 12:39:59,446 ERROR 69302 [-/::1/-/1052ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-router/Router.js:47:53)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 69302
+hostname: senla.local
+
+2021-02-18 12:40:09,393 ERROR 69302 [-/::1/-/114ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-router/Router.js:47:53)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 69302
+hostname: senla.local
+
+2021-02-18 12:40:32,501 ERROR 69302 [-/::1/-/144ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-router/Router.js:47:53)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 69302
+hostname: senla.local
+
+2021-02-18 12:41:25,144 ERROR 69364 [-/::1/-/989ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-router/Router.js:47:53)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 69364
+hostname: senla.local
+
+2021-02-18 12:42:39,012 ERROR 69364 [-/::1/-/169ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-router/Router.js:47:53)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 69364
+hostname: senla.local
+
+2021-02-18 12:42:45,812 ERROR 69364 [-/::1/-/107ms GET /index] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-router/Router.js:47:53)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 69364
+hostname: senla.local
+
+2021-02-18 12:44:14,083 ERROR 69493 [-/::1/-/1124ms GET /index] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-router/Router.js:47:53)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 69493
+hostname: senla.local
+
+2021-02-18 13:17:25,168 ERROR 69974 nodejs.ClusterClientNoResponseError: client no response in 1209829ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/PSSD/clickh5/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 69974
+hostname: senla.local
+
+2021-02-20 12:06:51,877 ERROR 85866 [-/::1/-/1112ms GET /] nodejs.Invariant Violation: [app.router] router should be function, but got undefined
+    at invariant (/Volumes/PSSD/clickh5/node_modules/invariant/invariant.js:40:15)
+    at Object.router (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:55:28)
+    at createApp (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:139:7)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:145:17)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+name: "Invariant Violation"
+framesToPop: 1
+pid: 85866
+hostname: senla.local
+
+2021-02-20 14:33:51,234 ERROR 89544 [-/::1/-/1024ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-router/Router.js:47:53)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 89544
+hostname: senla.local
+
+2021-02-20 14:35:18,619 ERROR 89544 [-/::1/-/267ms GET /] nodejs.ReferenceError: Router is not defined
+    at _default (/Volumes/PSSD/clickh5/client/pages/index/routes.js:13:6)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 89544
+hostname: senla.local
+
+2021-02-20 14:35:41,683 ERROR 89544 [-/::1/-/270ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/react-router/modules/Router.js:19:31)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 89544
+hostname: senla.local
+
+2021-02-20 14:36:02,187 ERROR 89544 [-/::1/-/216ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/react-router/modules/Router.js:19:31)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 89544
+hostname: senla.local
+
+2021-02-20 14:36:07,531 ERROR 89544 [-/::1/-/87ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/react-router/modules/Router.js:19:31)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 89544
+hostname: senla.local
+
+2021-02-20 14:36:41,407 ERROR 89767 [-/::1/-/778ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/react-router/modules/Router.js:19:31)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 89767
+hostname: senla.local
+
+2021-02-20 14:37:18,501 ERROR 89767 [-/::1/-/130ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/react-router/modules/Router.js:19:31)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 89767
+hostname: senla.local
+
+2021-02-20 14:46:50,350 ERROR 90066 [-/::1/-/402ms GET /index] nodejs.TypeError: Cannot read property 'location' of undefined
+    at new Router (/Volumes/PSSD/clickh5/node_modules/react-router/modules/Router.js:19:31)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 90066
+hostname: senla.local
+
+2021-02-20 17:03:09,230 ERROR 97530 [-/::1/-/696ms GET /] nodejs.Error: Invariant failed: You should not use <withRouter(AnimatedSwitch) /> outside a <Router>
+    at invariant (/Volumes/PSSD/clickh5/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js:13:11)
+    at Object.children (/Volumes/PSSD/clickh5/node_modules/react-router/modules/withRouter.js:18:11)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3635:55)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+
+pid: 97530
+hostname: senla.local
+
+2021-02-20 17:26:18,354 ERROR 97774 [-/::1/-/927ms GET /home] nodejs.Error: Invariant failed: You should not use <withRouter(AnimatedSwitch) /> outside a <Router>
+    at invariant (/Volumes/PSSD/clickh5/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js:13:11)
+    at Object.children (/Volumes/PSSD/clickh5/node_modules/react-router/modules/withRouter.js:18:11)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3635:55)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+
+pid: 97774
+hostname: senla.local
+
+2021-02-20 17:26:39,980 ERROR 98401 [-/::1/-/1147ms GET /home] nodejs.Error: Invariant failed: You should not use <withRouter(AnimatedSwitch) /> outside a <Router>
+    at invariant (/Volumes/PSSD/clickh5/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js:13:11)
+    at Object.children (/Volumes/PSSD/clickh5/node_modules/react-router/modules/withRouter.js:18:11)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3635:55)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+
+pid: 98401
+hostname: senla.local
+
+2021-02-20 17:29:06,887 ERROR 98542 [-/::1/-/910ms GET /home] nodejs.TypeError: Cannot read property 'action' of undefined
+    at render (/Volumes/PSSD/clickh5/client/components/AnimatedSwitch/index.tsx:24:39)
+    at Route.render (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-router/Route.js:124:32)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3134:18)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+
+pid: 98542
+hostname: senla.local
+
+2021-02-20 17:29:48,708 ERROR 98542 [-/::1/-/200ms GET /home] nodejs.TypeError: Cannot read property 'action' of undefined
+    at render (/Volumes/PSSD/clickh5/client/components/AnimatedSwitch/index.tsx:26:13)
+    at Route.render (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-router/Route.js:124:32)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3134:18)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+
+pid: 98542
+hostname: senla.local
+
+2021-02-20 17:37:53,205 ERROR 98542 [-/::1/-/210ms GET /hr] nodejs.MODULE_NOT_FOUNDError: Cannot find module '/Volumes/PSSD/clickh5/client/pages/index/pages/me/node_modules/classnames/bind'
+Require stack:
+- /Volumes/PSSD/clickh5/client/pages/index/app.tsx
+- /Volumes/PSSD/clickh5/client/pages/index/router/router.tsx
+- /Volumes/PSSD/clickh5/client/pages/index/index.tsx
+- /Volumes/PSSD/clickh5/node_modules/beidou-view/index.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-view-react/app.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/lib/utils/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/lib/egg.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg/lib/application.js
+- /Volumes/PSSD/clickh5/node_modules/egg/index.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-core/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg-cluster/lib/app_worker.js
+Require stack:
+- /Volumes/PSSD/clickh5/client/pages/index/app.tsx
+- /Volumes/PSSD/clickh5/client/pages/index/router/router.tsx
+- /Volumes/PSSD/clickh5/client/pages/index/index.tsx
+- /Volumes/PSSD/clickh5/node_modules/beidou-view/index.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-view-react/app.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/lib/utils/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/lib/egg.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg/lib/application.js
+- /Volumes/PSSD/clickh5/node_modules/egg/index.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-core/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg-cluster/lib/app_worker.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:982:15)
+    at Function.Module._resolveFilename (/Volumes/PSSD/clickh5/node_modules/beidou-isomorphic/lib/alias.js:17:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:864:27)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:5:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Module._compile (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .tsx] (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:104:7)
+code: "MODULE_NOT_FOUND"
+requireStack: ["/Volumes/PSSD/clickh5/client/pages/index/app.tsx","/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx","/Volumes/PSSD/clickh5/client/pages/index/index.tsx","/Volumes/PSSD/clickh5/node_modules/beidou-view/index.js","/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js","/Volumes/PSSD/clickh5/node_modules/beidou-view-react/app.js","/Volumes/PSSD/clickh5/node_modules/egg-core/lib/utils/index.js","/Volumes/PSSD/clickh5/node_modules/egg-core/lib/egg.js","/Volumes/PSSD/clickh5/node_modules/egg-core/index.js","/Volumes/PSSD/clickh5/node_modules/egg/lib/application.js","/Volumes/PSSD/clickh5/node_modules/egg/index.js","/Volumes/PSSD/clickh5/node_modules/beidou-core/index.js","/Volumes/PSSD/clickh5/node_modules/egg-cluster/lib/app_worker.js"]
+name: "MODULE_NOT_FOUNDError"
+pid: 98542
+hostname: senla.local
+
+2021-02-20 17:38:17,120 ERROR 99066 [-/::1/-/992ms GET /hr] nodejs.MODULE_NOT_FOUNDError: Cannot find module '/Volumes/PSSD/clickh5/client/pages/index/pages/me/node_modules/classnames/bind'
+Require stack:
+- /Volumes/PSSD/clickh5/client/pages/index/app.tsx
+- /Volumes/PSSD/clickh5/client/pages/index/router/router.tsx
+- /Volumes/PSSD/clickh5/client/pages/index/index.tsx
+- /Volumes/PSSD/clickh5/node_modules/beidou-view/index.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-view-react/app.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/lib/utils/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/lib/egg.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg/lib/application.js
+- /Volumes/PSSD/clickh5/node_modules/egg/index.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-core/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg-cluster/lib/app_worker.js
+Require stack:
+- /Volumes/PSSD/clickh5/client/pages/index/app.tsx
+- /Volumes/PSSD/clickh5/client/pages/index/router/router.tsx
+- /Volumes/PSSD/clickh5/client/pages/index/index.tsx
+- /Volumes/PSSD/clickh5/node_modules/beidou-view/index.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-view-react/app.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/lib/utils/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/lib/egg.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg/lib/application.js
+- /Volumes/PSSD/clickh5/node_modules/egg/index.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-core/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg-cluster/lib/app_worker.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:982:15)
+    at Function.Module._resolveFilename (/Volumes/PSSD/clickh5/node_modules/beidou-isomorphic/lib/alias.js:17:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:864:27)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:5:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Module._compile (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .tsx] (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:104:7)
+code: "MODULE_NOT_FOUND"
+requireStack: ["/Volumes/PSSD/clickh5/client/pages/index/app.tsx","/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx","/Volumes/PSSD/clickh5/client/pages/index/index.tsx","/Volumes/PSSD/clickh5/node_modules/beidou-view/index.js","/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js","/Volumes/PSSD/clickh5/node_modules/beidou-view-react/app.js","/Volumes/PSSD/clickh5/node_modules/egg-core/lib/utils/index.js","/Volumes/PSSD/clickh5/node_modules/egg-core/lib/egg.js","/Volumes/PSSD/clickh5/node_modules/egg-core/index.js","/Volumes/PSSD/clickh5/node_modules/egg/lib/application.js","/Volumes/PSSD/clickh5/node_modules/egg/index.js","/Volumes/PSSD/clickh5/node_modules/beidou-core/index.js","/Volumes/PSSD/clickh5/node_modules/egg-cluster/lib/app_worker.js"]
+name: "MODULE_NOT_FOUNDError"
+pid: 99066
+hostname: senla.local
+
+2021-02-20 17:47:56,377 ERROR 99066 [-/::1/-/270ms GET /hr] nodejs.Invariant Violation: A <Router> may have only one child element
+    at invariant (/Volumes/PSSD/clickh5/node_modules/invariant/invariant.js:40:15)
+    at Router.componentWillMount (/Volumes/PSSD/clickh5/node_modules/react-router-redux/node_modules/react-router/Router.js:80:29)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3090:16)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+name: "Invariant Violation"
+framesToPop: 1
+pid: 99066
+hostname: senla.local
+
+2021-02-20 17:56:44,242 ERROR 99780 [-/::1/-/482ms GET /] nodejs.TypeError: history.listen is not a function
+    at ConnectedRouter.componentWillMount (/Volumes/PSSD/clickh5/node_modules/react-router-redux/ConnectedRouter.js:54:55)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3090:16)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 99780
+hostname: senla.local
+
+2021-02-20 18:56:46,109 ERROR 99780 [-/::1/-/430ms GET /] nodejs.ReferenceError: app is not defined
+    at Routers (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:22:15)
+    at DvaRoot (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:102:8)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:30:13)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/cache.js:18:9)
+
+pid: 99780
+hostname: senla.local
+
+2021-02-20 18:57:46,973 ERROR 99780 [-/::1/-/236ms GET /] nodejs.ReferenceError: app is not defined
+    at Routers (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:22:15)
+    at DvaRoot (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:102:8)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:30:13)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/cache.js:18:9)
+
+pid: 99780
+hostname: senla.local
+
+2021-02-20 19:03:35,100 ERROR 9124 [-/::1/-/488ms GET /] nodejs.ReferenceError: app is not defined
+    at Routers (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:22:15)
+    at DvaRoot (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:102:8)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:30:13)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/cache.js:18:9)
+
+pid: 9124
+hostname: senla.local
+
+2021-02-20 19:03:40,867 ERROR 9124 [-/::1/-/175ms GET /] nodejs.ReferenceError: app is not defined
+    at Routers (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:22:15)
+    at DvaRoot (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:102:8)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:30:13)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/cache.js:18:9)
+
+pid: 9124
+hostname: senla.local
+
+2021-02-20 19:04:08,998 ERROR 9658 [-/::1/-/1361ms GET /] nodejs.ReferenceError: app is not defined
+    at Routers (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:22:15)
+    at DvaRoot (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:102:8)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:30:13)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/cache.js:18:9)
+
+pid: 9658
+hostname: senla.local
+
+2021-02-20 19:04:14,351 ERROR 9658 [-/::1/-/108ms GET /] nodejs.ReferenceError: app is not defined
+    at Routers (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:22:15)
+    at DvaRoot (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:102:8)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:30:13)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/cache.js:18:9)
+
+pid: 9658
+hostname: senla.local
+
+2021-02-20 19:05:02,053 ERROR 9658 [-/::1/-/191ms GET /] nodejs.ReferenceError: app is not defined
+    at Routers (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:22:15)
+    at DvaRoot (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:102:8)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:30:13)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/cache.js:18:9)
+
+pid: 9658
+hostname: senla.local
+
+2021-02-20 19:05:33,900 ERROR 9789 [-/::1/-/985ms GET /] nodejs.ReferenceError: app is not defined
+    at Routers (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:22:15)
+    at DvaRoot (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:102:8)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:30:13)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/cache.js:18:9)
+
+pid: 9789
+hostname: senla.local
+
+2021-02-20 19:14:40,117 ERROR 9826 [-/::1/-/210ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/app.tsx: Unexpected token, expected ";" (42:57)
+
+[0m [90m 40 | [39m}[0m
+[0m [90m 41 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 42 | [39m[36mconst[39m [33mApp[39m [33m=[39m connect({ global[33m:[39m { bottomBar[33m:[39m { show } } }) [33m=>[39m ({[0m
+[0m [90m    | [39m                                                         [31m[1m^[22m[39m[0m
+[0m [90m 43 | [39m  show[0m
+[0m [90m 44 | [39m}))(index)[33m;[39m[0m
+[0m [90m 45 | [39m[36mexport[39m [36mdefault[39m [33mApp[39m[33m;[39m[0m
+
+[0m [90m 40 | [39m}[0m
+[0m [90m 41 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 42 | [39m[36mconst[39m [33mApp[39m [33m=[39m connect({ global[33m:[39m { bottomBar[33m:[39m { show } } }) [33m=>[39m ({[0m
+[0m [90m    | [39m                                                         [31m[1m^[22m[39m[0m
+[0m [90m 43 | [39m  show[0m
+[0m [90m 44 | [39m}))(index)[33m;[39m[0m
+[0m [90m 45 | [39m[36mexport[39m [36mdefault[39m [33mApp[39m[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.semicolon (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:122:40)
+    at Object.parseVarStatement (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/statement.js:689:10)
+    at Object.parseStatementContent (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/statement.js:209:21)
+    at Object.parseStatementContent (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:1976:20)
+    at Object.parseStatement (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/statement.js:149:17)
+    at Object.parseBlockOrModuleBlockBody (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/statement.js:863:25)
+loc: {"line":42,"column":57}
+pos: 1186
+code: "BABEL_PARSE_ERROR"
+pid: 9826
+hostname: senla.local
+
+2021-02-20 19:14:40,128 ERROR 9826 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/clickh5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/clickh5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/clickh5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 9826
+hostname: senla.local
+
+2021-02-20 19:15:31,977 ERROR 10758 [-/::1/-/823ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/app.tsx: Unexpected token, expected ";" (42:57)
+
+[0m [90m 40 | [39m}[0m
+[0m [90m 41 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 42 | [39m[36mconst[39m [33mApp[39m [33m=[39m connect({ global[33m:[39m { bottomBar[33m:[39m { show } } }) [33m=>[39m ({[0m
+[0m [90m    | [39m                                                         [31m[1m^[22m[39m[0m
+[0m [90m 43 | [39m  show[0m
+[0m [90m 44 | [39m}))(index)[33m;[39m[0m
+[0m [90m 45 | [39m[36mexport[39m [36mdefault[39m [33mApp[39m[33m;[39m[0m
+
+[0m [90m 40 | [39m}[0m
+[0m [90m 41 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 42 | [39m[36mconst[39m [33mApp[39m [33m=[39m connect({ global[33m:[39m { bottomBar[33m:[39m { show } } }) [33m=>[39m ({[0m
+[0m [90m    | [39m                                                         [31m[1m^[22m[39m[0m
+[0m [90m 43 | [39m  show[0m
+[0m [90m 44 | [39m}))(index)[33m;[39m[0m
+[0m [90m 45 | [39m[36mexport[39m [36mdefault[39m [33mApp[39m[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.semicolon (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:122:40)
+    at Object.parseVarStatement (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/statement.js:689:10)
+    at Object.parseStatementContent (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/statement.js:209:21)
+    at Object.parseStatementContent (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:1976:20)
+    at Object.parseStatement (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/statement.js:149:17)
+    at Object.parseBlockOrModuleBlockBody (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/statement.js:863:25)
+loc: {"line":42,"column":57}
+pos: 1186
+code: "BABEL_PARSE_ERROR"
+pid: 10758
+hostname: senla.local
+
+2021-02-20 19:15:31,984 ERROR 10758 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/clickh5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/clickh5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/clickh5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 10758
+hostname: senla.local
+
+2021-02-20 20:33:13,498 ERROR 10955 [-/::1/-/220ms GET /] nodejs.TypeError: pathname.test is not a function
+    at /Volumes/PSSD/clickh5/client/pages/index/models/global.ts:20:17
+    at Object.listen (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:122:5)
+    at setup (/Volumes/PSSD/clickh5/client/pages/index/models/global.ts:19:12)
+    at run (/Volumes/PSSD/clickh5/node_modules/dva-core/lib/subscription.js:26:24)
+    at Object.start (/Volumes/PSSD/clickh5/node_modules/dva-core/lib/index.js:309:65)
+    at Object.start (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:72:19)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:30:17)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 10955
+hostname: senla.local
+
+2021-02-22 14:06:02,672 ERROR 37353 [-/::1/-/1935ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Unterminated string constant (4:17)
+
+[0m [90m 2 | [39m[36mimport[39m dva[33m,[39m { connect } from [32m'dva'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m { request[33m,[39m getLocaleLan } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 | [39m[36mimport[39m [33mMenu[39m from [32m'../../components/Menu;[39m[0m
+[0m [90m   | [39m                 [31m[1m^[22m[39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+[0m [90m 7 | [39m[36mimport[39m classnames from [32m'classnames/bind'[39m[33m;[39m[0m
+
+[0m [90m 2 | [39m[36mimport[39m dva[33m,[39m { connect } from [32m'dva'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m { request[33m,[39m getLocaleLan } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 | [39m[36mimport[39m [33mMenu[39m from [32m'../../components/Menu;[39m[0m
+[0m [90m   | [39m                 [31m[1m^[22m[39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+[0m [90m 7 | [39m[36mimport[39m classnames from [32m'classnames/bind'[39m[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.readString (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:1232:20)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:842:14)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/jsx/index.js:572:20)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2576:22)
+    at Object.nextToken (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:239:12)
+    at Object.next (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:154:10)
+    at Object.eat (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:161:12)
+loc: {"line":4,"column":17}
+pos: 170
+code: "BABEL_PARSE_ERROR"
+pid: 37353
+hostname: senla.local
+
+2021-02-22 14:06:02,678 ERROR 37353 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/clickh5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/clickh5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/clickh5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 37353
+hostname: senla.local
+
+2021-02-22 14:08:08,721 ERROR 37461 [-/::1/-/826ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Unterminated string constant (4:17)
+
+[0m [90m 2 | [39m[36mimport[39m dva[33m,[39m { connect } from [32m'dva'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m { request[33m,[39m getLocaleLan } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 | [39m[36mimport[39m [33mMenu[39m from [32m'client/pages/index/components/Menu;[39m[0m
+[0m [90m   | [39m                 [31m[1m^[22m[39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+[0m [90m 7 | [39m[36mimport[39m classnames from [32m'classnames/bind'[39m[33m;[39m[0m
+
+[0m [90m 2 | [39m[36mimport[39m dva[33m,[39m { connect } from [32m'dva'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m { request[33m,[39m getLocaleLan } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 | [39m[36mimport[39m [33mMenu[39m from [32m'client/pages/index/components/Menu;[39m[0m
+[0m [90m   | [39m                 [31m[1m^[22m[39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+[0m [90m 7 | [39m[36mimport[39m classnames from [32m'classnames/bind'[39m[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.readString (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:1232:20)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:842:14)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/jsx/index.js:572:20)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2576:22)
+    at Object.nextToken (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:239:12)
+    at Object.next (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:154:10)
+    at Object.eat (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:161:12)
+loc: {"line":4,"column":17}
+pos: 170
+code: "BABEL_PARSE_ERROR"
+pid: 37461
+hostname: senla.local
+
+2021-02-22 14:08:08,727 ERROR 37461 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/clickh5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/clickh5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/clickh5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 37461
+hostname: senla.local
+
+2021-02-22 14:10:07,773 ERROR 37461 [-/::1/-/56ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Unterminated string constant (4:17)
+
+[0m [90m 2 | [39m[36mimport[39m dva[33m,[39m { connect } from [32m'dva'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m { request[33m,[39m getLocaleLan } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 | [39m[36mimport[39m [33mMenu[39m from [32m'client/pages/index/components/Menu;[39m[0m
+[0m [90m   | [39m                 [31m[1m^[22m[39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+[0m [90m 7 | [39m[36mimport[39m classnames from [32m'classnames/bind'[39m[33m;[39m[0m
+
+[0m [90m 2 | [39m[36mimport[39m dva[33m,[39m { connect } from [32m'dva'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m { request[33m,[39m getLocaleLan } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 | [39m[36mimport[39m [33mMenu[39m from [32m'client/pages/index/components/Menu;[39m[0m
+[0m [90m   | [39m                 [31m[1m^[22m[39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+[0m [90m 7 | [39m[36mimport[39m classnames from [32m'classnames/bind'[39m[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.readString (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:1232:20)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:842:14)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/jsx/index.js:572:20)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2576:22)
+    at Object.nextToken (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:239:12)
+    at Object.next (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:154:10)
+    at Object.eat (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:161:12)
+loc: {"line":4,"column":17}
+pos: 170
+code: "BABEL_PARSE_ERROR"
+pid: 37461
+hostname: senla.local
+
+2021-02-22 14:10:07,775 ERROR 37461 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/clickh5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/clickh5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/clickh5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 37461
+hostname: senla.local
+
+2021-02-22 14:12:08,833 ERROR 37461 [-/::1/-/62ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Unterminated string constant (4:17)
+
+[0m [90m 2 | [39m[36mimport[39m dva[33m,[39m { connect } from [32m'dva'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m { request[33m,[39m getLocaleLan } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 | [39m[36mimport[39m [33mMenu[39m from [32m'client/pages/index/components/Menu;[39m[0m
+[0m [90m   | [39m                 [31m[1m^[22m[39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+[0m [90m 7 | [39m[36mimport[39m classnames from [32m'classnames/bind'[39m[33m;[39m[0m
+
+[0m [90m 2 | [39m[36mimport[39m dva[33m,[39m { connect } from [32m'dva'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m { request[33m,[39m getLocaleLan } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 | [39m[36mimport[39m [33mMenu[39m from [32m'client/pages/index/components/Menu;[39m[0m
+[0m [90m   | [39m                 [31m[1m^[22m[39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+[0m [90m 7 | [39m[36mimport[39m classnames from [32m'classnames/bind'[39m[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.readString (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:1232:20)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:842:14)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/jsx/index.js:572:20)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2576:22)
+    at Object.nextToken (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:239:12)
+    at Object.next (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:154:10)
+    at Object.eat (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:161:12)
+loc: {"line":4,"column":17}
+pos: 170
+code: "BABEL_PARSE_ERROR"
+pid: 37461
+hostname: senla.local
+
+2021-02-22 14:12:08,836 ERROR 37461 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/clickh5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/clickh5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/clickh5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 37461
+hostname: senla.local
+
+2021-02-22 14:12:35,729 ERROR 37461 [-/::1/-/71ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Unterminated string constant (4:17)
+
+[0m [90m 2 | [39m[36mimport[39m dva[33m,[39m { connect } from [32m'dva'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m { request[33m,[39m getLocaleLan } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 | [39m[36mimport[39m [33mMenu[39m from [32m'client/pages/index/components/Menu/index;[39m[0m
+[0m [90m   | [39m                 [31m[1m^[22m[39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+[0m [90m 7 | [39m[36mimport[39m classnames from [32m'classnames/bind'[39m[33m;[39m[0m
+
+[0m [90m 2 | [39m[36mimport[39m dva[33m,[39m { connect } from [32m'dva'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m { request[33m,[39m getLocaleLan } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 | [39m[36mimport[39m [33mMenu[39m from [32m'client/pages/index/components/Menu/index;[39m[0m
+[0m [90m   | [39m                 [31m[1m^[22m[39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+[0m [90m 7 | [39m[36mimport[39m classnames from [32m'classnames/bind'[39m[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.readString (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:1232:20)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:842:14)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/jsx/index.js:572:20)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2576:22)
+    at Object.nextToken (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:239:12)
+    at Object.next (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:154:10)
+    at Object.eat (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:161:12)
+loc: {"line":4,"column":17}
+pos: 170
+code: "BABEL_PARSE_ERROR"
+pid: 37461
+hostname: senla.local
+
+2021-02-22 14:12:35,732 ERROR 37461 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/clickh5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/clickh5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/clickh5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 37461
+hostname: senla.local
+
+2021-02-22 14:13:20,477 ERROR 37578 [-/::1/-/1032ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Unterminated string constant (4:17)
+
+[0m [90m 2 | [39m[36mimport[39m dva[33m,[39m { connect } from [32m'dva'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m { request[33m,[39m getLocaleLan } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 | [39m[36mimport[39m [33mMenu[39m from [32m'client/pages/index/components/Menu/index;[39m[0m
+[0m [90m   | [39m                 [31m[1m^[22m[39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+[0m [90m 7 | [39m[36mimport[39m classnames from [32m'classnames/bind'[39m[33m;[39m[0m
+
+[0m [90m 2 | [39m[36mimport[39m dva[33m,[39m { connect } from [32m'dva'[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m { request[33m,[39m getLocaleLan } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 | [39m[36mimport[39m [33mMenu[39m from [32m'client/pages/index/components/Menu/index;[39m[0m
+[0m [90m   | [39m                 [31m[1m^[22m[39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+[0m [90m 7 | [39m[36mimport[39m classnames from [32m'classnames/bind'[39m[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.readString (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:1232:20)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:842:14)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/jsx/index.js:572:20)
+    at Object.getTokenFromCode (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2576:22)
+    at Object.nextToken (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:239:12)
+    at Object.next (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:154:10)
+    at Object.eat (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/tokenizer/index.js:161:12)
+loc: {"line":4,"column":17}
+pos: 170
+code: "BABEL_PARSE_ERROR"
+pid: 37578
+hostname: senla.local
+
+2021-02-22 14:13:20,494 ERROR 37578 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/clickh5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/clickh5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/clickh5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 37578
+hostname: senla.local
+
+2021-02-25 10:54:22,191 ERROR 1440 [-/::1/-/297ms GET /] nodejs.SyntaxError: Missing initializer in destructuring declaration
+    const {};
+          ^^
+
+SyntaxError: Missing initializer in destructuring declaration
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Module._compile (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .tsx] (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:17:1)
+
+pid: 1440
+hostname: senla.local
+
+2021-02-25 11:53:06,110 ERROR 1440 [-/::1/-/231ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/me/index.tsx: Unexpected token (18:24)
+
+[0m [90m 16 | [39m    [36mconst[39m { current } [33m=[39m meRef[0m
+[0m [90m 17 | [39m    console[33m.[39mlog(meRef[33m,[39m [32m'meRef'[39m)[0m
+[0m[31m[1m>[22m[39m[90m 18 | [39m    [36mvar[39m mc [33m=[39m [36mnew[39m [33mHammer[39m[33m.[39m(current)[33m;[39m[0m
+[0m [90m    | [39m                        [31m[1m^[22m[39m[0m
+[0m [90m 19 | [39m    console[33m.[39mlog(mc[33m,[39m[32m'mc'[39m)[0m
+[0m [90m 20 | [39m    [90m// return [39m[0m
+[0m [90m 21 | [39m    [90m// mc.set({ enable: true });[39m[0m
+
+[0m [90m 16 | [39m    [36mconst[39m { current } [33m=[39m meRef[0m
+[0m [90m 17 | [39m    console[33m.[39mlog(meRef[33m,[39m [32m'meRef'[39m)[0m
+[0m[31m[1m>[22m[39m[90m 18 | [39m    [36mvar[39m mc [33m=[39m [36mnew[39m [33mHammer[39m[33m.[39m(current)[33m;[39m[0m
+[0m [90m    | [39m                        [31m[1m^[22m[39m[0m
+[0m [90m 19 | [39m    console[33m.[39mlog(mc[33m,[39m[32m'mc'[39m)[0m
+[0m [90m 20 | [39m    [90m// return [39m[0m
+[0m [90m 21 | [39m    [90m// mc.set({ enable: true });[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.parseIdentifierName (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:2141:18)
+    at Object.parseIdentifier (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:2108:23)
+    at Object.parseMaybePrivateName (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1171:19)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:620:16)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:1785:20)
+    at Object.parseSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:567:19)
+loc: {"line":18,"column":24}
+pos: 509
+code: "BABEL_PARSE_ERROR"
+pid: 1440
+hostname: senla.local
+
+2021-02-25 11:53:06,121 ERROR 1440 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/clickh5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/clickh5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/clickh5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 1440
+hostname: senla.local
+
+2021-02-25 14:03:19,254 ERROR 7961 [-/undefined/-/359ms GET /build/index.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 7961
+hostname: senla.local
+
+2021-03-10 11:30:41,552 ERROR 4160 [-/::1/-/173ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Unexpected token (14:2)
+
+[0m [90m 12 | [39m[0m
+[0m [90m 13 | [39m[36mconst[39m [33mSwpCard[39m [33m=[39m (props[33m:[39many) [33m=>[39m ([0m
+[0m[31m[1m>[22m[39m[90m 14 | [39m  [36mconst[39m { onClick } [33m=[39m props[33m;[39m[0m
+[0m [90m    | [39m  [31m[1m^[22m[39m[0m
+[0m [90m 15 | [39m[33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'swp_card'[39m)} onClick[33m=[39m{onClick[33m.[39mbind([36mthis[39m)}[33m>[39m[0m
+[0m [90m 16 | [39m  [33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'img_b'[39m)}[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 17 | [39m  [33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'tit'[39m)}[33m>[39mertete[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+[0m [90m 12 | [39m[0m
+[0m [90m 13 | [39m[36mconst[39m [33mSwpCard[39m [33m=[39m (props[33m:[39many) [33m=>[39m ([0m
+[0m[31m[1m>[22m[39m[90m 14 | [39m  [36mconst[39m { onClick } [33m=[39m props[33m;[39m[0m
+[0m [90m    | [39m  [31m[1m^[22m[39m[0m
+[0m [90m 15 | [39m[33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'swp_card'[39m)} onClick[33m=[39m{onClick[33m.[39mbind([36mthis[39m)}[33m>[39m[0m
+[0m [90m 16 | [39m  [33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'img_b'[39m)}[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 17 | [39m  [33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'tit'[39m)}[33m>[39mertete[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.parseExprAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1144:20)
+    at Object.parseExprAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/jsx/index.js:532:22)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2417:22)
+    at Object.parseExprOps (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:311:23)
+loc: {"line":14,"column":2}
+pos: 514
+code: "BABEL_PARSE_ERROR"
+pid: 4160
+hostname: senla.local
+
+2021-03-10 11:30:41,561 ERROR 4160 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/clickh5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/clickh5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/clickh5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 4160
+hostname: senla.local
+
+2021-03-10 11:31:47,920 ERROR 4160 [-/::1/-/121ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Unexpected token (14:2)
+
+[0m [90m 12 | [39m[0m
+[0m [90m 13 | [39m[36mconst[39m [33mSwpCard[39m [33m=[39m (props[33m:[39many) [33m=>[39m ([0m
+[0m[31m[1m>[22m[39m[90m 14 | [39m  [36mconst[39m { onClick } [33m=[39m props[33m;[39m[0m
+[0m [90m    | [39m  [31m[1m^[22m[39m[0m
+[0m [90m 15 | [39m[33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'swp_card'[39m)} onClick[33m=[39m{onClick[33m.[39mbind([36mthis[39m)}[33m>[39m[0m
+[0m [90m 16 | [39m  [33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'img_b'[39m)}[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 17 | [39m  [33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'tit'[39m)}[33m>[39mertete[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+[0m [90m 12 | [39m[0m
+[0m [90m 13 | [39m[36mconst[39m [33mSwpCard[39m [33m=[39m (props[33m:[39many) [33m=>[39m ([0m
+[0m[31m[1m>[22m[39m[90m 14 | [39m  [36mconst[39m { onClick } [33m=[39m props[33m;[39m[0m
+[0m [90m    | [39m  [31m[1m^[22m[39m[0m
+[0m [90m 15 | [39m[33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'swp_card'[39m)} onClick[33m=[39m{onClick[33m.[39mbind([36mthis[39m)}[33m>[39m[0m
+[0m [90m 16 | [39m  [33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'img_b'[39m)}[33m>[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 17 | [39m  [33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'tit'[39m)}[33m>[39mertete[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.parseExprAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1144:20)
+    at Object.parseExprAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/jsx/index.js:532:22)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2417:22)
+    at Object.parseExprOps (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:311:23)
+loc: {"line":14,"column":2}
+pos: 514
+code: "BABEL_PARSE_ERROR"
+pid: 4160
+hostname: senla.local
+
+2021-03-10 11:31:47,921 ERROR 4160 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/clickh5/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/clickh5/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/clickh5/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/clickh5/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 4160
+hostname: senla.local
+
+2021-03-10 11:33:19,614 ERROR 7305 [-/::1/-/3439ms GET /] nodejs.TypeError: Cannot read property 'bind' of undefined
+    at SwpCard (/Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx:14:56)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 7305
+hostname: senla.local
+
+2021-03-10 11:33:30,090 ERROR 7305 [-/::1/-/261ms GET /] nodejs.TypeError: Cannot read property 'bind' of undefined
+    at SwpCard (/Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx:14:56)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 7305
+hostname: senla.local
+
+2021-03-10 11:34:05,270 ERROR 7407 [-/::1/-/2891ms GET /] nodejs.TypeError: Cannot read property 'bind' of undefined
+    at SwpCard (/Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx:14:56)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 7407
+hostname: senla.local
+
+2021-03-10 11:34:34,216 ERROR 7407 [-/::1/-/452ms GET /] nodejs.TypeError: Cannot read property 'bind' of undefined
+    at SwpCard (/Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx:14:56)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 7407
+hostname: senla.local
+
+2021-03-10 11:48:06,296 ERROR 7407 [-/::1/-/698ms GET /] nodejs.TypeError: Cannot read property 'bind' of undefined
+    at SwpCard (/Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx:14:56)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 7407
+hostname: senla.local
+
+2021-03-10 11:48:34,796 ERROR 7407 [-/::1/-/399ms GET /] nodejs.TypeError: Cannot read property 'bind' of undefined
+    at SwpCard (/Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx:14:56)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 7407
+hostname: senla.local
+
+2021-03-10 14:10:25,823 ERROR 7407 [-/::1/-/398ms GET /detail/123] nodejs.TypeError: Cannot read property 'location' of undefined
+    at ConnectedRouter.componentWillMount (/Volumes/PSSD/clickh5/node_modules/react-router-redux/ConnectedRouter.js:52:39)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3090:16)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 7407
+hostname: senla.local
+
+2021-03-10 14:10:37,401 ERROR 7407 [-/::1/-/322ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at ConnectedRouter.componentWillMount (/Volumes/PSSD/clickh5/node_modules/react-router-redux/ConnectedRouter.js:52:39)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3090:16)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 7407
+hostname: senla.local
+
+2021-03-10 14:10:39,648 ERROR 7407 [-/::1/-/294ms GET /] nodejs.TypeError: Cannot read property 'location' of undefined
+    at ConnectedRouter.componentWillMount (/Volumes/PSSD/clickh5/node_modules/react-router-redux/ConnectedRouter.js:52:39)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3090:16)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 7407
+hostname: senla.local
+
+2021-03-10 19:17:36,231 ERROR 19695 [-/undefined/-/768ms GET /build/index.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 19695
+hostname: senla.local
+

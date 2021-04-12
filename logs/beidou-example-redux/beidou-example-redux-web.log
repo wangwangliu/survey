@@ -1,0 +1,1691 @@
+2021-03-11 11:32:03,914 INFO 37869 [Beidou App] App Worker started, pid is 37869
+2021-03-11 11:32:04,372 WARN 37869 [webpack] port 6002 is in used, use 6060 instead
+2021-03-12 19:59:37,730 INFO 96827 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-12 19:59:38,250 INFO 96827 [Beidou App] App Worker started, pid is 96827
+2021-03-12 20:07:00,064 INFO 97773 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-12 20:07:00,462 INFO 97773 [Beidou App] App Worker started, pid is 97773
+2021-03-12 20:45:49,896 INFO 1276 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-12 20:45:50,485 INFO 1276 [Beidou App] App Worker started, pid is 1276
+2021-03-12 20:49:23,648 INFO 1539 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-12 20:49:24,187 INFO 1539 [Beidou App] App Worker started, pid is 1539
+2021-03-12 21:25:52,780 INFO 6580 [Beidou App] App Worker started, pid is 6580
+2021-03-12 21:25:53,025 WARN 6580 [webpack] port 6002 is in used, use 6130 instead
+2021-03-14 17:45:50,775 INFO 9392 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-14 17:45:51,109 INFO 9392 [Beidou App] App Worker started, pid is 9392
+2021-03-14 19:34:30,551 ERROR 9392 [-/undefined/-/973ms GET /build/index.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 9392
+hostname: senla.local
+
+2021-03-14 20:23:31,582 ERROR 9392 [-/undefined/-/1132ms GET /build/index.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 9392
+hostname: senla.local
+
+2021-03-14 20:30:02,104 INFO 15665 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-14 20:30:02,379 INFO 15665 [Beidou App] App Worker started, pid is 15665
+2021-03-14 21:31:31,599 ERROR 15665 [-/::1/-/342ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/chapters/modal.ts: Unexpected token, expected "," (19:71)
+
+[0m [90m 17 | [39m			[36mconst[39m res [33m=[39m	yield call(bookInfo[33m,[39m payload)[33m;[39m[0m
+[0m [90m 18 | [39m      [36mif[39m(res[33m.[39mcode[33m==[39m[35m200[39m){[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m        yield put({type[33m:[39m[32m'update'[39m[33m,[39mpayload[33m:[39m{boobInfo[33m:[39mget(res[33m,[39m[32m'data'[39m)[33m||[39m[]})[0m
+[0m [90m    | [39m                                                                       [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m      }[0m
+[0m [90m 21 | [39m			[36mreturn[39m res[33m;[39m[0m
+[0m [90m 22 | [39m		}[33m,[39m[0m
+
+[0m [90m 17 | [39m			[36mconst[39m res [33m=[39m	yield call(bookInfo[33m,[39m payload)[33m;[39m[0m
+[0m [90m 18 | [39m      [36mif[39m(res[33m.[39mcode[33m==[39m[35m200[39m){[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m        yield put({type[33m:[39m[32m'update'[39m[33m,[39mpayload[33m:[39m{boobInfo[33m:[39mget(res[33m,[39m[32m'data'[39m)[33m||[39m[]})[0m
+[0m [90m    | [39m                                                                       [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m      }[0m
+[0m [90m 21 | [39m			[36mreturn[39m res[33m;[39m[0m
+[0m [90m 22 | [39m		}[33m,[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseExprAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1089:26)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2417:22)
+loc: {"line":19,"column":71}
+pos: 426
+code: "BABEL_PARSE_ERROR"
+pid: 15665
+hostname: senla.local
+
+2021-03-14 21:32:27,996 INFO 19075 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-14 21:32:28,350 INFO 19075 [Beidou App] App Worker started, pid is 19075
+2021-03-14 21:32:54,788 ERROR 19075 [-/::1/-/3765ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/chapters/modal.ts: Unexpected token, expected "," (19:71)
+
+[0m [90m 17 | [39m			[36mconst[39m res [33m=[39m	yield call(bookInfo[33m,[39m payload)[33m;[39m[0m
+[0m [90m 18 | [39m      [36mif[39m(res[33m.[39mcode[33m==[39m[35m200[39m){[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m        yield put({type[33m:[39m[32m'update'[39m[33m,[39mpayload[33m:[39m{boobInfo[33m:[39mget(res[33m,[39m[32m'data'[39m)[33m||[39m[]})[0m
+[0m [90m    | [39m                                                                       [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m      }[0m
+[0m [90m 21 | [39m			[36mreturn[39m res[33m;[39m[0m
+[0m [90m 22 | [39m		}[33m,[39m[0m
+
+[0m [90m 17 | [39m			[36mconst[39m res [33m=[39m	yield call(bookInfo[33m,[39m payload)[33m;[39m[0m
+[0m [90m 18 | [39m      [36mif[39m(res[33m.[39mcode[33m==[39m[35m200[39m){[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m        yield put({type[33m:[39m[32m'update'[39m[33m,[39mpayload[33m:[39m{boobInfo[33m:[39mget(res[33m,[39m[32m'data'[39m)[33m||[39m[]})[0m
+[0m [90m    | [39m                                                                       [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m      }[0m
+[0m [90m 21 | [39m			[36mreturn[39m res[33m;[39m[0m
+[0m [90m 22 | [39m		}[33m,[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseExprAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1089:26)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2417:22)
+loc: {"line":19,"column":71}
+pos: 426
+code: "BABEL_PARSE_ERROR"
+pid: 19075
+hostname: senla.local
+
+2021-03-14 21:34:50,888 ERROR 19075 [-/::1/-/69ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/chapters/modal.ts: Unexpected token, expected "," (19:71)
+
+[0m [90m 17 | [39m			[36mconst[39m res [33m=[39m	yield call(bookInfo[33m,[39m payload)[33m;[39m[0m
+[0m [90m 18 | [39m      [36mif[39m(res[33m.[39mcode[33m==[39m[35m200[39m){[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m        yield put({type[33m:[39m[32m'update'[39m[33m,[39mpayload[33m:[39m{boobInfo[33m:[39mget(res[33m,[39m[32m'data'[39m)[33m||[39m[]})[0m
+[0m [90m    | [39m                                                                       [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m      }[0m
+[0m [90m 21 | [39m			[36mreturn[39m res[33m;[39m[0m
+[0m [90m 22 | [39m		}[33m,[39m[0m
+
+[0m [90m 17 | [39m			[36mconst[39m res [33m=[39m	yield call(bookInfo[33m,[39m payload)[33m;[39m[0m
+[0m [90m 18 | [39m      [36mif[39m(res[33m.[39mcode[33m==[39m[35m200[39m){[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m        yield put({type[33m:[39m[32m'update'[39m[33m,[39mpayload[33m:[39m{boobInfo[33m:[39mget(res[33m,[39m[32m'data'[39m)[33m||[39m[]})[0m
+[0m [90m    | [39m                                                                       [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m      }[0m
+[0m [90m 21 | [39m			[36mreturn[39m res[33m;[39m[0m
+[0m [90m 22 | [39m		}[33m,[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseExprAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1089:26)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2417:22)
+loc: {"line":19,"column":71}
+pos: 426
+code: "BABEL_PARSE_ERROR"
+pid: 19075
+hostname: senla.local
+
+2021-03-14 21:36:51,964 ERROR 19075 [-/::1/-/90ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/chapters/modal.ts: Unexpected token, expected "," (19:71)
+
+[0m [90m 17 | [39m			[36mconst[39m res [33m=[39m	yield call(bookInfo[33m,[39m payload)[33m;[39m[0m
+[0m [90m 18 | [39m      [36mif[39m(res[33m.[39mcode[33m==[39m[35m200[39m){[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m        yield put({type[33m:[39m[32m'update'[39m[33m,[39mpayload[33m:[39m{boobInfo[33m:[39mget(res[33m,[39m[32m'data'[39m)[33m||[39m[]})[0m
+[0m [90m    | [39m                                                                       [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m      }[0m
+[0m [90m 21 | [39m			[36mreturn[39m res[33m;[39m[0m
+[0m [90m 22 | [39m		}[33m,[39m[0m
+
+[0m [90m 17 | [39m			[36mconst[39m res [33m=[39m	yield call(bookInfo[33m,[39m payload)[33m;[39m[0m
+[0m [90m 18 | [39m      [36mif[39m(res[33m.[39mcode[33m==[39m[35m200[39m){[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m        yield put({type[33m:[39m[32m'update'[39m[33m,[39mpayload[33m:[39m{boobInfo[33m:[39mget(res[33m,[39m[32m'data'[39m)[33m||[39m[]})[0m
+[0m [90m    | [39m                                                                       [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m      }[0m
+[0m [90m 21 | [39m			[36mreturn[39m res[33m;[39m[0m
+[0m [90m 22 | [39m		}[33m,[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseExprAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1089:26)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2417:22)
+loc: {"line":19,"column":71}
+pos: 426
+code: "BABEL_PARSE_ERROR"
+pid: 19075
+hostname: senla.local
+
+2021-03-14 21:38:00,085 ERROR 19075 [-/::1/-/74ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/chapters/modal.ts: Unexpected token, expected "," (19:71)
+
+[0m [90m 17 | [39m			[36mconst[39m res [33m=[39m	yield call(bookInfo[33m,[39m payload)[33m;[39m[0m
+[0m [90m 18 | [39m      [36mif[39m(res[33m.[39mcode[33m==[39m[35m200[39m){[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m        yield put({type[33m:[39m[32m'update'[39m[33m,[39mpayload[33m:[39m{boobInfo[33m:[39mget(res[33m,[39m[32m'data'[39m)[33m||[39m[]})[0m
+[0m [90m    | [39m                                                                       [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m      }[0m
+[0m [90m 21 | [39m			[36mreturn[39m res[33m;[39m[0m
+[0m [90m 22 | [39m		}[33m,[39m[0m
+
+[0m [90m 17 | [39m			[36mconst[39m res [33m=[39m	yield call(bookInfo[33m,[39m payload)[33m;[39m[0m
+[0m [90m 18 | [39m      [36mif[39m(res[33m.[39mcode[33m==[39m[35m200[39m){[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m        yield put({type[33m:[39m[32m'update'[39m[33m,[39mpayload[33m:[39m{boobInfo[33m:[39mget(res[33m,[39m[32m'data'[39m)[33m||[39m[]})[0m
+[0m [90m    | [39m                                                                       [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m      }[0m
+[0m [90m 21 | [39m			[36mreturn[39m res[33m;[39m[0m
+[0m [90m 22 | [39m		}[33m,[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseExprAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1089:26)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2417:22)
+loc: {"line":19,"column":71}
+pos: 426
+code: "BABEL_PARSE_ERROR"
+pid: 19075
+hostname: senla.local
+
+2021-03-14 21:38:21,613 INFO 19331 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-14 21:38:21,925 INFO 19331 [Beidou App] App Worker started, pid is 19331
+2021-03-14 21:38:35,480 ERROR 19331 [-/::1/-/3050ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/chapters/modal.ts: Unexpected token, expected "," (19:71)
+
+[0m [90m 17 | [39m			[36mconst[39m res [33m=[39m	yield call(bookInfo[33m,[39m payload)[33m;[39m[0m
+[0m [90m 18 | [39m      [36mif[39m(res[33m.[39mcode[33m==[39m[35m200[39m){[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m        yield put({type[33m:[39m[32m'update'[39m[33m,[39mpayload[33m:[39m{boobInfo[33m:[39mget(res[33m,[39m[32m'data'[39m)[33m||[39m[]})[0m
+[0m [90m    | [39m                                                                       [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m      }[0m
+[0m [90m 21 | [39m			[36mreturn[39m res[33m;[39m[0m
+[0m [90m 22 | [39m		}[33m,[39m[0m
+
+[0m [90m 17 | [39m			[36mconst[39m res [33m=[39m	yield call(bookInfo[33m,[39m payload)[33m;[39m[0m
+[0m [90m 18 | [39m      [36mif[39m(res[33m.[39mcode[33m==[39m[35m200[39m){[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m        yield put({type[33m:[39m[32m'update'[39m[33m,[39mpayload[33m:[39m{boobInfo[33m:[39mget(res[33m,[39m[32m'data'[39m)[33m||[39m[]})[0m
+[0m [90m    | [39m                                                                       [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m      }[0m
+[0m [90m 21 | [39m			[36mreturn[39m res[33m;[39m[0m
+[0m [90m 22 | [39m		}[33m,[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseExprAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1089:26)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2417:22)
+loc: {"line":19,"column":71}
+pos: 426
+code: "BABEL_PARSE_ERROR"
+pid: 19331
+hostname: senla.local
+
+2021-03-14 22:42:22,983 INFO 25946 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-14 22:42:23,325 INFO 25946 [Beidou App] App Worker started, pid is 25946
+2021-03-15 12:14:34,839 INFO 7012 [Beidou App] App Worker started, pid is 7012
+2021-03-15 14:35:52,704 INFO 10949 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-15 14:35:53,325 INFO 10949 [Beidou App] App Worker started, pid is 10949
+2021-03-15 15:48:55,806 INFO 14846 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-15 15:48:56,332 INFO 14846 [Beidou App] App Worker started, pid is 14846
+2021-03-15 16:36:07,578 INFO 16706 [Beidou App] App Worker started, pid is 16706
+2021-03-15 16:36:07,789 WARN 16706 [webpack] port 6002 is in used, use 6345 instead
+2021-03-15 16:40:10,638 INFO 16888 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-15 16:40:10,900 INFO 16888 [Beidou App] App Worker started, pid is 16888
+2021-03-15 16:55:11,361 INFO 19748 [Beidou App] App Worker started, pid is 19748
+2021-03-15 16:55:11,609 WARN 19748 [webpack] port 6002 is in used, use 6052 instead
+2021-03-15 17:58:29,220 INFO 23414 [Beidou App] App Worker started, pid is 23414
+2021-03-15 17:58:29,439 WARN 23414 [webpack] port 6002 is in used, use 6712 instead
+2021-03-17 14:56:52,194 INFO 12303 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-17 14:56:52,501 INFO 12303 [Beidou App] App Worker started, pid is 12303
+2021-03-18 10:37:35,399 INFO 25611 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 10:37:36,038 INFO 25611 [Beidou App] App Worker started, pid is 25611
+2021-03-18 11:02:54,112 ERROR 25611 [-/::1/-/506ms GET /] nodejs.Invariant Violation: [app.model] namespace should be unique
+    at invariant (/Volumes/PSSD/clickh5/node_modules/invariant/invariant.js:40:15)
+    at checkModel (/Volumes/PSSD/clickh5/node_modules/dva-core/lib/checkModel.js:28:26)
+    at Object.model (/Volumes/PSSD/clickh5/node_modules/dva-core/lib/index.js:84:31)
+    at map (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:14:9)
+    at Array.map (<anonymous>)
+    at createApp (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:13:10)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:28:17)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+name: "Invariant Violation"
+framesToPop: 1
+pid: 25611
+hostname: senla.local
+
+2021-03-18 11:07:35,887 INFO 27785 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 11:07:36,214 INFO 27785 [Beidou App] App Worker started, pid is 27785
+2021-03-18 11:09:47,972 ERROR 27785 [-/::1/-/607ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/cdkeycard/index.tsx: Unexpected token, expected "," (89:14)
+
+[0m [90m 87 | [39m              })[33m.[39mthen((res)[33m=>[39m{[0m
+[0m [90m 88 | [39m                console[33m.[39mlog(res[33m,[39m[32m',====)'[39m[0m
+[0m[31m[1m>[22m[39m[90m 89 | [39m              })[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 90 | [39m            }}[0m
+[0m [90m 91 | [39m[0m
+[0m [90m 92 | [39m          [33m>[39m[33mSubmit[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+[0m [90m 87 | [39m              })[33m.[39mthen((res)[33m=>[39m{[0m
+[0m [90m 88 | [39m                console[33m.[39mlog(res[33m,[39m[32m',====)'[39m[0m
+[0m[31m[1m>[22m[39m[90m 89 | [39m              })[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 90 | [39m            }}[0m
+[0m [90m 91 | [39m[0m
+[0m [90m 92 | [39m          [33m>[39m[33mSubmit[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseCallExpressionArguments (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:800:14)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:660:31)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:1785:20)
+    at Object.parseSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:567:19)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:548:17)
+loc: {"line":89,"column":14}
+pos: 2617
+code: "BABEL_PARSE_ERROR"
+pid: 27785
+hostname: senla.local
+
+2021-03-18 11:10:01,756 ERROR 27785 [-/::1/-/151ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/cdkeycard/index.tsx: Unexpected token, expected "," (89:14)
+
+[0m [90m 87 | [39m              })[33m.[39mthen((res)[33m=>[39m{[0m
+[0m [90m 88 | [39m                console[33m.[39mlog(res[33m,[39m[32m',====)'[39m[0m
+[0m[31m[1m>[22m[39m[90m 89 | [39m              })[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 90 | [39m            }}[0m
+[0m [90m 91 | [39m[0m
+[0m [90m 92 | [39m          [33m>[39m[33mSubmit[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+[0m [90m 87 | [39m              })[33m.[39mthen((res)[33m=>[39m{[0m
+[0m [90m 88 | [39m                console[33m.[39mlog(res[33m,[39m[32m',====)'[39m[0m
+[0m[31m[1m>[22m[39m[90m 89 | [39m              })[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 90 | [39m            }}[0m
+[0m [90m 91 | [39m[0m
+[0m [90m 92 | [39m          [33m>[39m[33mSubmit[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseCallExpressionArguments (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:800:14)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:660:31)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:1785:20)
+    at Object.parseSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:567:19)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:548:17)
+loc: {"line":89,"column":14}
+pos: 2617
+code: "BABEL_PARSE_ERROR"
+pid: 27785
+hostname: senla.local
+
+2021-03-18 11:10:24,399 INFO 28022 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 11:10:24,740 INFO 28022 [Beidou App] App Worker started, pid is 28022
+2021-03-18 11:10:50,158 ERROR 28022 [-/::1/-/3037ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/cdkeycard/index.tsx: Unexpected token, expected "," (89:14)
+
+[0m [90m 87 | [39m              })[33m.[39mthen((res)[33m=>[39m{[0m
+[0m [90m 88 | [39m                console[33m.[39mlog(res[33m,[39m[32m',====)'[39m[0m
+[0m[31m[1m>[22m[39m[90m 89 | [39m              })[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 90 | [39m            }}[0m
+[0m [90m 91 | [39m[0m
+[0m [90m 92 | [39m          [33m>[39m[33mSubmit[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+[0m [90m 87 | [39m              })[33m.[39mthen((res)[33m=>[39m{[0m
+[0m [90m 88 | [39m                console[33m.[39mlog(res[33m,[39m[32m',====)'[39m[0m
+[0m[31m[1m>[22m[39m[90m 89 | [39m              })[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 90 | [39m            }}[0m
+[0m [90m 91 | [39m[0m
+[0m [90m 92 | [39m          [33m>[39m[33mSubmit[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseCallExpressionArguments (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:800:14)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:660:31)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:1785:20)
+    at Object.parseSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:567:19)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:548:17)
+loc: {"line":89,"column":14}
+pos: 2617
+code: "BABEL_PARSE_ERROR"
+pid: 28022
+hostname: senla.local
+
+2021-03-18 11:12:03,587 INFO 28086 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 11:12:03,890 INFO 28086 [Beidou App] App Worker started, pid is 28086
+2021-03-18 11:12:20,528 ERROR 28086 [-/::1/-/3624ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/cdkeycard/index.tsx: Unexpected token, expected "," (89:14)
+
+[0m [90m 87 | [39m              })[33m.[39mthen((res)[33m=>[39m{[0m
+[0m [90m 88 | [39m                console[33m.[39mlog(res[33m,[39m[32m',====)'[39m[0m
+[0m[31m[1m>[22m[39m[90m 89 | [39m              })[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 90 | [39m            }}[0m
+[0m [90m 91 | [39m[0m
+[0m [90m 92 | [39m          [33m>[39m[33mSubmit[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+[0m [90m 87 | [39m              })[33m.[39mthen((res)[33m=>[39m{[0m
+[0m [90m 88 | [39m                console[33m.[39mlog(res[33m,[39m[32m',====)'[39m[0m
+[0m[31m[1m>[22m[39m[90m 89 | [39m              })[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 90 | [39m            }}[0m
+[0m [90m 91 | [39m[0m
+[0m [90m 92 | [39m          [33m>[39m[33mSubmit[39m[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseCallExpressionArguments (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:800:14)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:660:31)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:1785:20)
+    at Object.parseSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:567:19)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:548:17)
+loc: {"line":89,"column":14}
+pos: 2617
+code: "BABEL_PARSE_ERROR"
+pid: 28086
+hostname: senla.local
+
+2021-03-18 11:14:37,975 INFO 28237 [Beidou App] App Worker started, pid is 28237
+2021-03-18 11:14:38,210 WARN 28237 [webpack] port 6002 is in used, use 6399 instead
+2021-03-18 11:15:04,533 INFO 28291 [Beidou App] App Worker started, pid is 28291
+2021-03-18 11:15:04,742 WARN 28291 [webpack] port 6002 is in used, use 6702 instead
+2021-03-18 11:16:16,633 INFO 28401 [Beidou App] App Worker started, pid is 28401
+2021-03-18 11:16:16,846 WARN 28401 [webpack] port 6002 is in used, use 6645 instead
+2021-03-18 11:24:05,865 INFO 28753 [Beidou App] App Worker started, pid is 28753
+2021-03-18 11:24:06,116 WARN 28753 [webpack] port 6002 is in used, use 6896 instead
+2021-03-18 11:51:56,005 INFO 30026 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 11:51:56,510 INFO 30026 [Beidou App] App Worker started, pid is 30026
+2021-03-18 12:00:00,767 INFO 30472 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 12:00:01,042 INFO 30472 [Beidou App] App Worker started, pid is 30472
+2021-03-18 13:41:36,081 INFO 33640 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 13:41:36,789 INFO 33640 [Beidou App] App Worker started, pid is 33640
+2021-03-18 14:31:23,009 INFO 36631 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 14:31:23,360 INFO 36631 [Beidou App] App Worker started, pid is 36631
+2021-03-18 15:12:42,985 INFO 40983 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 15:12:43,366 INFO 40983 [Beidou App] App Worker started, pid is 40983
+2021-03-18 15:26:33,521 INFO 42185 [Beidou App] App Worker started, pid is 42185
+2021-03-18 15:26:33,754 WARN 42185 [webpack] port 6002 is in used, use 6043 instead
+2021-03-18 15:34:45,187 INFO 42464 [Beidou App] App Worker started, pid is 42464
+2021-03-18 15:34:45,437 WARN 42464 [webpack] port 6002 is in used, use 6747 instead
+2021-03-18 16:47:52,501 ERROR 40983 [-/::1/-/517ms GET /] nodejs.TypeError: Cannot read property 'value' of undefined
+    at thinFace (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:17:35)
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Module._compile (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .tsx] (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+
+pid: 40983
+hostname: senla.local
+
+2021-03-18 16:48:22,307 INFO 44739 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 16:48:22,698 INFO 44739 [Beidou App] App Worker started, pid is 44739
+2021-03-18 16:49:41,176 ERROR 44739 [-/::1/-/3769ms GET /] nodejs.TypeError: Cannot read property 'value' of undefined
+    at thinFace (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:17:35)
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Module._compile (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .tsx] (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+
+pid: 44739
+hostname: senla.local
+
+2021-03-18 16:51:57,663 ERROR 44739 [-/::1/-/519ms GET /] nodejs.TypeError: thinFace(...) is not a function
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Module._compile (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .tsx] (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:22:1)
+
+pid: 44739
+hostname: senla.local
+
+2021-03-18 16:52:07,950 ERROR 44739 [-/::1/-/465ms GET /] nodejs.TypeError: thinFace(...) is not a function
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/app.tsx:29:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Module._compile (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .tsx] (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:22:1)
+
+pid: 44739
+hostname: senla.local
+
+2021-03-18 17:03:52,144 INFO 45600 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 17:03:52,412 INFO 45600 [Beidou App] App Worker started, pid is 45600
+2021-03-18 17:38:58,534 INFO 50872 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 17:38:59,548 INFO 50872 [Beidou App] App Worker started, pid is 50872
+2021-03-18 20:11:32,189 INFO 59266 [Beidou App] App Worker started, pid is 59266
+2021-03-18 20:11:32,409 WARN 59266 [webpack] port 6002 is in used, use 6143 instead
+2021-03-18 20:14:00,036 ERROR 50872 [-/::1/-/460ms GET /] nodejs.ReferenceError: _store is not defined
+    at Routers (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:25:32)
+    at DvaRoot (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:102:8)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:34:13)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/cache.js:18:9)
+
+pid: 50872
+hostname: senla.local
+
+2021-03-18 20:14:49,716 INFO 59633 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 20:14:49,984 INFO 59633 [Beidou App] App Worker started, pid is 59633
+2021-03-18 20:33:52,805 INFO 60901 [Beidou App] App Worker started, pid is 60901
+2021-03-18 20:33:53,133 WARN 60901 [webpack] port 6002 is in used, use 6259 instead
+2021-03-18 20:38:36,535 INFO 61177 [Beidou App] App Worker started, pid is 61177
+2021-03-18 20:38:36,801 WARN 61177 [webpack] port 6002 is in used, use 6463 instead
+2021-03-18 20:39:09,027 INFO 61278 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-18 20:39:09,382 INFO 61278 [Beidou App] App Worker started, pid is 61278
+2021-03-18 20:39:11,298 INFO 61294 [Beidou App] App Worker started, pid is 61294
+2021-03-18 20:39:11,716 WARN 61294 [webpack] port 6002 is in used, use 6821 instead
+2021-03-19 13:54:41,391 INFO 7667 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-19 13:54:41,738 INFO 7667 [Beidou App] App Worker started, pid is 7667
+2021-03-19 14:48:08,588 INFO 10365 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-19 14:48:08,951 INFO 10365 [Beidou App] App Worker started, pid is 10365
+2021-03-19 14:48:21,880 ERROR 10365 [-/::1/-/2334ms GET /] nodejs.TypeError: Cannot read property 'banners' of undefined
+    at Function.mapToProps (/Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx:134:36)
+    at mapToPropsProxy (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-redux/lib/connect/wrapMapToProps.js:54:92)
+    at Function.detectFactoryAndVerify (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-redux/lib/connect/wrapMapToProps.js:63:19)
+    at mapToPropsProxy (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-redux/lib/connect/wrapMapToProps.js:54:46)
+    at handleFirstCall (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-redux/lib/connect/selectorFactory.js:37:18)
+    at pureFinalPropsSelector (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-redux/lib/connect/selectorFactory.js:85:81)
+    at Object.runComponentSelector [as run] (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-redux/lib/components/connectAdvanced.js:43:25)
+    at Connect.initSelector (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-redux/lib/components/connectAdvanced.js:195:23)
+    at new Connect(index) (/Volumes/PSSD/clickh5/node_modules/dva/node_modules/react-redux/lib/components/connectAdvanced.js:136:15)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2995:14)
+
+pid: 10365
+hostname: senla.local
+
+2021-03-19 15:03:35,349 ERROR 10365 [-/::1/-/147ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/components/Menu/index.tsx: Unexpected token, expected "," (11:13)
+
+[0m [90m  9 | [39m[36mfunction[39m index(props) {[0m
+[0m [90m 10 | [39m  [36mconst[39m { menus [33m=[39m [][33m,[39m onClick[33m,[39m style [33m=[39m {} } [33m=[39m props[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 | [39m  [36mconst[39m [sel setSel] [33m=[39m useState([35m0[39m)[0m
+[0m [90m    | [39m             [31m[1m^[22m[39m[0m
+[0m [90m 12 | [39m  console[33m.[39mlog(menus[33m,[39m[32m'menus'[39m)[0m
+[0m [90m 13 | [39m  [36mreturn[39m ([0m
+[0m [90m 14 | [39m    [33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'menu'[39m)} style[33m=[39m{style}[33m>[39m[0m
+
+[0m [90m  9 | [39m[36mfunction[39m index(props) {[0m
+[0m [90m 10 | [39m  [36mconst[39m { menus [33m=[39m [][33m,[39m onClick[33m,[39m style [33m=[39m {} } [33m=[39m props[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 | [39m  [36mconst[39m [sel setSel] [33m=[39m useState([35m0[39m)[0m
+[0m [90m    | [39m             [31m[1m^[22m[39m[0m
+[0m [90m 12 | [39m  console[33m.[39mlog(menus[33m,[39m[32m'menus'[39m)[0m
+[0m [90m 13 | [39m  [36mreturn[39m ([0m
+[0m [90m 14 | [39m    [33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'menu'[39m)} style[33m=[39m{style}[33m>[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseBindingList (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/lval.js:276:14)
+    at Object.parseBindingAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/lval.js:249:30)
+    at Object.parseBindingAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2519:24)
+    at Object.parseVarId (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/statement.js:1028:20)
+    at Object.parseVarId (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2293:13)
+loc: {"line":11,"column":13}
+pos: 359
+code: "BABEL_PARSE_ERROR"
+pid: 10365
+hostname: senla.local
+
+2021-03-19 15:04:02,553 INFO 11747 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-19 15:04:02,906 INFO 11747 [Beidou App] App Worker started, pid is 11747
+2021-03-19 15:04:13,724 ERROR 11747 [-/::1/-/2191ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/components/Menu/index.tsx: Unexpected token, expected "," (11:13)
+
+[0m [90m  9 | [39m[36mfunction[39m index(props) {[0m
+[0m [90m 10 | [39m  [36mconst[39m { menus [33m=[39m [][33m,[39m onClick[33m,[39m style [33m=[39m {} } [33m=[39m props[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 | [39m  [36mconst[39m [sel setSel] [33m=[39m useState([35m0[39m)[0m
+[0m [90m    | [39m             [31m[1m^[22m[39m[0m
+[0m [90m 12 | [39m  console[33m.[39mlog(menus[33m,[39m[32m'menus'[39m)[0m
+[0m [90m 13 | [39m  [36mreturn[39m ([0m
+[0m [90m 14 | [39m    [33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'menu'[39m)} style[33m=[39m{style}[33m>[39m[0m
+
+[0m [90m  9 | [39m[36mfunction[39m index(props) {[0m
+[0m [90m 10 | [39m  [36mconst[39m { menus [33m=[39m [][33m,[39m onClick[33m,[39m style [33m=[39m {} } [33m=[39m props[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 | [39m  [36mconst[39m [sel setSel] [33m=[39m useState([35m0[39m)[0m
+[0m [90m    | [39m             [31m[1m^[22m[39m[0m
+[0m [90m 12 | [39m  console[33m.[39mlog(menus[33m,[39m[32m'menus'[39m)[0m
+[0m [90m 13 | [39m  [36mreturn[39m ([0m
+[0m [90m 14 | [39m    [33m<[39m[33mdiv[39m className[33m=[39m{cx([32m'menu'[39m)} style[33m=[39m{style}[33m>[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseBindingList (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/lval.js:276:14)
+    at Object.parseBindingAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/lval.js:249:30)
+    at Object.parseBindingAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2519:24)
+    at Object.parseVarId (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/statement.js:1028:20)
+    at Object.parseVarId (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2293:13)
+loc: {"line":11,"column":13}
+pos: 359
+code: "BABEL_PARSE_ERROR"
+pid: 11747
+hostname: senla.local
+
+2021-03-19 15:17:00,026 INFO 12585 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-19 15:17:00,297 INFO 12585 [Beidou App] App Worker started, pid is 12585
+2021-03-19 15:25:18,768 WARN 12585 invalid assets file at: /Volumes/PSSD/clickh5/.isomorphic/assets.json, assets file was created automatically by Isomorphic plugin, never edit it manually
+2021-03-19 15:33:16,085 ERROR 12585 [-/::1/-/738ms GET /] nodejs.TypeError: Cannot read property 'bind' of undefined
+    at index (/Volumes/PSSD/clickh5/client/pages/index/components/Card/index.tsx:16:24)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 12585
+hostname: senla.local
+
+2021-03-19 15:34:27,212 ERROR 12585 [-/::1/-/1150ms GET /] nodejs.TypeError: Cannot read property 'bind' of undefined
+    at index (/Volumes/PSSD/clickh5/client/pages/index/components/Card/index.tsx:16:24)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 12585
+hostname: senla.local
+
+2021-03-19 15:34:34,143 ERROR 12585 [-/::1/-/565ms GET /] nodejs.TypeError: Cannot read property 'bind' of undefined
+    at index (/Volumes/PSSD/clickh5/client/pages/index/components/Card/index.tsx:16:24)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 12585
+hostname: senla.local
+
+2021-03-19 15:34:58,949 INFO 13852 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-19 15:34:59,451 INFO 13852 [Beidou App] App Worker started, pid is 13852
+2021-03-19 15:35:13,358 ERROR 13852 [-/::1/-/2898ms GET /] nodejs.TypeError: Cannot read property 'bind' of undefined
+    at index (/Volumes/PSSD/clickh5/client/pages/index/components/Card/index.tsx:16:24)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 13852
+hostname: senla.local
+
+2021-03-19 15:35:57,910 ERROR 13852 [-/::1/-/1297ms GET /] nodejs.TypeError: Cannot read property 'bind' of undefined
+    at index (/Volumes/PSSD/clickh5/client/pages/index/components/Card/index.tsx:16:24)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 13852
+hostname: senla.local
+
+2021-03-19 15:41:51,954 ERROR 13852 [-/undefined/-/2681ms GET /build/react.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 13852
+hostname: senla.local
+
+2021-03-19 15:41:51,956 ERROR 13852 [-/undefined/-/2683ms GET /build/index.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 13852
+hostname: senla.local
+
+2021-03-19 18:33:10,710 INFO 23562 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-19 18:33:11,036 INFO 23562 [Beidou App] App Worker started, pid is 23562
+2021-03-19 18:34:12,030 ERROR 23562 [-/::1/-/1267ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Unexpected token (68:4)
+
+[0m [90m 66 | [39m      loading_num[33m:[39m[35m3[39m[33m,[39m[0m
+[0m [90m 67 | [39m      list[33m:[39m[0m
+[0m[31m[1m>[22m[39m[90m 68 | [39m    }[33m,[39m{[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 69 | [39m      title[33m:[39m[32m'Spicy Reads'[39m[33m,[39m[0m
+[0m [90m 70 | [39m      title_bg[33m:[39m[32m'black'[39m[33m,[39m[0m
+[0m [90m 71 | [39m      loading_num[33m:[39m[35m3[39m[0m
+
+[0m [90m 66 | [39m      loading_num[33m:[39m[35m3[39m[33m,[39m[0m
+[0m [90m 67 | [39m      list[33m:[39m[0m
+[0m[31m[1m>[22m[39m[90m 68 | [39m    }[33m,[39m{[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 69 | [39m      title[33m:[39m[32m'Spicy Reads'[39m[33m,[39m[0m
+[0m [90m 70 | [39m      title_bg[33m:[39m[32m'black'[39m[33m,[39m[0m
+[0m [90m 71 | [39m      loading_num[33m:[39m[35m3[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.parseExprAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:1144:20)
+    at Object.parseExprAtom (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/jsx/index.js:532:22)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseMaybeUnary (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2417:22)
+    at Object.parseExprOps (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:311:23)
+loc: {"line":68,"column":4}
+pos: 1719
+code: "BABEL_PARSE_ERROR"
+pid: 23562
+hostname: senla.local
+
+2021-03-19 18:36:12,759 ERROR 23562 [-/::1/-/2205ms GET /] nodejs.Error: Objects are not valid as a React child (found: object with keys {title, title_bg, loading_num, list}). If you meant to render a collection of children, use an array instead.
+    in div
+    in index
+    in Connect(index)
+    in div
+    in Index
+    in Connect(Index)
+    in Route
+    in Switch
+    in Router
+    in ConnectedRouter
+    in Provider
+    in div
+    in index
+    in Connect(index)
+    in div
+    in Index
+    in Connect(Index)
+    in Route
+    in Switch
+    in Router
+    in ConnectedRouter
+    in Provider
+    at traverseAllChildrenImpl (/Volumes/PSSD/clickh5/node_modules/react/cjs/react.development.js:1061:17)
+    at traverseAllChildrenImpl (/Volumes/PSSD/clickh5/node_modules/react/cjs/react.development.js:1023:23)
+    at traverseAllChildrenImpl (/Volumes/PSSD/clickh5/node_modules/react/cjs/react.development.js:1023:23)
+    at traverseAllChildren (/Volumes/PSSD/clickh5/node_modules/react/cjs/react.development.js:1092:10)
+    at mapIntoWithKeyPrefixInternal (/Volumes/PSSD/clickh5/node_modules/react/cjs/react.development.js:1174:3)
+    at toArray (/Volumes/PSSD/clickh5/node_modules/react/cjs/react.development.js:1227:3)
+    at ReactDOMServerRenderer.renderDOM (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3954:18)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3484:21)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+
+pid: 23562
+hostname: senla.local
+
+2021-03-19 18:50:02,895 ERROR 23562 [-/::1/-/201ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Identifier 'book_id' has already been declared (148:101)
+
+[0m [90m 146 | [39m                          {[0m
+[0m [90m 147 | [39m                            item[33m.[39mlist[33m.[39mmap((it[33m,[39m idx) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 148 | [39m                              [36mconst[39m { img_url[33m:[39m cover_img[33m,[39m book_id[33m,[39m author_pen_name[33m:[39m sub_title[33m,[39m title[33m,[39mbook_id } [33m=[39m it[33m;[39m[0m
+[0m [90m     | [39m                                                                                                     [31m[1m^[22m[39m[0m
+[0m [90m 149 | [39m                              [36mreturn[39m [33m<[39m[33mSwpCard[39m onClick[33m=[39m{(item[33m,[39m ev) [33m=>[39m {[0m
+[0m [90m 150 | [39m                                console[33m.[39mlog(item[33m,[39m ev[33m,[39m [32m'1223'[39m)[0m
+[0m [90m 151 | [39m                                props[33m.[39mhistory[33m.[39mpush([32m`/chapter/${book_id}`[39m)[33m;[39m[0m
+
+[0m [90m 146 | [39m                          {[0m
+[0m [90m 147 | [39m                            item[33m.[39mlist[33m.[39mmap((it[33m,[39m idx) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 148 | [39m                              [36mconst[39m { img_url[33m:[39m cover_img[33m,[39m book_id[33m,[39m author_pen_name[33m:[39m sub_title[33m,[39m title[33m,[39mbook_id } [33m=[39m it[33m;[39m[0m
+[0m [90m     | [39m                                                                                                     [31m[1m^[22m[39m[0m
+[0m [90m 149 | [39m                              [36mreturn[39m [33m<[39m[33mSwpCard[39m onClick[33m=[39m{(item[33m,[39m ev) [33m=>[39m {[0m
+[0m [90m 150 | [39m                                console[33m.[39mlog(item[33m,[39m ev[33m,[39m [32m'1223'[39m)[0m
+[0m [90m 151 | [39m                                props[33m.[39mhistory[33m.[39mpush([32m`/chapter/${book_id}`[39m)[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at TypeScriptScopeHandler.checkRedeclarationInScope (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/util/scope.js:137:12)
+    at TypeScriptScopeHandler.declareName (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/util/scope.js:98:12)
+    at TypeScriptScopeHandler.declareName (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/scope.js:51:11)
+    at Object.checkLVal (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/lval.js:392:22)
+    at Object.checkLVal (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2508:17)
+    at Object.checkLVal (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/lval.js:410:16)
+    at Object.checkLVal (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2508:17)
+loc: {"line":148,"column":101}
+pos: 4585
+code: "BABEL_PARSE_ERROR"
+pid: 23562
+hostname: senla.local
+
+2021-03-19 18:54:07,736 ERROR 23562 [-/::1/-/410ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Unexpected token, expected "," (175:19)
+
+[0m [90m 173 | [39m                      {[33m...[39m{ book_id[33m,[39m cover_img[33m,[39m title[33m,[39m sub_title[33m,[39m disc }} [33m/[39m[33m>[39m[0m
+[0m [90m 174 | [39m                    }[0m
+[0m[31m[1m>[22m[39m[90m 175 | [39m                  }}[0m
+[0m [90m     | [39m                   [31m[1m^[22m[39m[0m
+[0m [90m 176 | [39m                  [0m
+[0m [90m 177 | [39m                [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 178 | [39m[0m
+
+[0m [90m 173 | [39m                      {[33m...[39m{ book_id[33m,[39m cover_img[33m,[39m title[33m,[39m sub_title[33m,[39m disc }} [33m/[39m[33m>[39m[0m
+[0m [90m 174 | [39m                    }[0m
+[0m[31m[1m>[22m[39m[90m 175 | [39m                  }}[0m
+[0m [90m     | [39m                   [31m[1m^[22m[39m[0m
+[0m [90m 176 | [39m                  [0m
+[0m [90m 177 | [39m                [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 178 | [39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseCallExpressionArguments (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:800:14)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:660:31)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:1785:20)
+    at Object.parseSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:567:19)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:548:17)
+loc: {"line":175,"column":19}
+pos: 5796
+code: "BABEL_PARSE_ERROR"
+pid: 23562
+hostname: senla.local
+
+2021-03-19 18:54:29,096 INFO 25014 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-19 18:54:29,477 INFO 25014 [Beidou App] App Worker started, pid is 25014
+2021-03-19 18:54:51,316 ERROR 25014 [-/::1/-/1201ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Unexpected token, expected "," (175:19)
+
+[0m [90m 173 | [39m                      {[33m...[39m{ book_id[33m,[39m cover_img[33m,[39m title[33m,[39m sub_title[33m,[39m disc }} [33m/[39m[33m>[39m[0m
+[0m [90m 174 | [39m                    }[0m
+[0m[31m[1m>[22m[39m[90m 175 | [39m                  }}[0m
+[0m [90m     | [39m                   [31m[1m^[22m[39m[0m
+[0m [90m 176 | [39m                  [0m
+[0m [90m 177 | [39m                [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 178 | [39m[0m
+
+[0m [90m 173 | [39m                      {[33m...[39m{ book_id[33m,[39m cover_img[33m,[39m title[33m,[39m sub_title[33m,[39m disc }} [33m/[39m[33m>[39m[0m
+[0m [90m 174 | [39m                    }[0m
+[0m[31m[1m>[22m[39m[90m 175 | [39m                  }}[0m
+[0m [90m     | [39m                   [31m[1m^[22m[39m[0m
+[0m [90m 176 | [39m                  [0m
+[0m [90m 177 | [39m                [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 178 | [39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseCallExpressionArguments (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:800:14)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:660:31)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:1785:20)
+    at Object.parseSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:567:19)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:548:17)
+loc: {"line":175,"column":19}
+pos: 5796
+code: "BABEL_PARSE_ERROR"
+pid: 25014
+hostname: senla.local
+
+2021-03-19 18:56:50,039 ERROR 25014 [-/::1/-/147ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx: Unexpected token, expected "," (175:19)
+
+[0m [90m 173 | [39m                      {[33m...[39m{ book_id[33m,[39m cover_img[33m,[39m title[33m,[39m sub_title[33m,[39m disc }} [33m/[39m[33m>[39m[0m
+[0m [90m 174 | [39m                    }[0m
+[0m[31m[1m>[22m[39m[90m 175 | [39m                  }}[0m
+[0m [90m     | [39m                   [31m[1m^[22m[39m[0m
+[0m [90m 176 | [39m                  [0m
+[0m [90m 177 | [39m                [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 178 | [39m[0m
+
+[0m [90m 173 | [39m                      {[33m...[39m{ book_id[33m,[39m cover_img[33m,[39m title[33m,[39m sub_title[33m,[39m disc }} [33m/[39m[33m>[39m[0m
+[0m [90m 174 | [39m                    }[0m
+[0m[31m[1m>[22m[39m[90m 175 | [39m                  }}[0m
+[0m [90m     | [39m                   [31m[1m^[22m[39m[0m
+[0m [90m 176 | [39m                  [0m
+[0m [90m 177 | [39m                [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 178 | [39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseCallExpressionArguments (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:800:14)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:660:31)
+    at Object.parseSubscript (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:1785:20)
+    at Object.parseSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:567:19)
+    at Object.parseExprSubscripts (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/expression.js:548:17)
+loc: {"line":175,"column":19}
+pos: 5796
+code: "BABEL_PARSE_ERROR"
+pid: 25014
+hostname: senla.local
+
+2021-03-19 18:57:51,688 INFO 25158 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-19 18:57:52,033 INFO 25158 [Beidou App] App Worker started, pid is 25158
+2021-03-19 19:26:42,594 INFO 27669 [Beidou App] App Worker started, pid is 27669
+2021-03-19 19:26:42,830 WARN 27669 [webpack] port 6002 is in used, use 6596 instead
+2021-03-22 09:55:03,302 INFO 3596 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-22 09:55:03,709 INFO 3596 [Beidou App] App Worker started, pid is 3596
+2021-03-22 10:11:10,977 ERROR 3596 [-/::1/-/1571ms GET /] nodejs.Invariant Violation: [app.model] namespace should be unique
+    at invariant (/Volumes/PSSD/clickh5/node_modules/invariant/invariant.js:40:15)
+    at checkModel (/Volumes/PSSD/clickh5/node_modules/dva-core/lib/checkModel.js:28:26)
+    at Object.model (/Volumes/PSSD/clickh5/node_modules/dva-core/lib/index.js:84:31)
+    at map (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:14:9)
+    at Array.map (<anonymous>)
+    at createApp (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:13:10)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:28:17)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+name: "Invariant Violation"
+framesToPop: 1
+pid: 3596
+hostname: senla.local
+
+2021-03-22 10:20:15,580 INFO 6057 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-22 10:20:16,039 INFO 6057 [Beidou App] App Worker started, pid is 6057
+2021-03-22 10:21:05,144 ERROR 6057 [-/::1/-/1726ms GET /] nodejs.ReferenceError: subscribe is not defined
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/pages/home/modal.ts:24:2)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Module._compile (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .ts] (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/models/index.ts:6:1)
+
+pid: 6057
+hostname: senla.local
+
+2021-03-22 10:25:15,300 INFO 6594 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-22 10:25:15,712 INFO 6594 [Beidou App] App Worker started, pid is 6594
+2021-03-22 10:31:06,590 ERROR 6594 [-/::1/-/754ms GET /] nodejs.TypeError: hash.test is not a function
+    at /Volumes/PSSD/clickh5/client/pages/index/pages/home/modal.ts:30:15
+    at Object.listen (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:122:5)
+    at setup (/Volumes/PSSD/clickh5/client/pages/index/pages/home/modal.ts:27:12)
+    at run (/Volumes/PSSD/clickh5/node_modules/dva-core/lib/subscription.js:26:24)
+    at Object.start (/Volumes/PSSD/clickh5/node_modules/dva-core/lib/index.js:309:65)
+    at Object.start (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:72:19)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:34:17)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 6594
+hostname: senla.local
+
+2021-03-22 10:31:52,394 INFO 7372 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-22 10:31:52,726 INFO 7372 [Beidou App] App Worker started, pid is 7372
+2021-03-22 10:32:37,363 ERROR 7372 [-/::1/-/3608ms GET /] nodejs.TypeError: hash.test is not a function
+    at /Volumes/PSSD/clickh5/client/pages/index/pages/home/modal.ts:28:15
+    at Object.listen (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:122:5)
+    at setup (/Volumes/PSSD/clickh5/client/pages/index/pages/home/modal.ts:26:12)
+    at run (/Volumes/PSSD/clickh5/node_modules/dva-core/lib/subscription.js:26:24)
+    at Object.start (/Volumes/PSSD/clickh5/node_modules/dva-core/lib/index.js:309:65)
+    at Object.start (/Volumes/PSSD/clickh5/node_modules/dva/lib/index.js:72:19)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:34:17)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 7372
+hostname: senla.local
+
+2021-03-22 10:41:25,358 ERROR 7372 [-/undefined/-/1482ms GET /build/index.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 7372
+hostname: senla.local
+
+2021-03-22 11:06:26,568 ERROR 7372 [-/::1/-/740ms GET /] nodejs.SyntaxError: /Volumes/PSSD/clickh5/client/pages/index/components/ProdCard/index.tsx: Identifier 'dot' has already been declared (3:9)
+
+[0m [90m 1 | [39m[36mimport[39m [33mReact[39m[33m,[39m { useReducer[33m,[39m useEffect } from [32m'react'[39m[33m;[39m[0m
+[0m [90m 2 | [39m[36mimport[39m { request[33m,[39m getLocaleLan[33m,[39m dot } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 | [39m[36mimport[39m { dot } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m [90m   | [39m         [31m[1m^[22m[39m[0m
+[0m [90m 4 | [39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+
+[0m [90m 1 | [39m[36mimport[39m [33mReact[39m[33m,[39m { useReducer[33m,[39m useEffect } from [32m'react'[39m[33m;[39m[0m
+[0m [90m 2 | [39m[36mimport[39m { request[33m,[39m getLocaleLan[33m,[39m dot } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 | [39m[36mimport[39m { dot } from [32m'client/utils/index.js'[39m[33m;[39m[0m
+[0m [90m   | [39m         [31m[1m^[22m[39m[0m
+[0m [90m 4 | [39m[0m
+[0m [90m 5 | [39m[36mimport[39m styles from [32m'./index.m.scss'[39m[33m;[39m[0m
+[0m [90m 6 | [39m[0m
+    at Object._raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at TypeScriptScopeHandler.checkRedeclarationInScope (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/util/scope.js:137:12)
+    at TypeScriptScopeHandler.declareName (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/util/scope.js:98:12)
+    at TypeScriptScopeHandler.declareName (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/scope.js:51:11)
+    at Object.checkLVal (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/lval.js:392:22)
+    at Object.checkLVal (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/plugins/typescript/index.js:2508:17)
+    at Object.parseImportSpecifier (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/statement.js:2128:10)
+    at Object.parseNamedImportSpecifiers (/Volumes/PSSD/clickh5/node_modules/@babel/parser/src/parser/statement.js:2110:12)
+loc: {"line":3,"column":9}
+pos: 131
+code: "BABEL_PARSE_ERROR"
+pid: 7372
+hostname: senla.local
+
+2021-03-22 11:13:18,442 INFO 12163 [Beidou App] App Worker started, pid is 12163
+2021-03-22 11:13:18,632 WARN 12163 [webpack] port 6002 is in used, use 6008 instead
+2021-03-22 11:33:55,717 ERROR 7372 [-/::1/-/556ms GET /] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../pages/History'
+Require stack:
+- /Volumes/PSSD/clickh5/client/pages/index/router/router.tsx
+- /Volumes/PSSD/clickh5/client/pages/index/index.tsx
+- /Volumes/PSSD/clickh5/node_modules/beidou-view/index.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-view-react/app.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/lib/utils/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/lib/egg.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg/lib/application.js
+- /Volumes/PSSD/clickh5/node_modules/egg/index.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-core/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg-cluster/lib/app_worker.js
+Require stack:
+- /Volumes/PSSD/clickh5/client/pages/index/router/router.tsx
+- /Volumes/PSSD/clickh5/client/pages/index/index.tsx
+- /Volumes/PSSD/clickh5/node_modules/beidou-view/index.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-view-react/app.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/lib/utils/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/lib/egg.js
+- /Volumes/PSSD/clickh5/node_modules/egg-core/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg/lib/application.js
+- /Volumes/PSSD/clickh5/node_modules/egg/index.js
+- /Volumes/PSSD/clickh5/node_modules/beidou-core/index.js
+- /Volumes/PSSD/clickh5/node_modules/egg-cluster/lib/app_worker.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:982:15)
+    at Function.Module._resolveFilename (/Volumes/PSSD/clickh5/node_modules/beidou-isomorphic/lib/alias.js:17:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:864:27)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx:22:1)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Module._compile (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Object.newLoader [as .tsx] (/Volumes/PSSD/clickh5/node_modules/pirates/lib/index.js:104:7)
+code: "MODULE_NOT_FOUND"
+requireStack: ["/Volumes/PSSD/clickh5/client/pages/index/router/router.tsx","/Volumes/PSSD/clickh5/client/pages/index/index.tsx","/Volumes/PSSD/clickh5/node_modules/beidou-view/index.js","/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js","/Volumes/PSSD/clickh5/node_modules/beidou-view-react/app.js","/Volumes/PSSD/clickh5/node_modules/egg-core/lib/utils/index.js","/Volumes/PSSD/clickh5/node_modules/egg-core/lib/egg.js","/Volumes/PSSD/clickh5/node_modules/egg-core/index.js","/Volumes/PSSD/clickh5/node_modules/egg/lib/application.js","/Volumes/PSSD/clickh5/node_modules/egg/index.js","/Volumes/PSSD/clickh5/node_modules/beidou-core/index.js","/Volumes/PSSD/clickh5/node_modules/egg-cluster/lib/app_worker.js"]
+name: "MODULE_NOT_FOUNDError"
+pid: 7372
+hostname: senla.local
+
+2021-03-22 11:34:46,904 INFO 13197 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-22 11:34:47,305 INFO 13197 [Beidou App] App Worker started, pid is 13197
+2021-03-22 14:09:26,638 INFO 2551 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-22 14:09:26,879 INFO 2551 [Beidou App] App Worker started, pid is 2551
+2021-03-22 16:45:50,468 ERROR 2551 [-/undefined/-/1321ms GET /build/index.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 2551
+hostname: senla.local
+
+2021-03-22 20:41:01,397 ERROR 2551 [-/undefined/-/4412ms GET /build/index.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 2551
+hostname: senla.local
+
+2021-03-22 20:50:45,353 INFO 21890 [Beidou App] App Worker started, pid is 21890
+2021-03-22 20:50:45,704 WARN 21890 [webpack] port 6002 is in used, use 6128 instead
+2021-03-23 10:10:15,138 INFO 3218 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-23 10:10:15,471 INFO 3218 [Beidou App] App Worker started, pid is 3218
+2021-03-23 10:39:36,717 INFO 5437 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-23 10:39:36,993 INFO 5437 [Beidou App] App Worker started, pid is 5437
+2021-03-23 10:58:52,676 ERROR 5437 [-/::1/-/1059ms GET /] nodejs.ReferenceError: item is not defined
+    at index (/Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx:197:8)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 5437
+hostname: senla.local
+
+2021-03-23 11:09:57,945 ERROR 5437 [-/::1/-/2014ms GET /] nodejs.Invariant Violation: plugin.use: plugin should be plain object
+    at invariant (/Volumes/PSSD/clickh5/node_modules/invariant/invariant.js:40:15)
+    at Plugin.use (/Volumes/PSSD/clickh5/node_modules/dva-core/lib/Plugin.js:52:30)
+    at createApp (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:17:7)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:30:17)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+name: "Invariant Violation"
+framesToPop: 1
+pid: 5437
+hostname: senla.local
+
+2021-03-23 11:11:11,993 INFO 8744 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-23 11:11:12,351 INFO 8744 [Beidou App] App Worker started, pid is 8744
+2021-03-23 11:11:25,933 ERROR 8744 [-/::1/-/2877ms GET /] nodejs.Invariant Violation: plugin.use: plugin should be plain object
+    at invariant (/Volumes/PSSD/clickh5/node_modules/invariant/invariant.js:40:15)
+    at Plugin.use (/Volumes/PSSD/clickh5/node_modules/dva-core/lib/Plugin.js:52:30)
+    at createApp (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:17:7)
+    at getPartial (/Volumes/PSSD/clickh5/client/pages/index/index.tsx:30:17)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:14:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+name: "Invariant Violation"
+framesToPop: 1
+pid: 8744
+hostname: senla.local
+
+2021-03-23 11:17:36,234 ERROR 8744 [-/undefined/-/657ms GET /build/react.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 8744
+hostname: senla.local
+
+2021-03-23 11:18:09,246 ERROR 8744 [-/::1/-/795ms GET /] nodejs.ReferenceError: effects is not defined
+    at index (/Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx:41:15)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 8744
+hostname: senla.local
+
+2021-03-23 11:23:03,051 ERROR 8744 [-/::1/-/1599ms GET /] nodejs.ReferenceError: loading is not defined
+    at index (/Volumes/PSSD/clickh5/client/pages/index/pages/discover/index.tsx:42:10)
+    at processChild (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/clickh5/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/clickh5/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/clickh5/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/clickh5/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 8744
+hostname: senla.local
+
+2021-03-23 11:28:11,262 INFO 10580 [Beidou App] App Worker started, pid is 10580
+2021-03-23 11:58:34,020 INFO 12297 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/clickh5/client' }
+2021-03-23 11:58:34,316 INFO 12297 [Beidou App] App Worker started, pid is 12297
+2021-03-23 12:01:52,644 INFO 12486 [Beidou App] App Worker started, pid is 12486
+2021-03-23 12:01:52,976 WARN 12486 [webpack] port 6002 is in used, use 6321 instead
+2021-04-11 12:54:55,556 INFO 1394 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 12:54:57,319 INFO 1394 [Beidou App] App Worker started, pid is 1394
+2021-04-11 15:37:09,217 INFO 3273 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 15:37:09,664 INFO 3273 [Beidou App] App Worker started, pid is 3273
+2021-04-11 15:37:45,679 ERROR 3273 [-/::1/-/6303ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/models/global.ts: Unexpected token, expected "," (30:2)
+
+[0m [90m 28 | [39m		}[0m
+[0m [90m 29 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 30 | [39m		[33m*[39mloginEff({ payload }[33m,[39m { put[33m,[39m select[33m,[39mcall }){[0m
+[0m [90m    | [39m		[31m[1m^[22m[39m[0m
+[0m [90m 31 | [39m			[36mconst[39m res [33m=[39m	yield call(login[33m,[39m payload)[33m;[39m[0m
+[0m [90m 32 | [39m			console[33m.[39mlog(res[33m,[39m[32m'res==='[39m)[0m
+[0m [90m 33 | [39m			[36mreturn[39m res[0m
+
+[0m [90m 28 | [39m		}[0m
+[0m [90m 29 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 30 | [39m		[33m*[39mloginEff({ payload }[33m,[39m { put[33m,[39m select[33m,[39mcall }){[0m
+[0m [90m    | [39m		[31m[1m^[22m[39m[0m
+[0m [90m 31 | [39m			[36mconst[39m res [33m=[39m	yield call(login[33m,[39m payload)[33m;[39m[0m
+[0m [90m 32 | [39m			console[33m.[39mlog(res[33m,[39m[32m'res==='[39m)[0m
+[0m [90m 33 | [39m			[36mreturn[39m res[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseExprAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:1089:26)
+    at Object.parseExprSubscripts (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseMaybeUnary (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2417:22)
+loc: {"line":30,"column":2}
+pos: 553
+code: "BABEL_PARSE_ERROR"
+pid: 3273
+hostname: senla.local
+
+2021-04-11 15:48:40,907 ERROR 3273 [-/::1/-/1059ms GET /] nodejs.TypeError: Cannot read property 'effects' of undefined
+    at index (/Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx:34:16)
+    at processChild (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 3273
+hostname: senla.local
+
+2021-04-11 15:50:37,905 ERROR 3273 [-/::1/-/1383ms GET /] nodejs.TypeError: Cannot read property 'effects' of undefined
+    at index (/Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx:20:3)
+    at processChild (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 3273
+hostname: senla.local
+
+2021-04-11 15:51:05,531 INFO 4866 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 15:51:05,948 INFO 4866 [Beidou App] App Worker started, pid is 4866
+2021-04-11 15:51:24,569 ERROR 4866 [-/::1/-/6672ms GET /] nodejs.TypeError: Cannot read property 'effects' of undefined
+    at index (/Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx:23:16)
+    at processChild (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 4866
+hostname: senla.local
+
+2021-04-11 15:52:29,716 ERROR 4866 [-/::1/-/1451ms GET /] nodejs.TypeError: Cannot read property 'effects' of undefined
+    at index (/Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx:23:16)
+    at processChild (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 4866
+hostname: senla.local
+
+2021-04-11 15:56:17,315 ERROR 4866 [-/::1/-/1863ms GET /] nodejs.TypeError: Cannot read property 'effects' of undefined
+    at index (/Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx:23:16)
+    at processChild (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 4866
+hostname: senla.local
+
+2021-04-11 16:21:01,764 INFO 7440 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 16:21:02,191 INFO 7440 [Beidou App] App Worker started, pid is 7440
+2021-04-11 16:35:16,570 ERROR 7440 [-/::1/-/1391ms GET /] nodejs.ReferenceError: book_id is not defined
+    at index (/Volumes/PSSD/JDP/client/pages/index/components/Card/index.tsx:18:35)
+    at processChild (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3043:14)
+    at resolve (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:2960:5)
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3435:22)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+
+pid: 7440
+hostname: senla.local
+
+2021-04-11 18:51:06,477 INFO 20283 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 18:51:06,915 INFO 20283 [Beidou App] App Worker started, pid is 20283
+2021-04-11 18:52:41,921 INFO 20373 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 18:52:42,367 INFO 20373 [Beidou App] App Worker started, pid is 20373
+2021-04-11 19:16:06,286 ERROR 20373 [-/undefined/-/1364ms GET /build/index.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 20373
+hostname: senla.local
+
+2021-04-11 19:37:42,763 INFO 23515 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 19:37:43,207 INFO 23515 [Beidou App] App Worker started, pid is 23515
+2021-04-11 19:38:05,044 INFO 23589 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 19:38:05,313 INFO 23589 [Beidou App] App Worker started, pid is 23589
+2021-04-11 19:38:10,160 INFO 23609 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 19:38:10,462 INFO 23609 [Beidou App] App Worker started, pid is 23609
+2021-04-11 19:38:32,361 INFO 23701 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 19:38:32,556 INFO 23701 [Beidou App] App Worker started, pid is 23701
+2021-04-11 19:38:40,660 INFO 23767 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 19:38:41,010 INFO 23767 [Beidou App] App Worker started, pid is 23767
+2021-04-11 19:38:44,739 INFO 23802 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 19:38:45,073 INFO 23802 [Beidou App] App Worker started, pid is 23802
+2021-04-11 21:29:02,586 ERROR 23802 [-/::1/-/707ms GET /] nodejs.Error: Portals are not currently supported by the server renderer. Render them conditionally so that they only appear on the client render.
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3449:21)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+
+pid: 23802
+hostname: senla.local
+
+2021-04-11 21:31:10,524 ERROR 23802 [-/::1/-/1493ms GET /] nodejs.Error: Portals are not currently supported by the server renderer. Render them conditionally so that they only appear on the client render.
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3449:21)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+
+pid: 23802
+hostname: senla.local
+
+2021-04-11 21:31:39,109 INFO 27853 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 21:31:39,645 INFO 27853 [Beidou App] App Worker started, pid is 27853
+2021-04-11 21:31:55,552 ERROR 27853 [-/::1/-/6184ms GET /] nodejs.Error: Portals are not currently supported by the server renderer. Render them conditionally so that they only appear on the client render.
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3449:21)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+
+pid: 27853
+hostname: senla.local
+
+2021-04-11 21:43:40,256 ERROR 27853 [-/::1/-/94ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Unexpected token, expected "," (23:4)
+
+[0m [90m 21 | [39m    dispatch[33m,[39m[0m
+[0m [90m 22 | [39m    modal[0m
+[0m[31m[1m>[22m[39m[90m 23 | [39m    loading[33m:[39m { effects }[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 24 | [39m  } [33m=[39m props[33m;[39m[0m
+[0m [90m 25 | [39m[0m
+[0m [90m 26 | [39m  [36mconst[39m [param[33m,[39m setParam] [33m=[39m useState[33m<[39m[33many[39m[][33m>[39m([])[33m;[39m[0m
+
+[0m [90m 21 | [39m    dispatch[33m,[39m[0m
+[0m [90m 22 | [39m    modal[0m
+[0m[31m[1m>[22m[39m[90m 23 | [39m    loading[33m:[39m { effects }[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 24 | [39m  } [33m=[39m props[33m;[39m[0m
+[0m [90m 25 | [39m[0m
+[0m [90m 26 | [39m  [36mconst[39m [param[33m,[39m setParam] [33m=[39m useState[33m<[39m[33many[39m[][33m>[39m([])[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseBindingAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/lval.js:258:21)
+    at Object.parseBindingAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2519:24)
+    at Object.parseVarId (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/statement.js:1028:20)
+    at Object.parseVarId (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2293:13)
+loc: {"line":23,"column":4}
+pos: 636
+code: "BABEL_PARSE_ERROR"
+pid: 27853
+hostname: senla.local
+
+2021-04-11 21:53:51,582 ERROR 27853 [-/::1/-/184ms GET /build/16aedf3ee64628f1dbe0.hot-update.json] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Unexpected token, expected "," (24:4)
+
+[0m [90m 22 | [39m    modal[33m,[39m[0m
+[0m [90m 23 | [39m    successModal[0m
+[0m[31m[1m>[22m[39m[90m 24 | [39m    loading[33m:[39m { effects }[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 25 | [39m  } [33m=[39m props[33m;[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m  [36mconst[39m [param[33m,[39m setParam] [33m=[39m useState[33m<[39m[33many[39m[][33m>[39m([])[33m;[39m[0m
+
+[0m [90m 22 | [39m    modal[33m,[39m[0m
+[0m [90m 23 | [39m    successModal[0m
+[0m[31m[1m>[22m[39m[90m 24 | [39m    loading[33m:[39m { effects }[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 25 | [39m  } [33m=[39m props[33m;[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m  [36mconst[39m [param[33m,[39m setParam] [33m=[39m useState[33m<[39m[33many[39m[][33m>[39m([])[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseBindingAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/lval.js:258:21)
+    at Object.parseBindingAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2519:24)
+    at Object.parseVarId (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/statement.js:1028:20)
+    at Object.parseVarId (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2293:13)
+loc: {"line":24,"column":4}
+pos: 655
+code: "BABEL_PARSE_ERROR"
+pid: 27853
+hostname: senla.local
+
+2021-04-11 21:58:37,253 ERROR 27853 [-/::1/-/143ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Unexpected token, expected "," (24:4)
+
+[0m [90m 22 | [39m    modal[33m,[39m[0m
+[0m [90m 23 | [39m    successModal[0m
+[0m[31m[1m>[22m[39m[90m 24 | [39m    loading[33m:[39m { effects }[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 25 | [39m  } [33m=[39m props[33m;[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m  [36mconst[39m [param[33m,[39m setParam] [33m=[39m useState[33m<[39m[33many[39m[][33m>[39m([])[33m;[39m[0m
+
+[0m [90m 22 | [39m    modal[33m,[39m[0m
+[0m [90m 23 | [39m    successModal[0m
+[0m[31m[1m>[22m[39m[90m 24 | [39m    loading[33m:[39m { effects }[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 25 | [39m  } [33m=[39m props[33m;[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m  [36mconst[39m [param[33m,[39m setParam] [33m=[39m useState[33m<[39m[33many[39m[][33m>[39m([])[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseBindingAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/lval.js:258:21)
+    at Object.parseBindingAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2519:24)
+    at Object.parseVarId (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/statement.js:1028:20)
+    at Object.parseVarId (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2293:13)
+loc: {"line":24,"column":4}
+pos: 655
+code: "BABEL_PARSE_ERROR"
+pid: 27853
+hostname: senla.local
+
+2021-04-11 21:59:06,380 ERROR 27853 [-/::1/-/72ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Unexpected token, expected "," (24:4)
+
+[0m [90m 22 | [39m    modal[33m,[39m[0m
+[0m [90m 23 | [39m    successModal[0m
+[0m[31m[1m>[22m[39m[90m 24 | [39m    loading[33m:[39m { effects }[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 25 | [39m  } [33m=[39m props[33m;[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m  [36mconst[39m [param[33m,[39m setParam] [33m=[39m useState[33m<[39m[33many[39m[][33m>[39m([])[33m;[39m[0m
+
+[0m [90m 22 | [39m    modal[33m,[39m[0m
+[0m [90m 23 | [39m    successModal[0m
+[0m[31m[1m>[22m[39m[90m 24 | [39m    loading[33m:[39m { effects }[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 25 | [39m  } [33m=[39m props[33m;[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m  [36mconst[39m [param[33m,[39m setParam] [33m=[39m useState[33m<[39m[33many[39m[][33m>[39m([])[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseBindingAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/lval.js:258:21)
+    at Object.parseBindingAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2519:24)
+    at Object.parseVarId (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/statement.js:1028:20)
+    at Object.parseVarId (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2293:13)
+loc: {"line":24,"column":4}
+pos: 655
+code: "BABEL_PARSE_ERROR"
+pid: 27853
+hostname: senla.local
+
+2021-04-11 21:59:35,350 ERROR 27853 [-/::1/-/104ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Unexpected token, expected "," (24:4)
+
+[0m [90m 22 | [39m    modal[33m,[39m[0m
+[0m [90m 23 | [39m    successModal[0m
+[0m[31m[1m>[22m[39m[90m 24 | [39m    loading[33m:[39m { effects }[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 25 | [39m  } [33m=[39m props[33m;[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m  [36mconst[39m [param[33m,[39m setParam] [33m=[39m useState[33m<[39m[33many[39m[][33m>[39m([])[33m;[39m[0m
+
+[0m [90m 22 | [39m    modal[33m,[39m[0m
+[0m [90m 23 | [39m    successModal[0m
+[0m[31m[1m>[22m[39m[90m 24 | [39m    loading[33m:[39m { effects }[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 25 | [39m  } [33m=[39m props[33m;[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m  [36mconst[39m [param[33m,[39m setParam] [33m=[39m useState[33m<[39m[33many[39m[][33m>[39m([])[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseBindingAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/lval.js:258:21)
+    at Object.parseBindingAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2519:24)
+    at Object.parseVarId (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/statement.js:1028:20)
+    at Object.parseVarId (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2293:13)
+loc: {"line":24,"column":4}
+pos: 655
+code: "BABEL_PARSE_ERROR"
+pid: 27853
+hostname: senla.local
+
+2021-04-11 21:59:41,356 ERROR 27853 [-/::1/-/94ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Unexpected token, expected "," (24:4)
+
+[0m [90m 22 | [39m    modal[33m,[39m[0m
+[0m [90m 23 | [39m    successModal[0m
+[0m[31m[1m>[22m[39m[90m 24 | [39m    loading[33m:[39m { effects }[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 25 | [39m  } [33m=[39m props[33m;[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m  [36mconst[39m [param[33m,[39m setParam] [33m=[39m useState[33m<[39m[33many[39m[][33m>[39m([])[33m;[39m[0m
+
+[0m [90m 22 | [39m    modal[33m,[39m[0m
+[0m [90m 23 | [39m    successModal[0m
+[0m[31m[1m>[22m[39m[90m 24 | [39m    loading[33m:[39m { effects }[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 25 | [39m  } [33m=[39m props[33m;[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m  [36mconst[39m [param[33m,[39m setParam] [33m=[39m useState[33m<[39m[33many[39m[][33m>[39m([])[33m;[39m[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.unexpected (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:149:16)
+    at Object.expect (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/util.js:129:28)
+    at Object.parseObj (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:1520:14)
+    at Object.parseBindingAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/lval.js:258:21)
+    at Object.parseBindingAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2519:24)
+    at Object.parseVarId (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/statement.js:1028:20)
+    at Object.parseVarId (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2293:13)
+loc: {"line":24,"column":4}
+pos: 655
+code: "BABEL_PARSE_ERROR"
+pid: 27853
+hostname: senla.local
+
+2021-04-11 22:00:21,236 INFO 30328 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-11 22:00:21,653 INFO 30328 [Beidou App] App Worker started, pid is 30328
+2021-04-11 22:59:29,032 INFO 34632 [Beidou App] App Worker started, pid is 34632
+2021-04-11 22:59:29,811 WARN 34632 [webpack] port 6002 is in used, use 6664 instead

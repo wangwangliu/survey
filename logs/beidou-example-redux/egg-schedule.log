@@ -1,0 +1,333 @@
+2021-03-11 04:30:01,245 INFO 19684 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86398760ms at 2021-03-12 04:30:00.005
+2021-03-11 04:30:01,240 INFO 19695 [Job#1615408201240689041705433691] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2021-03-11 04:30:01,247 INFO 19695 [Job#1615408201240689041705433691] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 7ms
+2021-03-12 19:59:37,273 INFO 96827 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-12 19:59:37,274 INFO 96827 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-12 19:59:37,274 INFO 96827 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-12 19:59:38,861 INFO 96818 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 30621142ms at 2021-03-13 04:30:00.003
+2021-03-12 19:59:38,861 INFO 96818 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 14421139ms at 2021-03-13 00:00:00.000
+2021-03-12 19:59:38,861 INFO 96818 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 14422139ms at 2021-03-13 00:00:01.000
+2021-03-12 20:07:00,034 INFO 97773 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-12 20:07:00,034 INFO 97773 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-12 20:07:00,034 INFO 97773 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-12 20:07:00,926 INFO 97767 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 30179076ms at 2021-03-13 04:30:00.002
+2021-03-12 20:07:00,926 INFO 97767 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 13979074ms at 2021-03-13 00:00:00.000
+2021-03-12 20:07:00,927 INFO 97767 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 13980074ms at 2021-03-13 00:00:01.001
+2021-03-12 20:45:49,815 INFO 1276 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-12 20:45:49,815 INFO 1276 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-12 20:45:49,815 INFO 1276 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-12 20:45:51,281 INFO 1267 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 27848721ms at 2021-03-13 04:30:00.002
+2021-03-12 20:45:51,282 INFO 1267 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 11648719ms at 2021-03-13 00:00:00.001
+2021-03-12 20:45:51,282 INFO 1267 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 11649718ms at 2021-03-13 00:00:01.000
+2021-03-12 20:49:23,490 INFO 1539 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-12 20:49:23,490 INFO 1539 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-12 20:49:23,490 INFO 1539 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-12 20:49:24,542 INFO 1535 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 27635463ms at 2021-03-13 04:30:00.005
+2021-03-12 20:49:24,542 INFO 1535 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 11435458ms at 2021-03-13 00:00:00.000
+2021-03-12 20:49:24,543 INFO 1535 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 11436458ms at 2021-03-13 00:00:01.001
+2021-03-14 17:45:51,429 INFO 9382 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38648573ms at 2021-03-15 04:30:00.002
+2021-03-14 17:45:51,429 INFO 9382 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22448571ms at 2021-03-15 00:00:00.000
+2021-03-14 17:45:51,430 INFO 9382 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22449571ms at 2021-03-15 00:00:01.001
+2021-03-14 17:45:50,745 INFO 9392 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-14 17:45:50,745 INFO 9392 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-14 17:45:50,745 INFO 9392 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-14 20:30:02,050 INFO 15665 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-14 20:30:02,050 INFO 15665 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-14 20:30:02,050 INFO 15665 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-14 20:30:02,996 INFO 15661 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 28797007ms at 2021-03-15 04:30:00.003
+2021-03-14 20:30:02,996 INFO 15661 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 12597004ms at 2021-03-15 00:00:00.000
+2021-03-14 20:30:02,997 INFO 15661 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 12598004ms at 2021-03-15 00:00:01.001
+2021-03-14 21:32:27,945 INFO 19075 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-14 21:32:27,945 INFO 19075 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-14 21:32:27,945 INFO 19075 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-14 21:32:28,734 INFO 19064 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 25051269ms at 2021-03-15 04:30:00.003
+2021-03-14 21:32:28,735 INFO 19064 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 8851266ms at 2021-03-15 00:00:00.001
+2021-03-14 21:32:28,735 INFO 19064 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 8852265ms at 2021-03-15 00:00:01.000
+2021-03-14 21:38:21,588 INFO 19331 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-14 21:38:21,588 INFO 19331 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-14 21:38:21,588 INFO 19331 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-14 21:38:23,019 INFO 19321 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 24696983ms at 2021-03-15 04:30:00.002
+2021-03-14 21:38:23,019 INFO 19321 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 8496981ms at 2021-03-15 00:00:00.000
+2021-03-14 21:38:23,019 INFO 19321 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 8497981ms at 2021-03-15 00:00:01.000
+2021-03-14 22:42:22,764 INFO 25946 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-14 22:42:22,764 INFO 25946 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-14 22:42:22,764 INFO 25946 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-14 22:42:24,324 INFO 25942 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20855678ms at 2021-03-15 04:30:00.002
+2021-03-14 22:42:24,324 INFO 25942 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 4655676ms at 2021-03-15 00:00:00.000
+2021-03-14 22:42:24,324 INFO 25942 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4656676ms at 2021-03-15 00:00:01.000
+2021-03-15 14:35:52,649 INFO 10949 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-15 14:35:52,649 INFO 10949 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-15 14:35:52,649 INFO 10949 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-15 14:35:53,628 INFO 10940 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50046374ms at 2021-03-16 04:30:00.002
+2021-03-15 14:35:53,628 INFO 10940 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33846372ms at 2021-03-16 00:00:00.000
+2021-03-15 14:35:53,629 INFO 10940 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33847372ms at 2021-03-16 00:00:01.001
+2021-03-15 15:48:55,727 INFO 14846 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-15 15:48:55,727 INFO 14846 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-15 15:48:55,727 INFO 14846 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-15 15:48:57,113 INFO 14839 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45662890ms at 2021-03-16 04:30:00.003
+2021-03-15 15:48:57,114 INFO 14839 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29462887ms at 2021-03-16 00:00:00.001
+2021-03-15 15:48:57,114 INFO 14839 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29463886ms at 2021-03-16 00:00:01.000
+2021-03-15 16:40:10,614 INFO 16888 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-15 16:40:10,614 INFO 16888 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-15 16:40:10,614 INFO 16888 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-15 16:40:11,287 INFO 16884 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42588716ms at 2021-03-16 04:30:00.003
+2021-03-15 16:40:11,287 INFO 16884 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26388713ms at 2021-03-16 00:00:00.000
+2021-03-15 16:40:11,287 INFO 16884 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26389713ms at 2021-03-16 00:00:01.000
+2021-03-17 14:56:52,147 INFO 12303 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-17 14:56:52,147 INFO 12303 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-17 14:56:52,147 INFO 12303 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-17 14:56:53,028 INFO 12299 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48786974ms at 2021-03-18 04:30:00.002
+2021-03-17 14:56:53,028 INFO 12299 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32586972ms at 2021-03-18 00:00:00.000
+2021-03-17 14:56:53,029 INFO 12299 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32587971ms at 2021-03-18 00:00:01.000
+2021-03-18 10:37:35,369 INFO 25611 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 10:37:35,369 INFO 25611 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 10:37:35,369 INFO 25611 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 10:37:36,556 INFO 25607 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 64343446ms at 2021-03-19 04:30:00.002
+2021-03-18 10:37:36,557 INFO 25607 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48143444ms at 2021-03-19 00:00:00.001
+2021-03-18 10:37:36,557 INFO 25607 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48144443ms at 2021-03-19 00:00:01.000
+2021-03-18 11:07:35,842 INFO 27785 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 11:07:35,842 INFO 27785 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 11:07:35,842 INFO 27785 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 11:07:37,349 INFO 27776 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62542654ms at 2021-03-19 04:30:00.003
+2021-03-18 11:07:37,349 INFO 27776 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46342651ms at 2021-03-19 00:00:00.000
+2021-03-18 11:07:37,350 INFO 27776 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46343651ms at 2021-03-19 00:00:01.001
+2021-03-18 11:10:24,263 INFO 28022 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 11:10:24,263 INFO 28022 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 11:10:24,263 INFO 28022 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 11:10:25,707 INFO 28014 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62374295ms at 2021-03-19 04:30:00.002
+2021-03-18 11:10:25,707 INFO 28014 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46174293ms at 2021-03-19 00:00:00.000
+2021-03-18 11:10:25,708 INFO 28014 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46175293ms at 2021-03-19 00:00:01.001
+2021-03-18 11:12:03,516 INFO 28086 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 11:12:03,516 INFO 28086 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 11:12:03,516 INFO 28086 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 11:12:04,725 INFO 28080 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62275278ms at 2021-03-19 04:30:00.003
+2021-03-18 11:12:04,726 INFO 28080 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46075275ms at 2021-03-19 00:00:00.001
+2021-03-18 11:12:04,726 INFO 28080 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46076274ms at 2021-03-19 00:00:01.000
+2021-03-18 11:51:55,965 INFO 30026 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 11:51:55,965 INFO 30026 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 11:51:55,965 INFO 30026 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 11:51:57,356 INFO 30018 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59882648ms at 2021-03-19 04:30:00.004
+2021-03-18 11:51:57,356 INFO 30018 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43682644ms at 2021-03-19 00:00:00.000
+2021-03-18 11:51:57,356 INFO 30018 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43683644ms at 2021-03-19 00:00:01.000
+2021-03-18 12:00:00,743 INFO 30472 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 12:00:00,743 INFO 30472 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 12:00:00,743 INFO 30472 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 12:00:02,320 INFO 30468 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59397683ms at 2021-03-19 04:30:00.003
+2021-03-18 12:00:02,320 INFO 30468 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43197680ms at 2021-03-19 00:00:00.000
+2021-03-18 12:00:02,321 INFO 30468 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43198680ms at 2021-03-19 00:00:01.001
+2021-03-18 13:41:36,054 INFO 33640 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 13:41:36,054 INFO 33640 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 13:41:36,054 INFO 33640 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 13:41:37,699 INFO 33574 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 53302304ms at 2021-03-19 04:30:00.003
+2021-03-18 13:41:37,699 INFO 33574 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 37102301ms at 2021-03-19 00:00:00.000
+2021-03-18 13:41:37,699 INFO 33574 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 37103301ms at 2021-03-19 00:00:01.000
+2021-03-18 14:31:22,985 INFO 36631 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 14:31:22,985 INFO 36631 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 14:31:22,985 INFO 36631 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 14:31:23,803 INFO 36624 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50316201ms at 2021-03-19 04:30:00.004
+2021-03-18 14:31:23,803 INFO 36624 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34116197ms at 2021-03-19 00:00:00.000
+2021-03-18 14:31:23,803 INFO 36624 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34117197ms at 2021-03-19 00:00:01.000
+2021-03-18 15:12:42,895 INFO 40983 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 15:12:42,896 INFO 40983 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 15:12:42,896 INFO 40983 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 15:12:44,863 INFO 40973 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47835145ms at 2021-03-19 04:30:00.008
+2021-03-18 15:12:44,864 INFO 40973 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31635137ms at 2021-03-19 00:00:00.001
+2021-03-18 15:12:44,865 INFO 40973 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31636136ms at 2021-03-19 00:00:01.001
+2021-03-18 16:48:22,266 INFO 44739 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 16:48:22,266 INFO 44739 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 16:48:22,266 INFO 44739 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 16:48:22,919 INFO 44734 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42097084ms at 2021-03-19 04:30:00.003
+2021-03-18 16:48:22,919 INFO 44734 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25897081ms at 2021-03-19 00:00:00.000
+2021-03-18 16:48:22,919 INFO 44734 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25898081ms at 2021-03-19 00:00:01.000
+2021-03-18 17:03:52,121 INFO 45600 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 17:03:52,121 INFO 45600 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 17:03:52,121 INFO 45600 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 17:38:58,496 INFO 50872 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 17:38:58,496 INFO 50872 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 17:38:58,496 INFO 50872 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 17:39:00,682 INFO 50865 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39059322ms at 2021-03-19 04:30:00.004
+2021-03-18 17:39:00,682 INFO 50865 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22859318ms at 2021-03-19 00:00:00.000
+2021-03-18 17:39:00,682 INFO 50865 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22860318ms at 2021-03-19 00:00:01.000
+2021-03-18 20:14:49,686 INFO 59633 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 20:14:49,686 INFO 59633 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 20:14:49,686 INFO 59633 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-18 20:14:50,265 INFO 59625 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 29709738ms at 2021-03-19 04:30:00.003
+2021-03-18 20:14:50,266 INFO 59625 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 13509735ms at 2021-03-19 00:00:00.001
+2021-03-18 20:14:50,266 INFO 59625 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 13510734ms at 2021-03-19 00:00:01.000
+2021-03-18 20:39:08,929 INFO 61278 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-18 20:39:08,929 INFO 61278 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-18 20:39:08,929 INFO 61278 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-19 13:54:41,363 INFO 7667 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-19 13:54:41,363 INFO 7667 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-19 13:54:41,363 INFO 7667 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-19 13:54:42,242 INFO 7663 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52517761ms at 2021-03-20 04:30:00.003
+2021-03-19 13:54:42,242 INFO 7663 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 36317758ms at 2021-03-20 00:00:00.000
+2021-03-19 13:54:42,243 INFO 7663 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36318758ms at 2021-03-20 00:00:01.001
+2021-03-19 14:48:08,536 INFO 10365 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-19 14:48:08,537 INFO 10365 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-19 14:48:08,537 INFO 10365 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-19 14:48:09,191 INFO 10355 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49310812ms at 2021-03-20 04:30:00.003
+2021-03-19 14:48:09,191 INFO 10355 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33110809ms at 2021-03-20 00:00:00.000
+2021-03-19 14:48:09,192 INFO 10355 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33111809ms at 2021-03-20 00:00:01.001
+2021-03-19 15:04:02,522 INFO 11747 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-19 15:04:02,522 INFO 11747 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-19 15:04:02,522 INFO 11747 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-19 15:04:03,701 INFO 11732 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48356307ms at 2021-03-20 04:30:00.008
+2021-03-19 15:04:03,701 INFO 11732 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32156299ms at 2021-03-20 00:00:00.000
+2021-03-19 15:04:03,701 INFO 11732 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32157299ms at 2021-03-20 00:00:01.000
+2021-03-19 15:16:59,997 INFO 12585 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-19 15:16:59,997 INFO 12585 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-19 15:16:59,997 INFO 12585 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-19 15:17:00,637 INFO 12573 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47579366ms at 2021-03-20 04:30:00.003
+2021-03-19 15:17:00,637 INFO 12573 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31379363ms at 2021-03-20 00:00:00.000
+2021-03-19 15:17:00,638 INFO 12573 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31380363ms at 2021-03-20 00:00:01.001
+2021-03-19 15:34:59,606 INFO 13845 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46500396ms at 2021-03-20 04:30:00.002
+2021-03-19 15:34:59,607 INFO 13845 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30300393ms at 2021-03-20 00:00:00.000
+2021-03-19 15:34:59,614 INFO 13845 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30301393ms at 2021-03-20 00:00:01.007
+2021-03-19 15:34:58,861 INFO 13852 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-19 15:34:58,861 INFO 13852 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-19 15:34:58,861 INFO 13852 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-19 18:33:11,440 INFO 23556 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 35808562ms at 2021-03-20 04:30:00.002
+2021-03-19 18:33:11,440 INFO 23556 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 19608560ms at 2021-03-20 00:00:00.000
+2021-03-19 18:33:11,441 INFO 23556 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 19609560ms at 2021-03-20 00:00:01.001
+2021-03-19 18:33:10,686 INFO 23562 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-19 18:33:10,686 INFO 23562 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-19 18:33:10,686 INFO 23562 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-19 18:54:29,048 INFO 25014 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-19 18:54:29,048 INFO 25014 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-19 18:54:29,048 INFO 25014 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-19 18:54:30,839 INFO 25006 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34529164ms at 2021-03-20 04:30:00.003
+2021-03-19 18:54:30,839 INFO 25006 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18329161ms at 2021-03-20 00:00:00.000
+2021-03-19 18:54:30,839 INFO 25006 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18330161ms at 2021-03-20 00:00:01.000
+2021-03-19 18:57:52,260 INFO 25148 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34327742ms at 2021-03-20 04:30:00.002
+2021-03-19 18:57:52,260 INFO 25148 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18127740ms at 2021-03-20 00:00:00.000
+2021-03-19 18:57:52,261 INFO 25148 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18128740ms at 2021-03-20 00:00:01.001
+2021-03-19 18:57:51,651 INFO 25158 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-19 18:57:51,651 INFO 25158 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-19 18:57:51,651 INFO 25158 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-22 09:55:03,253 INFO 3596 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-22 09:55:03,253 INFO 3596 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-22 09:55:03,253 INFO 3596 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-22 09:55:03,916 INFO 3592 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 66896087ms at 2021-03-23 04:30:00.003
+2021-03-22 09:55:03,917 INFO 3592 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 50696084ms at 2021-03-23 00:00:00.001
+2021-03-22 09:55:03,917 INFO 3592 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 50697083ms at 2021-03-23 00:00:01.000
+2021-03-22 10:20:15,507 INFO 6057 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-22 10:20:15,507 INFO 6057 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-22 10:20:15,507 INFO 6057 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-22 10:20:16,389 INFO 6052 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65383614ms at 2021-03-23 04:30:00.003
+2021-03-22 10:20:16,389 INFO 6052 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49183611ms at 2021-03-23 00:00:00.000
+2021-03-22 10:20:16,390 INFO 6052 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49184611ms at 2021-03-23 00:00:01.001
+2021-03-22 10:25:15,270 INFO 6594 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-22 10:25:15,270 INFO 6594 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-22 10:25:15,270 INFO 6594 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-22 10:25:16,188 INFO 6590 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65083815ms at 2021-03-23 04:30:00.003
+2021-03-22 10:25:16,188 INFO 6590 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48883812ms at 2021-03-23 00:00:00.000
+2021-03-22 10:25:16,189 INFO 6590 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48884812ms at 2021-03-23 00:00:01.001
+2021-03-22 10:31:52,343 INFO 7372 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-22 10:31:52,343 INFO 7372 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-22 10:31:52,343 INFO 7372 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-22 10:31:53,184 INFO 7253 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 64686819ms at 2021-03-23 04:30:00.002
+2021-03-22 10:31:53,184 INFO 7253 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48486816ms at 2021-03-23 00:00:00.000
+2021-03-22 10:31:53,184 INFO 7253 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48487816ms at 2021-03-23 00:00:01.000
+2021-03-22 11:34:46,866 INFO 13197 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-22 11:34:46,866 INFO 13197 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-22 11:34:46,866 INFO 13197 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-22 11:34:47,572 INFO 13185 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60912431ms at 2021-03-23 04:30:00.003
+2021-03-22 11:34:47,572 INFO 13185 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 44712428ms at 2021-03-23 00:00:00.000
+2021-03-22 11:34:47,573 INFO 13185 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 44713428ms at 2021-03-23 00:00:01.001
+2021-03-22 14:09:26,594 INFO 2551 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-22 14:09:26,594 INFO 2551 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-22 14:09:26,594 INFO 2551 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-22 14:09:27,777 INFO 2543 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51632229ms at 2021-03-23 04:30:00.006
+2021-03-22 14:09:27,777 INFO 2543 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35432223ms at 2021-03-23 00:00:00.000
+2021-03-22 14:09:27,777 INFO 2543 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35433223ms at 2021-03-23 00:00:01.000
+2021-03-23 10:10:15,111 INFO 3218 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-23 10:10:15,111 INFO 3218 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-23 10:10:15,111 INFO 3218 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-23 10:10:16,254 INFO 3212 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65983749ms at 2021-03-24 04:30:00.003
+2021-03-23 10:10:16,256 INFO 3212 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49783745ms at 2021-03-24 00:00:00.001
+2021-03-23 10:10:16,257 INFO 3212 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49784744ms at 2021-03-24 00:00:01.001
+2021-03-23 10:39:36,688 INFO 5437 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-23 10:39:36,688 INFO 5437 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-23 10:39:36,688 INFO 5437 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-23 10:39:37,516 INFO 5429 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 64222487ms at 2021-03-24 04:30:00.003
+2021-03-23 10:39:37,516 INFO 5429 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48022484ms at 2021-03-24 00:00:00.000
+2021-03-23 10:39:37,517 INFO 5429 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48023484ms at 2021-03-24 00:00:01.001
+2021-03-23 11:11:11,961 INFO 8744 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-23 11:11:11,961 INFO 8744 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-23 11:11:11,961 INFO 8744 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-23 11:11:12,772 INFO 8735 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62327231ms at 2021-03-24 04:30:00.003
+2021-03-23 11:11:12,773 INFO 8735 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46127227ms at 2021-03-24 00:00:00.000
+2021-03-23 11:11:12,773 INFO 8735 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46128227ms at 2021-03-24 00:00:01.000
+2021-03-23 11:58:33,961 INFO 12297 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-23 11:58:33,961 INFO 12297 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-23 11:58:33,961 INFO 12297 [egg-schedule]: register schedule /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-23 11:58:34,683 INFO 12290 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 59485320ms at 2021-03-24 04:30:00.003
+2021-03-23 11:58:34,683 INFO 12290 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43285317ms at 2021-03-24 00:00:00.000
+2021-03-23 11:58:34,684 INFO 12290 [Timer] /Volumes/PSSD/clickh5/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43286317ms at 2021-03-24 00:00:01.001
+2021-04-11 12:54:55,174 INFO 1394 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 12:54:55,174 INFO 1394 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 12:54:55,174 INFO 1394 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 12:54:57,558 INFO 1377 [Timer] /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 56102446ms at 2021-04-12 04:30:00.004
+2021-04-11 12:54:57,558 INFO 1377 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 39902442ms at 2021-04-12 00:00:00.000
+2021-04-11 12:54:57,559 INFO 1377 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 39903442ms at 2021-04-12 00:00:01.001
+2021-04-11 15:37:09,146 INFO 3273 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 15:37:09,146 INFO 3273 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 15:37:09,146 INFO 3273 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 15:37:10,020 INFO 3261 [Timer] /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46369987ms at 2021-04-12 04:30:00.007
+2021-04-11 15:37:10,020 INFO 3261 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30169980ms at 2021-04-12 00:00:00.000
+2021-04-11 15:37:10,020 INFO 3261 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30170980ms at 2021-04-12 00:00:01.000
+2021-04-11 15:51:05,449 INFO 4866 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 15:51:05,449 INFO 4866 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 15:51:05,449 INFO 4866 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 15:51:06,761 INFO 4862 [Timer] /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45533241ms at 2021-04-12 04:30:00.002
+2021-04-11 15:51:06,762 INFO 4862 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29333239ms at 2021-04-12 00:00:00.001
+2021-04-11 15:51:06,762 INFO 4862 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29334238ms at 2021-04-12 00:00:01.000
+2021-04-11 16:21:01,708 INFO 7440 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 16:21:01,708 INFO 7440 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 16:21:01,708 INFO 7440 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 16:21:03,032 INFO 7433 [Timer] /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43736971ms at 2021-04-12 04:30:00.003
+2021-04-11 16:21:03,032 INFO 7433 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 27536968ms at 2021-04-12 00:00:00.000
+2021-04-11 16:21:03,033 INFO 7433 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27537968ms at 2021-04-12 00:00:01.001
+2021-04-11 18:51:06,441 INFO 20283 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 18:51:06,441 INFO 20283 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 18:51:06,441 INFO 20283 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 18:51:07,237 INFO 20275 [Timer] /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34732765ms at 2021-04-12 04:30:00.002
+2021-04-11 18:51:07,237 INFO 20275 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18532763ms at 2021-04-12 00:00:00.000
+2021-04-11 18:51:07,240 INFO 20275 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18533763ms at 2021-04-12 00:00:01.003
+2021-04-11 18:52:41,870 INFO 20373 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 18:52:41,870 INFO 20373 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 18:52:41,870 INFO 20373 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 18:52:44,123 INFO 20364 [Timer] /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34635888ms at 2021-04-12 04:30:00.011
+2021-04-11 18:52:44,125 INFO 20364 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18435877ms at 2021-04-12 00:00:00.002
+2021-04-11 18:52:44,127 INFO 20364 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18436875ms at 2021-04-12 00:00:01.002
+2021-04-11 19:37:42,690 INFO 23515 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 19:37:42,690 INFO 23515 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 19:37:42,690 INFO 23515 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 19:38:05,012 INFO 23589 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 19:38:05,012 INFO 23589 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 19:38:05,012 INFO 23589 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 19:38:10,123 INFO 23609 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 19:38:10,123 INFO 23609 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 19:38:10,123 INFO 23609 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 19:38:32,322 INFO 23701 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 19:38:32,322 INFO 23701 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 19:38:32,322 INFO 23701 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 19:38:40,537 INFO 23767 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 19:38:40,537 INFO 23767 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 19:38:40,537 INFO 23767 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 19:38:44,544 INFO 23802 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 19:38:44,544 INFO 23802 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 19:38:44,544 INFO 23802 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 21:31:39,039 INFO 27853 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 21:31:39,039 INFO 27853 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 21:31:39,040 INFO 27853 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 21:31:40,113 INFO 27843 [Timer] /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 25099890ms at 2021-04-12 04:30:00.003
+2021-04-11 21:31:40,114 INFO 27843 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 8899887ms at 2021-04-12 00:00:00.001
+2021-04-11 21:31:40,114 INFO 27843 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 8900886ms at 2021-04-12 00:00:01.000
+2021-04-11 22:00:21,162 INFO 30328 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-11 22:00:21,162 INFO 30328 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-11 22:00:21,162 INFO 30328 [egg-schedule]: register schedule /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-11 22:00:22,789 INFO 30323 [Timer] /Volumes/PSSD/JDP/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23377213ms at 2021-04-12 04:30:00.002
+2021-04-11 22:00:22,790 INFO 30323 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 7177210ms at 2021-04-12 00:00:00.000
+2021-04-11 22:00:22,790 INFO 30323 [Timer] /Volumes/PSSD/JDP/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7178210ms at 2021-04-12 00:00:01.000

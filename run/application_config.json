@@ -1,0 +1,744 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": true,
+        "type": "ctoken",
+        "ignoreJSON": false,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "refererWhiteList": []
+      },
+      "xframe": {
+        "enable": false,
+        "value": "SAMEORIGIN"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true
+      },
+      "methodnoallow": {
+        "enable": true
+      },
+      "noopen": {
+        "enable": true
+      },
+      "nosniff": {
+        "enable": true
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      }
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/onerror_page.mustache"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Volumes/PSSD/JDP/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Volumes/PSSD/JDP/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": "100kb",
+      "fields": 10,
+      "fileSize": "10mb",
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null,
+      "tmpdir": "/var/folders/qd/8qk_954j0vn342tg8qm_62wm0000gn/T/egg-multipart-tmp/beidou-example-redux",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": [
+        {
+          "prefix": "/public",
+          "dir": "/Volumes/PSSD/JDP/app/public"
+        },
+        {
+          "prefix": "/build",
+          "dir": "/Volumes/PSSD/JDP/build"
+        },
+        {
+          "prefix": "/",
+          "dir": "/Volumes/PSSD/JDP/root"
+        }
+      ],
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": "/Volumes/PSSD/JDP/app/views,/Volumes/PSSD/JDP/client",
+      "cache": false,
+      "defaultExtension": ".tsx",
+      "defaultViewEngine": "react",
+      "mapping": {},
+      "useHashAsset": true,
+      "hashAssetPath": "/Volumes/PSSD/JDP/.manifest.json"
+    },
+    "react": {
+      "middlewares": [
+        "cache",
+        "initialprops",
+        "redux",
+        "partial",
+        "render",
+        "beautify",
+        "doctype"
+      ],
+      "beautify": false,
+      "cache": false,
+      "static": true,
+      "doctype": "<!DOCTYPE html>",
+      "assetHost": "",
+      "assetPath": "/build/",
+      "placeHolder": "<!--$render$-->"
+    },
+    "webpack": {
+      "custom": {
+        "depth": 1,
+        "cssExtract": true,
+        "configPath": "/Volumes/PSSD/JDP/config/webpack.config.js"
+      },
+      "mode": "development",
+      "output": {
+        "path": "/Volumes/PSSD/JDP/dist",
+        "filename": "[name]_[chunkhash:8].js",
+        "chunkFilename": "[name]_[chunkhash:8].js",
+        "publicPath": "./"
+      },
+      "resolve": {
+        "extensions": [
+          ".json",
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ],
+        "alias": {
+          "client": "/Volumes/PSSD/JDP/client"
+        }
+      },
+      "optimization": {
+        "splitChunks": {
+          "chunks": "all",
+          "name": "manifest",
+          "cacheGroups": {
+            "default": false,
+            "vendors": false,
+            "manifest": {
+              "test": "/[\\\\/]node_modules[\\\\/]/"
+            }
+          }
+        },
+        "noEmitOnErrors": true,
+        "minimizer": [
+          {
+            "options": {
+              "test": {},
+              "extractComments": false,
+              "sourceMap": false,
+              "cache": false,
+              "parallel": true,
+              "terserOptions": {
+                "output": {
+                  "comments": {}
+                }
+              }
+            }
+          }
+        ]
+      },
+      "devServer": {
+        "contentBase": false,
+        "port": 6664,
+        "noInfo": true,
+        "quiet": false,
+        "clientLogLevel": "warning",
+        "lazy": false,
+        "watchOptions": {
+          "aggregateTimeout": 300
+        },
+        "headers": {
+          "X-Custom-Header": "yes"
+        },
+        "stats": {
+          "colors": true,
+          "chunks": false
+        },
+        "publicPath": "/build/",
+        "hot": false
+      }
+    },
+    "isomorphic": {
+      "polyfill": true,
+      "universal": {
+        "assetsFilePath": "/Volumes/PSSD/JDP/.isomorphic/assets.json",
+        "assets": [
+          ".sass",
+          ".scss",
+          ".less",
+          ".css",
+          ".bmp",
+          ".gif",
+          ".jpg",
+          ".jpeg",
+          ".png",
+          ".webp",
+          ".ico",
+          ".woff",
+          ".woff2",
+          ".svg",
+          ".svgz",
+          ".otf",
+          ".tif",
+          ".tiff",
+          ".ttf",
+          ".eot",
+          ".mid",
+          ".midi"
+        ]
+      },
+      "alias": {
+        "client": "/Volumes/PSSD/JDP/client"
+      }
+    },
+    "router": {
+      "root": "/",
+      "urlPrefix": "/",
+      "exclude": "_*",
+      "mapping": null,
+      "entry": null,
+      "exts": [
+        ".js",
+        ".jsx",
+        ".ts",
+        ".tsx"
+      ]
+    },
+    "env": "prod",
+    "name": "beidou-example-redux",
+    "keys": "<String len: 6>",
+    "cookies": {},
+    "proxy": false,
+    "maxIpsCount": 0,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "beidou-example-redux",
+      "version": "2.2.1",
+      "description": "beidou css modules template",
+      "scripts": {
+        "start": "beidou build && beidou stop --title=matche && beidou start  --port=6700 --env=prod --daemon --workers=2 --title=matche",
+        "develop": "beidou build && beidou stop --title=matche && beidou start  --port=6700 --env=develop --daemon --workers=1 --title=matche",
+        "stop": "beidou stop --title=matche",
+        "debug": "beidou debug",
+        "dev": "beidou dev --port 7001",
+        "develop:zip": "export locale='develop' && beidou build",
+        "build:zip": "export locale='prod' && beidou build",
+        "build": "beidou build",
+        "build:node": "beidou build --target=node",
+        "lint": "eslint --fix --ext .jsx,.js app client config"
+      },
+      "dependencies": {
+        "@material-ui/core": "^4.9.11",
+        "@tweenjs/tween.js": "^18.5.0",
+        "antd": "^3.26.8",
+        "antd-mobile": "^2.3.1",
+        "axios": "^0.19.0",
+        "babel-polyfill": "6.26.0",
+        "beidou": "^2.2.1",
+        "beidou-cli": "^2.1.1",
+        "canvas-exif-orientation": "^0.4.0",
+        "classnames": "^2.2.6",
+        "clipboard": "^2.0.4",
+        "dva": "^2.4.1",
+        "dva-loading": "^3.0.22",
+        "exif-js": "^2.3.0",
+        "fastclick": "^1.0.6",
+        "filemanager-webpack-plugin": "^2.0.5",
+        "hammerjs": "^2.0.8",
+        "image-conversion": "^1.1.9",
+        "immutable": "^4.0.0-rc.12",
+        "js-md5": "^0.7.3",
+        "lodash": "^4.17.15",
+        "memoize-one": "^5.1.1",
+        "moment": "^2.24.0",
+        "node-sass": "^4.11.0",
+        "phaser": "^3.23.0",
+        "qs": "^6.8.0",
+        "react": "^16.2.0",
+        "react-addons-css-transition-group": "^15.6.2",
+        "react-dom": "^16.2.0",
+        "react-hot-loader": "^4.1.2",
+        "react-i18nify": "^2.0.0-16",
+        "react-redux": "^5.0.6",
+        "react-ripples": "^2.2.1",
+        "react-router": "^5.0.1",
+        "react-router-dom": "^5.1.2",
+        "react-spring": "^8.0.27",
+        "react-sticky": "^6.0.3",
+        "react-swipe": "^6.0.4",
+        "react-swipeable-views": "^0.13.3",
+        "react-transition-group": "^4.4.1",
+        "react-wx-images-viewer": "^1.0.6",
+        "redux": "^3.7.2",
+        "redux-actions": "^2.2.1",
+        "redux-saga": "^0.16.0",
+        "reqwest": "^2.0.5",
+        "sass-loader": "^7.1.0",
+        "store2": "^2.9.0",
+        "svga.lite": "^1.3.1",
+        "swipe-js-iso": "^2.1.5",
+        "swiper": "^5.2.1",
+        "uuid": "^3.3.3",
+        "viewerjs": "^1.5.0"
+      },
+      "devDependencies": {
+        "@types/clipboard": "^2.0.1",
+        "@types/fastclick": "^1.0.29",
+        "@types/js-md5": "^0.4.2",
+        "@types/lodash": "^4.14.149",
+        "@types/qs": "^6.9.3",
+        "@types/react": "^16.9.41",
+        "@types/react-addons-css-transition-group": "^15.0.5",
+        "@types/react-dom": "^16.9.8",
+        "@types/react-redux": "^7.1.9",
+        "@types/react-router": "^5.1.8",
+        "@types/react-router-dom": "^5.1.5",
+        "@types/react-sticky": "^6.0.3",
+        "@types/react-swipe": "^6.0.0",
+        "autoprefixer": "^6.5.3",
+        "babel-eslint": "^7.1.1",
+        "babel-plugin-import": "^1.13.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "eslint": "^4.11.0",
+        "eslint-config-beidou": "^2.0.1",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-react": "^7.5.1",
+        "html-webpack-plugin": "^3.2.0",
+        "image-webpack-loader": "^6.0.0",
+        "jquery": "^3.4.1",
+        "rc-form": "^2.4.11",
+        "react-app-polyfill": "^1.0.6",
+        "react-hammerjs": "^1.0.1",
+        "regenerator-runtime": "^0.13.5",
+        "url-loader": "^4.0.0",
+        "webpack-bundle-analyzer": "^3.8.0",
+        "webpack-html-plugin": "^0.1.1",
+        "workbox-webpack-plugin": "^5.1.3",
+        "zepto": "^1.2.0"
+      },
+      "browserslist": [
+        ">1%",
+        "last 4 versions",
+        "Firefox ESR",
+        "not ie < 9"
+      ],
+      "engines": {
+        "node": ">= 8.0.0"
+      },
+      "license": "MIT",
+      "gitHead": "d057e8d9250d80be9aa345380c90549aa40ae7c7",
+      "boilerplate": {
+        "name": "beidou-example-redux",
+        "version": "2.2.1",
+        "description": "beidou css modules template"
+      },
+      "config": {
+        "typescript": true
+      }
+    },
+    "baseDir": "/Volumes/PSSD/JDP",
+    "HOME": "/Users/liuriwang",
+    "rundir": "/Volumes/PSSD/JDP/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>",
+      "/783moqzre26o7d2dtjspy8yeuzsgq9.html": "<Buffer len: 30>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "1mb",
+      "jsonLimit": "1mb",
+      "textLimit": "1mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "onerror": "<Function onerror>"
+    },
+    "logger": {
+      "dir": "/Volumes/PSSD/JDP/logs/beidou-example-redux",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "beidou-example-redux-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "bodyParser",
+      "overrideMethod"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "client": "/Volumes/PSSD/JDP/client",
+    "core": {
+      "name": "Beidou"
+    },
+    "api": {
+      "domain": "http://h5-research.devops-jdp.com/research/",
+      "reportApi": "http://di-logserver-zhangbei-test.qutoutiao.net:8887",
+      "cid": "hctest",
+      "sign_key": "4ge8u7Tibhi0HOVIjfCvwDk6Tpu2QdGN",
+      "codapay": "https://sandbox.codapayments.com/airtime/begin?type=3",
+      "ryid": "xchat-PoYRBEmLjbI1QCHS1AMGddMPXNdWRzxr",
+      "web": ""
+    },
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": [],
+    "appMiddleware": "~config~appMiddlewares"
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/egg-security",
+      "version": "2.7.1"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/egg-onerror",
+      "version": "2.1.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/egg-watcher",
+      "version": "3.1.1"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/egg-schedule",
+      "version": "3.6.4"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/egg-multipart",
+      "version": "2.10.2"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Volumes/PSSD/JDP/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/egg-development",
+      "version": "2.4.3"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/egg-logrotator",
+      "version": "3.1.0"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/egg-static",
+      "version": "2.2.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/egg/config/plugin.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/egg-view",
+      "version": "2.1.2"
+    },
+    "beidouView": {
+      "enable": true,
+      "package": "beidou-view",
+      "name": "beidouView",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/beidou-core/config/plugin.default.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/beidou-view",
+      "version": "2.1.1"
+    },
+    "react": {
+      "enable": true,
+      "package": "beidou-view-react",
+      "name": "react",
+      "dependencies": [
+        "beidouView"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/beidou-core/config/plugin.default.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/beidou-view-react",
+      "version": "2.1.1"
+    },
+    "webpack": {
+      "enable": true,
+      "package": "beidou-webpack",
+      "env": [
+        "local",
+        "unittest"
+      ],
+      "name": "webpack",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/beidou-core/config/plugin.default.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/beidou-webpack",
+      "version": "2.2.1"
+    },
+    "isomorphic": {
+      "enable": true,
+      "package": "beidou-isomorphic",
+      "name": "isomorphic",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/beidou-core/config/plugin.default.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/beidou-isomorphic",
+      "version": "2.0.1"
+    },
+    "router": {
+      "enable": true,
+      "package": "beidou-router",
+      "name": "router",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Volumes/PSSD/JDP/node_modules/beidou-core/config/plugin.default.js",
+      "path": "/Volumes/PSSD/JDP/node_modules/beidou-router",
+      "version": "2.0.1"
+    }
+  }
+}

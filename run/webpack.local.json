@@ -1,0 +1,493 @@
+{
+  "mode": "development",
+  "output": {
+    "path": "/Volumes/PSSD/JDP/build",
+    "filename": "[name].js?[hash]",
+    "chunkFilename": "[name].js",
+    "publicPath": "/build/"
+  },
+  "resolve": {
+    "extensions": [
+      ".json",
+      ".js",
+      ".jsx",
+      ".ts",
+      ".tsx"
+    ],
+    "alias": {
+      "client": "/Volumes/PSSD/JDP/client"
+    }
+  },
+  "optimization": {
+    "splitChunks": {
+      "chunks": "async",
+      "name": true,
+      "cacheGroups": {
+        "react": {
+          "chunks": "all",
+          "test": "/[\\\\/]node_modules[\\\\/](react|react-dom|react-is|react-router|react-router-dom)[\\\\/]/",
+          "name": "react"
+        },
+        "default": {
+          "automaticNamePrefix": "",
+          "reuseExistingChunk": true,
+          "minChunks": 2,
+          "priority": -20
+        },
+        "vendors": {
+          "automaticNamePrefix": "vendors",
+          "test": "/[\\\\/]node_modules[\\\\/]/",
+          "priority": -10
+        }
+      },
+      "hidePathInfo": false,
+      "minSize": 10000,
+      "minChunks": 1,
+      "maxAsyncRequests": null,
+      "automaticNameDelimiter": "~",
+      "automaticNameMaxLength": 109,
+      "maxInitialRequests": null
+    },
+    "noEmitOnErrors": true
+  },
+  "devServer": {
+    "contentBase": false,
+    "port": 6814,
+    "noInfo": true,
+    "quiet": false,
+    "clientLogLevel": "warning",
+    "lazy": false,
+    "watchOptions": {
+      "aggregateTimeout": 300
+    },
+    "headers": {
+      "X-Custom-Header": "yes"
+    },
+    "stats": {
+      "colors": true,
+      "chunks": false
+    },
+    "publicPath": "/build/",
+    "hot": true,
+    "contentBasePublicPath": "/",
+    "transportMode": {
+      "server": "sockjs",
+      "client": "sockjs"
+    }
+  },
+  "bail": false,
+  "devtool": "eval-source-map",
+  "context": "/Volumes/PSSD/JDP",
+  "entry": {
+    "index": [
+      "client/pages/index/index.tsx"
+    ]
+  },
+  "module": {
+    "strictExportPresence": true,
+    "rules": [
+      {
+        "test": "/\\.(js|jsx|ts|tsx|mjs)$/",
+        "exclude": "/node_modules/",
+        "use": {
+          "loader": "/Volumes/PSSD/JDP/node_modules/babel-loader/lib/index.js",
+          "options": {
+            "babelrc": true,
+            "presets": [
+              [
+                "/Volumes/PSSD/JDP/node_modules/babel-preset-beidou-client/index.js",
+                {
+                  "typescript": true
+                }
+              ]
+            ],
+            "cacheDirectory": true,
+            "compact": false,
+            "highlightCode": true
+          }
+        }
+      },
+      {
+        "test": "/\\.css$/",
+        "exclude": "/\\.m(odule)?\\.css$/",
+        "use": [
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/mini-css-extract-plugin/dist/loader.js",
+            "options": {
+              "hmr": true
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/css-loader/index.js",
+            "options": {
+              "importLoaders": 1,
+              "minimize": false,
+              "sourceMap": true,
+              "modules": false
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/postcss-loader/lib/index.js",
+            "options": {
+              "ident": "postcss"
+            }
+          }
+        ]
+      },
+      {
+        "test": "/\\.m(odule)?\\.css$/",
+        "use": [
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/mini-css-extract-plugin/dist/loader.js",
+            "options": {
+              "hmr": true
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/css-loader/index.js",
+            "options": {
+              "importLoaders": 1,
+              "minimize": false,
+              "sourceMap": true,
+              "modules": true,
+              "localIdentName": "[local]_[hash:base64:5]"
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/postcss-loader/lib/index.js",
+            "options": {
+              "ident": "postcss"
+            }
+          }
+        ]
+      },
+      {
+        "test": "/\\.less$/",
+        "exclude": "/\\.m(odule)?\\.less$/",
+        "use": [
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/mini-css-extract-plugin/dist/loader.js",
+            "options": {
+              "hmr": true
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/css-loader/index.js",
+            "options": {
+              "importLoaders": 1,
+              "minimize": false,
+              "sourceMap": true,
+              "modules": false
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/postcss-loader/lib/index.js",
+            "options": {
+              "ident": "postcss"
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/less-loader/dist/cjs.js",
+            "options": {
+              "javascriptEnabled": true
+            }
+          }
+        ]
+      },
+      {
+        "test": "/\\.m(odule)?\\.less$/",
+        "use": [
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/mini-css-extract-plugin/dist/loader.js",
+            "options": {
+              "hmr": true
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/css-loader/index.js",
+            "options": {
+              "importLoaders": 1,
+              "minimize": false,
+              "sourceMap": true,
+              "modules": true,
+              "localIdentName": "[local]_[hash:base64:5]"
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/postcss-loader/lib/index.js",
+            "options": {
+              "ident": "postcss"
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/less-loader/dist/cjs.js",
+            "options": {
+              "javascriptEnabled": true
+            }
+          }
+        ]
+      },
+      {
+        "test": "/\\.s(c|a)ss$/",
+        "exclude": "/\\.m(odule)?\\.s(c|a)ss$/",
+        "use": [
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/mini-css-extract-plugin/dist/loader.js",
+            "options": {
+              "hmr": true
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/css-loader/index.js",
+            "options": {
+              "importLoaders": 1,
+              "minimize": false,
+              "sourceMap": true,
+              "modules": false
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/postcss-loader/lib/index.js",
+            "options": {
+              "ident": "postcss"
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/sass-loader/dist/cjs.js"
+          }
+        ]
+      },
+      {
+        "test": "/\\.m(odule)?\\.s(c|a)ss$/",
+        "use": [
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/mini-css-extract-plugin/dist/loader.js",
+            "options": {
+              "hmr": true
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/css-loader/index.js",
+            "options": {
+              "importLoaders": 1,
+              "minimize": false,
+              "sourceMap": true,
+              "modules": true,
+              "localIdentName": "[local]_[hash:base64:5]"
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/postcss-loader/lib/index.js",
+            "options": {
+              "ident": "postcss"
+            }
+          },
+          {
+            "loader": "/Volumes/PSSD/JDP/node_modules/sass-loader/dist/cjs.js"
+          }
+        ]
+      },
+      {
+        "test": [
+          "/\\.bmp$/",
+          "/\\.gif$/",
+          "/\\.jpe?g$/",
+          "/\\.png$/",
+          "/\\.webp$/"
+        ],
+        "loader": "/Volumes/PSSD/JDP/node_modules/beidou-webpack/node_modules/url-loader/index.js",
+        "options": {
+          "limit": 10000,
+          "name": "[name]-[hash:5].[ext]"
+        }
+      },
+      {
+        "test": [
+          "/\\.ico$/",
+          "/\\.svgz?$/",
+          "/\\.woff2?$/",
+          "/\\.otf$/",
+          "/\\.tiff?$/",
+          "/\\.ttf$/",
+          "/\\.eot$/",
+          "/\\.midi?$/"
+        ],
+        "loader": "/Volumes/PSSD/JDP/node_modules/file-loader/dist/cjs.js",
+        "options": {
+          "name": "[name]-[hash:5].[ext]"
+        }
+      }
+    ]
+  },
+  "plugins": [
+    {
+      "<IsomorphicPlugin>": {
+        "options": {
+          "assetsFilePath": "/Volumes/PSSD/JDP/.isomorphic/assets.json",
+          "assets": [
+            ".sass",
+            ".scss",
+            ".less",
+            ".css",
+            ".bmp",
+            ".gif",
+            ".jpg",
+            ".jpeg",
+            ".png",
+            ".webp",
+            ".ico",
+            ".woff",
+            ".woff2",
+            ".svg",
+            ".svgz",
+            ".otf",
+            ".tif",
+            ".tiff",
+            ".ttf",
+            ".eot",
+            ".mid",
+            ".midi"
+          ],
+          "context": "/Volumes/PSSD/JDP"
+        },
+        "exts": {
+          ".sass": {
+            "ext": ".sass",
+            "exclude": "node_modules"
+          },
+          ".scss": {
+            "ext": ".scss",
+            "exclude": "node_modules"
+          },
+          ".less": {
+            "ext": ".less",
+            "exclude": "node_modules"
+          },
+          ".css": {
+            "ext": ".css",
+            "exclude": "node_modules"
+          },
+          ".bmp": {
+            "ext": ".bmp",
+            "exclude": "node_modules"
+          },
+          ".gif": {
+            "ext": ".gif",
+            "exclude": "node_modules"
+          },
+          ".jpg": {
+            "ext": ".jpg",
+            "exclude": "node_modules"
+          },
+          ".jpeg": {
+            "ext": ".jpeg",
+            "exclude": "node_modules"
+          },
+          ".png": {
+            "ext": ".png",
+            "exclude": "node_modules"
+          },
+          ".webp": {
+            "ext": ".webp",
+            "exclude": "node_modules"
+          },
+          ".ico": {
+            "ext": ".ico",
+            "exclude": "node_modules"
+          },
+          ".woff": {
+            "ext": ".woff",
+            "exclude": "node_modules"
+          },
+          ".woff2": {
+            "ext": ".woff2",
+            "exclude": "node_modules"
+          },
+          ".svg": {
+            "ext": ".svg",
+            "exclude": "node_modules"
+          },
+          ".svgz": {
+            "ext": ".svgz",
+            "exclude": "node_modules"
+          },
+          ".otf": {
+            "ext": ".otf",
+            "exclude": "node_modules"
+          },
+          ".tif": {
+            "ext": ".tif",
+            "exclude": "node_modules"
+          },
+          ".tiff": {
+            "ext": ".tiff",
+            "exclude": "node_modules"
+          },
+          ".ttf": {
+            "ext": ".ttf",
+            "exclude": "node_modules"
+          },
+          ".eot": {
+            "ext": ".eot",
+            "exclude": "node_modules"
+          },
+          ".mid": {
+            "ext": ".mid",
+            "exclude": "node_modules"
+          },
+          ".midi": {
+            "ext": ".midi",
+            "exclude": "node_modules"
+          }
+        },
+        "fs": {
+          "<MemoryFileSystem>": {
+            "data": {}
+          }
+        }
+      }
+    },
+    {
+      "<DefinePlugin>": {
+        "definitions": {
+          "process.env.NODE_ENV": "\"development\"",
+          "process.env.BABEL_ENV": "\"development\"",
+          "__CLIENT__": true,
+          "__DEV__": true,
+          "__SERVER__": false
+        }
+      }
+    },
+    {
+      "<HotModuleReplacementPlugin>": {
+        "options": {},
+        "fullBuildTimeout": 200,
+        "requestTimeout": 10000
+      }
+    },
+    {
+      "<MiniCssExtractPlugin>": {
+        "options": {
+          "filename": "[name].css",
+          "chunkFilename": "[name].css"
+        }
+      }
+    },
+    {
+      "<CleanWebpackPlugin>": {
+        "dangerouslyAllowCleanPatternsOutsideProject": false,
+        "dry": false,
+        "verbose": false,
+        "cleanStaleWebpackAssets": true,
+        "protectWebpackAssets": true,
+        "cleanAfterEveryBuildPatterns": [],
+        "cleanOnceBeforeBuildPatterns": [
+          "**/*"
+        ],
+        "currentAssets": [],
+        "initialClean": false,
+        "outputPath": "/Volumes/PSSD/JDP/build"
+      }
+    }
+  ]
+}
