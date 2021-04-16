@@ -12,24 +12,33 @@
     align-items: center;
     justify-content: start;
     background:$active;
-    font-size:rem(10);
+    font-size:rem(18);
     color:$deepColor;
     padding:rem(8);
     border-top-left-radius: px2rem(8);
     border-top-right-radius: px2rem(8);
     line-height: 1.3;
+    font-weight: 500;
+    span{
+      color:#cd0e2d;
+      margin-right:rem(3);
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
   }
   .list_{
     display: flex;
     align-items: center;
     // border-bottom: 0.5px solid $border;
-    font-size:rem(8);
+    font-size:rem(16);
     padding:rem(8);
     width:100%;
     box-sizing: border-box;
     line-height: 1.3;
     position: relative;
     border:none;
+    overflow: hidden;
+    color:#545454;
     &:after{
       content: '';
       position: absolute;
@@ -50,6 +59,11 @@
       background:#fbf7f7;
     }
     &:last-child{
+      &.ed{
+        background:#fbf7f7;
+        border-bottom-left-radius: px2rem(8);
+        border-bottom-right-radius: px2rem(8);
+      }
       &:after{
         content: '';
         position: absolute;
@@ -65,8 +79,8 @@
       }
     }
     .radio{
-      width:rem(15);
-      height:rem(15);
+      width:rem(18);
+      height:rem(18);
       flex-shrink: 0;
       background:url(#{$path}/radio.png) center center no-repeat;
       background-size: contain;
@@ -76,8 +90,8 @@
       }
     }
     .checkbox{
-      width:rem(15);
-      height:rem(15);
+      width:rem(18);
+      height:rem(18);
       flex-shrink: 0;
       background:url(#{$path}/checkbox.png) center center no-repeat;
       background-size: contain;

@@ -798,3 +798,308 @@
 2021-04-11 22:00:27,636 INFO 30323 [webpack] [32mcompile done[39m
 2021-04-11 22:00:27,743 INFO 30323 [webpack] webpack server start, listen on port: 6814
 2021-04-11 22:13:02,572 INFO 30323 [webpack] [32mcompile done[39m
+2021-04-12 12:59:21,534 INFO 4513 [Beidou Agent] Beidou Agent started, pid is 4513
+2021-04-12 12:59:21,525 INFO 4513 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 12:59:21,534 INFO 4513 [egg:core] dump config after load, 5ms
+2021-04-12 12:59:21,617 INFO 4513 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 12:59:21,617 INFO 4513 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 12:59:21,617 INFO 4513 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 12:59:21,617 INFO 4513 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 12:59:21,617 INFO 4513 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 12:59:21,617 INFO 4513 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 12:59:21,618 INFO 4513 [egg-watcher:agent] watcher start success
+2021-04-12 12:59:23,324 INFO 4513 [egg:core] dump config after ready, 6ms
+2021-04-12 12:59:31,880 INFO 4513 [webpack] [32mcompile done[39m
+2021-04-12 12:59:32,029 INFO 4513 [webpack] webpack server start, listen on port: 6002
+2021-04-12 13:19:58,496 INFO 5462 [Beidou Agent] Beidou Agent started, pid is 5462
+2021-04-12 13:19:58,483 INFO 5462 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 13:19:58,495 INFO 5462 [egg:core] dump config after load, 5ms
+2021-04-12 13:19:58,577 INFO 5462 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 13:19:58,577 INFO 5462 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 13:19:58,578 INFO 5462 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 13:19:58,578 INFO 5462 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 13:19:58,578 INFO 5462 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 13:19:58,578 INFO 5462 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 13:19:58,578 INFO 5462 [egg-watcher:agent] watcher start success
+2021-04-12 13:20:00,526 INFO 5462 [egg:core] dump config after ready, 23ms
+2021-04-12 13:20:10,048 INFO 5462 [webpack] webpack server start, listen on port: 6002
+2021-04-12 13:22:02,844 INFO 5462 [webpack] [32mcompile done[39m
+2021-04-12 13:24:07,802 INFO 5462 [webpack] [32mcompile done[39m
+2021-04-12 13:29:05,976 INFO 5462 [webpack] [32mcompile done[39m
+2021-04-12 13:51:48,153 INFO 6887 [Beidou Agent] Beidou Agent started, pid is 6887
+2021-04-12 13:51:48,136 INFO 6887 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 13:51:48,153 INFO 6887 [egg:core] dump config after load, 6ms
+2021-04-12 13:51:48,251 INFO 6887 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 13:51:48,251 INFO 6887 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 13:51:48,252 INFO 6887 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 13:51:48,252 INFO 6887 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 13:51:48,252 INFO 6887 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 13:51:48,252 INFO 6887 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 13:51:48,252 INFO 6887 [egg-watcher:agent] watcher start success
+2021-04-12 13:51:50,007 INFO 6887 [egg:core] dump config after ready, 8ms
+2021-04-12 13:51:59,095 INFO 6887 [webpack] [32mcompile done[39m
+2021-04-12 13:51:59,156 INFO 6887 [webpack] webpack server start, listen on port: 6002
+2021-04-12 17:38:54,342 INFO 10592 [Beidou Agent] Beidou Agent started, pid is 10592
+2021-04-12 17:38:54,333 INFO 10592 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 17:38:54,342 INFO 10592 [egg:core] dump config after load, 5ms
+2021-04-12 17:38:54,418 INFO 10592 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 17:38:54,418 INFO 10592 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 17:38:54,418 INFO 10592 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 17:38:54,418 INFO 10592 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 17:38:54,419 INFO 10592 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 17:38:54,419 INFO 10592 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 17:38:54,419 INFO 10592 [egg-watcher:agent] watcher start success
+2021-04-12 17:38:56,651 INFO 10592 [egg:core] dump config after ready, 25ms
+2021-04-12 17:39:07,266 INFO 10592 [webpack] [32mcompile done[39m
+2021-04-12 17:39:07,390 INFO 10592 [webpack] webpack server start, listen on port: 6002
+2021-04-12 17:48:56,800 INFO 10592 [webpack] [32mcompile done[39m
+2021-04-12 19:01:05,127 INFO 16042 [Beidou Agent] Beidou Agent started, pid is 16042
+2021-04-12 19:01:05,116 INFO 16042 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 19:01:05,127 INFO 16042 [egg:core] dump config after load, 5ms
+2021-04-12 19:01:05,216 INFO 16042 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 19:01:05,216 INFO 16042 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 19:01:05,216 INFO 16042 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 19:01:05,216 INFO 16042 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 19:01:05,216 INFO 16042 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 19:01:05,217 INFO 16042 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 19:01:05,217 INFO 16042 [egg-watcher:agent] watcher start success
+2021-04-12 19:01:07,292 INFO 16042 [egg:core] dump config after ready, 7ms
+2021-04-12 19:01:16,419 INFO 16042 [webpack] webpack server start, listen on port: 6002
+2021-04-12 19:02:25,800 INFO 16042 [webpack] [32mcompile done[39m
+2021-04-12 20:11:53,805 INFO 20805 [Beidou Agent] Beidou Agent started, pid is 20805
+2021-04-12 20:11:54,064 WARN 20805 [webpack] port 6002 is in used, use 6822 instead
+2021-04-12 20:11:53,795 INFO 20805 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 20:11:53,805 INFO 20805 [egg:core] dump config after load, 6ms
+2021-04-12 20:11:53,881 INFO 20805 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 20:11:53,881 INFO 20805 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 20:11:53,881 INFO 20805 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 20:11:53,881 INFO 20805 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 20:11:53,882 INFO 20805 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 20:11:53,882 INFO 20805 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 20:11:53,882 INFO 20805 [egg-watcher:agent] watcher start success
+2021-04-12 20:11:55,392 INFO 20805 [egg:core] dump config after ready, 7ms
+2021-04-12 20:13:27,665 INFO 20894 [Beidou Agent] Beidou Agent started, pid is 20894
+2021-04-12 20:13:27,656 INFO 20894 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 20:13:27,665 INFO 20894 [egg:core] dump config after load, 5ms
+2021-04-12 20:13:27,737 INFO 20894 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 20:13:27,737 INFO 20894 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 20:13:27,738 INFO 20894 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 20:13:27,738 INFO 20894 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 20:13:27,738 INFO 20894 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 20:13:27,738 INFO 20894 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 20:13:27,738 INFO 20894 [egg-watcher:agent] watcher start success
+2021-04-12 20:13:29,306 INFO 20894 [egg:core] dump config after ready, 25ms
+2021-04-12 20:13:36,444 INFO 20894 [webpack] webpack server start, listen on port: 6002
+2021-04-12 20:17:13,264 INFO 21125 [Beidou Agent] Beidou Agent started, pid is 21125
+2021-04-12 20:17:13,255 INFO 21125 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 20:17:13,264 INFO 21125 [egg:core] dump config after load, 5ms
+2021-04-12 20:17:13,338 INFO 21125 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 20:17:13,338 INFO 21125 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 20:17:13,339 INFO 21125 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 20:17:13,339 INFO 21125 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 20:17:13,339 INFO 21125 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 20:17:13,339 INFO 21125 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 20:17:13,339 INFO 21125 [egg-watcher:agent] watcher start success
+2021-04-12 20:17:14,766 INFO 21125 [egg:core] dump config after ready, 23ms
+2021-04-12 20:17:24,144 INFO 21125 [webpack] webpack server start, listen on port: 6002
+2021-04-12 20:19:34,829 INFO 21336 [Beidou Agent] Beidou Agent started, pid is 21336
+2021-04-12 20:19:34,811 INFO 21336 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 20:19:34,829 INFO 21336 [egg:core] dump config after load, 7ms
+2021-04-12 20:19:34,997 INFO 21336 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 20:19:34,998 INFO 21336 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 20:19:34,998 INFO 21336 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 20:19:34,998 INFO 21336 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 20:19:34,998 INFO 21336 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 20:19:34,998 INFO 21336 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 20:19:34,999 INFO 21336 [egg-watcher:agent] watcher start success
+2021-04-12 20:19:37,930 INFO 21336 [egg:core] dump config after ready, 67ms
+2021-04-12 20:19:50,823 INFO 21336 [webpack] [32mcompile done[39m
+2021-04-12 20:19:51,065 INFO 21336 [webpack] webpack server start, listen on port: 6002
+2021-04-12 20:22:30,923 INFO 21336 [webpack] [32mcompile done[39m
+2021-04-12 20:23:18,878 INFO 21820 [Beidou Agent] Beidou Agent started, pid is 21820
+2021-04-12 20:23:18,869 INFO 21820 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 20:23:18,878 INFO 21820 [egg:core] dump config after load, 5ms
+2021-04-12 20:23:18,947 INFO 21820 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 20:23:18,947 INFO 21820 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 20:23:18,948 INFO 21820 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 20:23:18,948 INFO 21820 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 20:23:18,948 INFO 21820 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 20:23:18,948 INFO 21820 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 20:23:18,948 INFO 21820 [egg-watcher:agent] watcher start success
+2021-04-12 20:23:20,308 INFO 21820 [egg:core] dump config after ready, 28ms
+2021-04-12 20:23:29,113 INFO 21820 [webpack] [32mcompile done[39m
+2021-04-12 20:23:29,177 INFO 21820 [webpack] webpack server start, listen on port: 6002
+2021-04-12 21:19:34,402 INFO 22236 [Beidou Agent] Beidou Agent started, pid is 22236
+2021-04-12 21:19:34,393 INFO 22236 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 21:19:34,402 INFO 22236 [egg:core] dump config after load, 5ms
+2021-04-12 21:19:34,485 INFO 22236 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 21:19:34,485 INFO 22236 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 21:19:34,485 INFO 22236 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 21:19:34,486 INFO 22236 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 21:19:34,486 INFO 22236 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 21:19:34,486 INFO 22236 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 21:19:34,486 INFO 22236 [egg-watcher:agent] watcher start success
+2021-04-12 21:19:36,298 INFO 22236 [egg:core] dump config after ready, 6ms
+2021-04-12 21:19:45,328 INFO 22236 [webpack] [32mcompile done[39m
+2021-04-12 21:19:45,383 INFO 22236 [webpack] webpack server start, listen on port: 6002
+2021-04-12 21:21:42,461 INFO 22489 [Beidou Agent] Beidou Agent started, pid is 22489
+2021-04-12 21:21:42,451 INFO 22489 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 21:21:42,461 INFO 22489 [egg:core] dump config after load, 4ms
+2021-04-12 21:21:42,562 INFO 22489 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 21:21:42,562 INFO 22489 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 21:21:42,563 INFO 22489 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 21:21:42,563 INFO 22489 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 21:21:42,563 INFO 22489 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 21:21:42,563 INFO 22489 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 21:21:42,563 INFO 22489 [egg-watcher:agent] watcher start success
+2021-04-12 21:21:44,568 INFO 22489 [egg:core] dump config after ready, 21ms
+2021-04-12 21:21:55,978 INFO 22489 [webpack] [32mcompile done[39m
+2021-04-12 21:21:56,041 INFO 22489 [webpack] webpack server start, listen on port: 6002
+2021-04-12 23:16:40,936 INFO 1200 [Beidou Agent] Beidou Agent started, pid is 1200
+2021-04-12 23:16:40,927 INFO 1200 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-12 23:16:40,935 INFO 1200 [egg:core] dump config after load, 4ms
+2021-04-12 23:16:41,014 INFO 1200 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-12 23:16:41,014 INFO 1200 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-12 23:16:41,015 INFO 1200 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-12 23:16:41,015 INFO 1200 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-12 23:16:41,015 INFO 1200 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-12 23:16:41,015 INFO 1200 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-12 23:16:41,015 INFO 1200 [egg-watcher:agent] watcher start success
+2021-04-12 23:16:43,208 INFO 1200 [egg:core] dump config after ready, 9ms
+2021-04-12 23:16:56,766 INFO 1200 [webpack] [32mcompile done[39m
+2021-04-12 23:16:56,900 INFO 1200 [webpack] webpack server start, listen on port: 6002
+2021-04-13 13:45:25,137 INFO 4628 [Beidou Agent] Beidou Agent started, pid is 4628
+2021-04-13 13:45:25,128 INFO 4628 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-13 13:45:25,137 INFO 4628 [egg:core] dump config after load, 5ms
+2021-04-13 13:45:25,224 INFO 4628 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-13 13:45:25,224 INFO 4628 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-13 13:45:25,225 INFO 4628 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-13 13:45:25,225 INFO 4628 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-13 13:45:25,225 INFO 4628 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-13 13:45:25,225 INFO 4628 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-13 13:45:25,225 INFO 4628 [egg-watcher:agent] watcher start success
+2021-04-13 13:45:27,676 INFO 4628 [egg:core] dump config after ready, 7ms
+2021-04-13 13:45:37,780 INFO 4628 [webpack] [32mcompile done[39m
+2021-04-13 13:45:37,874 INFO 4628 [webpack] webpack server start, listen on port: 6002
+2021-04-13 13:54:40,484 INFO 5149 [Beidou Agent] Beidou Agent started, pid is 5149
+2021-04-13 13:54:40,471 INFO 5149 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-13 13:54:40,484 INFO 5149 [egg:core] dump config after load, 5ms
+2021-04-13 13:54:40,578 INFO 5149 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-13 13:54:40,578 INFO 5149 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-13 13:54:40,578 INFO 5149 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-13 13:54:40,578 INFO 5149 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-13 13:54:40,578 INFO 5149 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-13 13:54:40,578 INFO 5149 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-13 13:54:40,579 INFO 5149 [egg-watcher:agent] watcher start success
+2021-04-13 13:54:42,742 INFO 5149 [egg:core] dump config after ready, 30ms
+2021-04-13 13:54:53,636 INFO 5149 [webpack] [32mcompile done[39m
+2021-04-13 13:54:53,767 INFO 5149 [webpack] webpack server start, listen on port: 6002
+2021-04-13 14:07:42,384 INFO 5149 [webpack] [32mcompile done[39m
+2021-04-13 14:54:42,174 INFO 5149 [webpack] [32mcompile done[39m
+2021-04-13 17:52:24,907 INFO 16499 [Beidou Agent] Beidou Agent started, pid is 16499
+2021-04-13 17:52:24,893 INFO 16499 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-13 17:52:24,907 INFO 16499 [egg:core] dump config after load, 7ms
+2021-04-13 17:52:24,998 INFO 16499 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-13 17:52:24,998 INFO 16499 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-13 17:52:24,998 INFO 16499 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-13 17:52:24,998 INFO 16499 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-13 17:52:24,998 INFO 16499 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-13 17:52:24,998 INFO 16499 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-13 17:52:24,999 INFO 16499 [egg-watcher:agent] watcher start success
+2021-04-13 17:52:27,969 INFO 16499 [egg:core] dump config after ready, 15ms
+2021-04-13 17:52:40,255 INFO 16499 [webpack] [32mcompile done[39m
+2021-04-13 17:52:40,311 INFO 16499 [webpack] webpack server start, listen on port: 6002
+2021-04-13 18:00:49,119 INFO 16956 [Beidou Agent] Beidou Agent started, pid is 16956
+2021-04-13 18:00:49,111 INFO 16956 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-13 18:00:49,119 INFO 16956 [egg:core] dump config after load, 5ms
+2021-04-13 18:00:49,203 INFO 16956 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-13 18:00:49,203 INFO 16956 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-13 18:00:49,203 INFO 16956 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-13 18:00:49,204 INFO 16956 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-13 18:00:49,204 INFO 16956 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-13 18:00:49,204 INFO 16956 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-13 18:00:49,204 INFO 16956 [egg-watcher:agent] watcher start success
+2021-04-13 18:00:51,003 INFO 16956 [egg:core] dump config after ready, 6ms
+2021-04-13 18:00:59,732 INFO 16956 [webpack] [32mcompile done[39m
+2021-04-13 18:00:59,891 INFO 16956 [webpack] webpack server start, listen on port: 6002
+2021-04-13 19:15:00,620 INFO 18529 [Beidou Agent] Beidou Agent started, pid is 18529
+2021-04-13 19:15:00,609 INFO 18529 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-13 19:15:00,620 INFO 18529 [egg:core] dump config after load, 5ms
+2021-04-13 19:15:00,714 INFO 18529 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-13 19:15:00,714 INFO 18529 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-13 19:15:00,715 INFO 18529 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-13 19:15:00,715 INFO 18529 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-13 19:15:00,715 INFO 18529 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-13 19:15:00,715 INFO 18529 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-13 19:15:00,715 INFO 18529 [egg-watcher:agent] watcher start success
+2021-04-13 19:15:03,095 INFO 18529 [egg:core] dump config after ready, 11ms
+2021-04-13 19:15:19,263 INFO 18529 [webpack] [32mcompile done[39m
+2021-04-13 19:15:19,431 INFO 18529 [webpack] webpack server start, listen on port: 6002
+2021-04-13 19:21:24,106 INFO 18529 [webpack] [32mcompile done[39m
+2021-04-13 19:28:27,140 INFO 19712 [Beidou Agent] Beidou Agent started, pid is 19712
+2021-04-13 19:28:27,131 INFO 19712 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-13 19:28:27,140 INFO 19712 [egg:core] dump config after load, 6ms
+2021-04-13 19:28:27,220 INFO 19712 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-13 19:28:27,220 INFO 19712 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-13 19:28:27,221 INFO 19712 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-13 19:28:27,221 INFO 19712 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-13 19:28:27,221 INFO 19712 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-13 19:28:27,221 INFO 19712 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-13 19:28:27,221 INFO 19712 [egg-watcher:agent] watcher start success
+2021-04-13 19:28:28,705 INFO 19712 [egg:core] dump config after ready, 24ms
+2021-04-13 19:28:29,457 INFO 19712 [webpack-dev-server] auto restart
+2021-04-13 19:28:29,500 INFO 19712 [webpack:watcher] entry updated
+2021-04-13 19:28:40,188 INFO 19712 [webpack] [32mcompile done[39m
+2021-04-13 19:28:40,223 INFO 19712 [webpack] webpack server start, listen on port: 6002
+2021-04-13 19:30:00,406 INFO 19779 [Beidou Agent] Beidou Agent started, pid is 19779
+2021-04-13 19:30:00,396 INFO 19779 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-13 19:30:00,406 INFO 19779 [egg:core] dump config after load, 5ms
+2021-04-13 19:30:00,480 INFO 19779 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-13 19:30:00,480 INFO 19779 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-13 19:30:00,481 INFO 19779 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-13 19:30:00,481 INFO 19779 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-13 19:30:00,481 INFO 19779 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-13 19:30:00,481 INFO 19779 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-13 19:30:00,481 INFO 19779 [egg-watcher:agent] watcher start success
+2021-04-13 19:30:02,187 INFO 19779 [egg:core] dump config after ready, 20ms
+2021-04-13 19:30:10,711 INFO 19779 [webpack] [32mcompile done[39m
+2021-04-13 19:30:10,808 INFO 19779 [webpack] webpack server start, listen on port: 6002
+2021-04-13 20:48:47,718 INFO 24759 [Beidou Agent] Beidou Agent started, pid is 24759
+2021-04-13 20:48:47,709 INFO 24759 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-13 20:48:47,718 INFO 24759 [egg:core] dump config after load, 5ms
+2021-04-13 20:48:47,793 INFO 24759 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-13 20:48:47,793 INFO 24759 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-13 20:48:47,793 INFO 24759 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-13 20:48:47,793 INFO 24759 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-13 20:48:47,793 INFO 24759 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-13 20:48:47,793 INFO 24759 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-13 20:48:47,793 INFO 24759 [egg-watcher:agent] watcher start success
+2021-04-13 20:48:49,599 INFO 24759 [egg:core] dump config after ready, 8ms
+2021-04-13 20:48:57,915 INFO 24759 [webpack] [32mcompile done[39m
+2021-04-13 20:48:57,967 INFO 24759 [webpack] webpack server start, listen on port: 6002
+2021-04-13 20:55:03,010 INFO 25042 [Beidou Agent] Beidou Agent started, pid is 25042
+2021-04-13 20:55:02,996 INFO 25042 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-13 20:55:03,010 INFO 25042 [egg:core] dump config after load, 9ms
+2021-04-13 20:55:03,127 INFO 25042 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-13 20:55:03,127 INFO 25042 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-13 20:55:03,128 INFO 25042 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-13 20:55:03,128 INFO 25042 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-13 20:55:03,128 INFO 25042 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-13 20:55:03,128 INFO 25042 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-13 20:55:03,128 INFO 25042 [egg-watcher:agent] watcher start success
+2021-04-13 20:55:07,152 INFO 25042 [egg:core] dump config after ready, 94ms
+2021-04-13 20:55:19,560 INFO 25042 [webpack] [32mcompile done[39m
+2021-04-13 20:55:19,662 INFO 25042 [webpack] webpack server start, listen on port: 6002
+2021-04-14 15:17:36,121 INFO 31374 [Beidou Agent] Beidou Agent started, pid is 31374
+2021-04-14 15:17:36,108 INFO 31374 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-14 15:17:36,121 INFO 31374 [egg:core] dump config after load, 9ms
+2021-04-14 15:17:36,317 INFO 31374 [egg-watcher] Start watching: ["/Volumes/PSSD/JDP/app","/Volumes/PSSD/JDP/config","/Volumes/PSSD/JDP/mocks","/Volumes/PSSD/JDP/mocks_proxy","/Volumes/PSSD/JDP/app.js"]
+2021-04-14 15:17:36,317 INFO 31374 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app"
+2021-04-14 15:17:36,326 INFO 31374 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/config"
+2021-04-14 15:17:36,326 INFO 31374 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks"
+2021-04-14 15:17:36,326 INFO 31374 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/mocks_proxy"
+2021-04-14 15:17:36,327 INFO 31374 [egg-watcher] Start watching: "/Volumes/PSSD/JDP/app.js"
+2021-04-14 15:17:36,327 INFO 31374 [egg-watcher:agent] watcher start success
+2021-04-14 15:17:38,739 INFO 31374 [egg:core] dump config after ready, 10ms
+2021-04-14 15:17:50,515 INFO 31374 [webpack] [32mcompile done[39m
+2021-04-14 15:17:50,605 INFO 31374 [webpack] webpack server start, listen on port: 6002

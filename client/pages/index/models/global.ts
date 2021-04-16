@@ -14,6 +14,7 @@ export default {
 		isNeedLogin: true,
 		question,
 		modal:false,
+		policy:false,
 	},
 	reducers: {
 		updateBar(state, { payload }) {

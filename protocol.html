@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>协议</title>
+      <meta name="viewport"
+    content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
+  <meta http-equiv="Content-type" content="text/html; charSet=utf-8" />
+  <meta name="msapplication-tap-highlight" content="no" />
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        body{
+             width:100vw;
+            height:100vh;
+            position: relative;
+        }
+
+        .btn{
+          width:100vw;
+          height:50px;
+          background:#cd0e2d;
+          color:#fff;
+          font-size: 1rem;
+          text-align: center;
+          line-height:50px;
+          left:0;
+          bottom: 0;  
+        /*  bottom: constant(safe-area-inset-bottom);
+          bottom: env(safe-area-inset-bottom); */
+          position: fixed;
+          z-index:10000;
+          font-size:16px;
+        }
+
+        iframe{
+            width:100vw;
+            height:100vh;
+            border:0;
+             overflow-y: scroll;
+            box-sizing: border-box;
+        }
+    </style>
+    
+</head>
+<body>
+    <iframe style="" src="https://privacy.jdponline.cn/privacy.html#section1"></iframe>
+    <div class="btn" id="btn">同 意</div>
+</body>
+<script type="text/javascript">
+  var btn = document.getElementById("btn");
+   btn.onclick = function(){
+            window.location.href="/index.html"
+        }
+
+</script>
+</html>

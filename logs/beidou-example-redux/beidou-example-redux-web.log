@@ -1689,3 +1689,543 @@ hostname: senla.local
 2021-04-11 22:00:21,653 INFO 30328 [Beidou App] App Worker started, pid is 30328
 2021-04-11 22:59:29,032 INFO 34632 [Beidou App] App Worker started, pid is 34632
 2021-04-11 22:59:29,811 WARN 34632 [webpack] port 6002 is in used, use 6664 instead
+2021-04-12 10:47:58,874 INFO 3904 [Beidou App] App Worker started, pid is 3904
+2021-04-12 12:59:26,666 INFO 4525 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 12:59:27,041 INFO 4525 [Beidou App] App Worker started, pid is 4525
+2021-04-12 13:08:16,927 INFO 5073 [Beidou App] App Worker started, pid is 5073
+2021-04-12 13:11:36,960 INFO 5237 [Beidou App] App Worker started, pid is 5237
+2021-04-12 13:20:05,131 INFO 5468 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 13:20:05,388 INFO 5468 [Beidou App] App Worker started, pid is 5468
+2021-04-12 13:32:16,019 INFO 6627 [Beidou App] App Worker started, pid is 6627
+2021-04-12 13:51:54,148 INFO 6899 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 13:51:54,384 INFO 6899 [Beidou App] App Worker started, pid is 6899
+2021-04-12 14:00:27,899 INFO 7417 [Beidou App] App Worker started, pid is 7417
+2021-04-12 14:04:38,439 INFO 7770 [Beidou App] App Worker started, pid is 7770
+2021-04-12 14:08:39,696 INFO 7961 [Beidou App] App Worker started, pid is 7961
+2021-04-12 17:39:00,145 INFO 10605 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 17:39:00,537 INFO 10605 [Beidou App] App Worker started, pid is 10605
+2021-04-12 17:42:40,164 ERROR 10605 [-/::1/-/592ms GET /] nodejs.Error: Portals are not currently supported by the server renderer. Render them conditionally so that they only appear on the client render.
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3449:21)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+
+pid: 10605
+hostname: senla.local
+
+2021-04-12 17:52:00,663 INFO 12294 [Beidou App] App Worker started, pid is 12294
+2021-04-12 17:52:00,864 WARN 12294 [webpack] port 6002 is in used, use 6639 instead
+2021-04-12 17:54:26,126 INFO 12472 [Beidou App] App Worker started, pid is 12472
+2021-04-12 17:54:26,328 WARN 12472 [webpack] port 6002 is in used, use 6931 instead
+2021-04-12 18:00:13,048 INFO 12834 [Beidou App] App Worker started, pid is 12834
+2021-04-12 18:00:13,253 WARN 12834 [webpack] port 6002 is in used, use 6329 instead
+2021-04-12 18:03:10,907 INFO 12995 [Beidou App] App Worker started, pid is 12995
+2021-04-12 18:03:11,097 WARN 12995 [webpack] port 6002 is in used, use 6148 instead
+2021-04-12 18:09:56,674 INFO 13239 [Beidou App] App Worker started, pid is 13239
+2021-04-12 18:09:56,886 WARN 13239 [webpack] port 6002 is in used, use 6881 instead
+2021-04-12 18:12:51,980 INFO 13318 [Beidou App] App Worker started, pid is 13318
+2021-04-12 18:12:52,178 WARN 13318 [webpack] port 6002 is in used, use 6768 instead
+2021-04-12 18:13:56,700 INFO 13507 [Beidou App] App Worker started, pid is 13507
+2021-04-12 18:13:56,904 WARN 13507 [webpack] port 6002 is in used, use 6046 instead
+2021-04-12 18:15:45,649 INFO 13705 [Beidou App] App Worker started, pid is 13705
+2021-04-12 18:15:45,823 WARN 13705 [webpack] port 6002 is in used, use 6401 instead
+2021-04-12 18:18:22,651 INFO 13885 [Beidou App] App Worker started, pid is 13885
+2021-04-12 18:18:22,832 WARN 13885 [webpack] port 6002 is in used, use 6603 instead
+2021-04-12 18:27:06,397 INFO 14787 [Beidou App] App Worker started, pid is 14787
+2021-04-12 18:27:06,731 WARN 14787 [webpack] port 6002 is in used, use 6699 instead
+2021-04-12 18:28:03,703 INFO 14962 [Beidou App] App Worker started, pid is 14962
+2021-04-12 18:28:03,911 WARN 14962 [webpack] port 6002 is in used, use 6970 instead
+2021-04-12 18:31:56,679 INFO 15349 [Beidou App] App Worker started, pid is 15349
+2021-04-12 18:31:56,985 WARN 15349 [webpack] port 6002 is in used, use 6505 instead
+2021-04-12 19:00:40,609 ERROR 10605 [-/::1/-/335ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (375:8)
+
+[0m [90m 373 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 374 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 375 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 376 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 377 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 378 | [39m                      转让[0m
+
+[0m [90m 373 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 374 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 375 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 376 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 377 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 378 | [39m                      转让[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":375,"column":8}
+pos: 16865
+code: "BABEL_PARSE_ERROR"
+pid: 10605
+hostname: senla.local
+
+2021-04-12 19:01:12,149 INFO 16056 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 19:01:13,041 INFO 16056 [Beidou App] App Worker started, pid is 16056
+2021-04-12 19:01:27,332 ERROR 16056 [-/::1/-/1249ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (375:8)
+
+[0m [90m 373 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 374 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 375 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 376 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 377 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 378 | [39m                      转让[0m
+
+[0m [90m 373 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 374 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 375 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 376 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 377 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 378 | [39m                      转让[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":375,"column":8}
+pos: 16865
+code: "BABEL_PARSE_ERROR"
+pid: 16056
+hostname: senla.local
+
+2021-04-12 19:25:44,930 INFO 17696 [Beidou App] App Worker started, pid is 17696
+2021-04-12 19:25:45,132 WARN 17696 [webpack] port 6002 is in used, use 6817 instead
+2021-04-12 20:11:58,945 INFO 20809 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 20:11:59,267 INFO 20809 [Beidou App] App Worker started, pid is 20809
+2021-04-12 20:12:38,496 ERROR 16056 [-/::1/-/440ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (365:8)
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":365,"column":8}
+pos: 16127
+code: "BABEL_PARSE_ERROR"
+pid: 16056
+hostname: senla.local
+
+2021-04-12 20:13:32,717 INFO 20906 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 20:13:32,950 INFO 20906 [Beidou App] App Worker started, pid is 20906
+2021-04-12 20:13:46,055 ERROR 20906 [-/::1/-/1125ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (365:8)
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":365,"column":8}
+pos: 16127
+code: "BABEL_PARSE_ERROR"
+pid: 20906
+hostname: senla.local
+
+2021-04-12 20:15:45,034 ERROR 20906 [-/::1/-/248ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (365:8)
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":365,"column":8}
+pos: 16127
+code: "BABEL_PARSE_ERROR"
+pid: 20906
+hostname: senla.local
+
+2021-04-12 20:15:53,796 ERROR 20906 [-/::1/-/325ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (365:8)
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":365,"column":8}
+pos: 16219
+code: "BABEL_PARSE_ERROR"
+pid: 20906
+hostname: senla.local
+
+2021-04-12 20:17:19,173 INFO 21135 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 20:17:19,533 INFO 21135 [Beidou App] App Worker started, pid is 21135
+2021-04-12 20:18:18,266 ERROR 21135 [-/::1/-/1642ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (626:16)
+
+[0m [90m 624 | [39m                    [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 625 | [39m                  [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 626 | [39m                [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 627 | [39m              [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 628 | [39m            [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 629 | [39m          [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+[0m [90m 624 | [39m                    [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 625 | [39m                  [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 626 | [39m                [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 627 | [39m              [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 628 | [39m            [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 629 | [39m          [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":626,"column":16}
+pos: 27470
+code: "BABEL_PARSE_ERROR"
+pid: 21135
+hostname: senla.local
+
+2021-04-12 20:18:54,509 ERROR 21135 [-/::1/-/373ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <div> (185:6)
+
+[0m [90m 183 | [39m          [33m>[39m同 意[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 184 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 185 | [39m      [33m<[39m[33m/[39m[33mModal[39m[33m>[39m[0m
+[0m [90m     | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 186 | [39m      [33m<[39m[33mModal[39m[0m
+[0m [90m 187 | [39m        popup[0m
+[0m [90m 188 | [39m        visible[33m=[39m{successModal}[0m
+
+[0m [90m 183 | [39m          [33m>[39m同 意[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 184 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 185 | [39m      [33m<[39m[33m/[39m[33mModal[39m[33m>[39m[0m
+[0m [90m     | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 186 | [39m      [33m<[39m[33mModal[39m[0m
+[0m [90m 187 | [39m        popup[0m
+[0m [90m 188 | [39m        visible[33m=[39m{successModal}[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElement (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:511:19)
+    at Object.parseExprAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:522:21)
+    at Object.parseExprSubscripts (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:519:21)
+loc: {"line":185,"column":6}
+pos: 5797
+code: "BABEL_PARSE_ERROR"
+pid: 21135
+hostname: senla.local
+
+2021-04-12 20:19:43,592 INFO 21372 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 20:19:43,971 INFO 21372 [Beidou App] App Worker started, pid is 21372
+2021-04-12 20:23:23,604 INFO 21830 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 20:23:23,846 INFO 21830 [Beidou App] App Worker started, pid is 21830
+2021-04-12 21:19:39,843 INFO 22240 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 21:19:40,090 INFO 22240 [Beidou App] App Worker started, pid is 22240
+2021-04-12 21:21:49,516 INFO 22494 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 21:21:50,093 INFO 22494 [Beidou App] App Worker started, pid is 22494
+2021-04-12 21:27:13,181 INFO 23543 [Beidou App] App Worker started, pid is 23543
+2021-04-12 21:27:13,468 WARN 23543 [webpack] port 6002 is in used, use 6024 instead
+2021-04-12 21:31:17,192 INFO 24203 [Beidou App] App Worker started, pid is 24203
+2021-04-12 21:31:17,425 WARN 24203 [webpack] port 6002 is in used, use 6811 instead
+2021-04-12 21:39:42,722 INFO 25487 [Beidou App] App Worker started, pid is 25487
+2021-04-12 21:39:42,898 WARN 25487 [webpack] port 6002 is in used, use 6440 instead
+2021-04-12 21:40:44,069 INFO 25760 [Beidou App] App Worker started, pid is 25760
+2021-04-12 21:40:44,255 WARN 25760 [webpack] port 6002 is in used, use 6804 instead
+2021-04-12 21:42:19,195 INFO 26046 [Beidou App] App Worker started, pid is 26046
+2021-04-12 21:42:19,378 WARN 26046 [webpack] port 6002 is in used, use 6082 instead
+2021-04-12 21:43:21,141 INFO 26185 [Beidou App] App Worker started, pid is 26185
+2021-04-12 21:43:21,317 WARN 26185 [webpack] port 6002 is in used, use 6153 instead
+2021-04-12 21:44:13,933 INFO 26378 [Beidou App] App Worker started, pid is 26378
+2021-04-12 21:44:14,116 WARN 26378 [webpack] port 6002 is in used, use 6487 instead
+2021-04-12 21:46:34,989 INFO 26774 [Beidou App] App Worker started, pid is 26774
+2021-04-12 21:46:35,161 WARN 26774 [webpack] port 6002 is in used, use 6201 instead
+2021-04-12 21:56:50,236 INFO 28311 [Beidou App] App Worker started, pid is 28311
+2021-04-12 21:56:50,554 WARN 28311 [webpack] port 6002 is in used, use 6019 instead
+2021-04-12 21:58:05,500 INFO 28494 [Beidou App] App Worker started, pid is 28494
+2021-04-12 21:58:05,682 WARN 28494 [webpack] port 6002 is in used, use 6112 instead
+2021-04-12 22:46:40,612 INFO 1180 [Beidou App] App Worker started, pid is 1180
+2021-04-12 22:49:27,814 INFO 1851 [Beidou App] App Worker started, pid is 1851
+2021-04-12 22:51:55,074 INFO 2455 [Beidou App] App Worker started, pid is 2455
+2021-04-12 22:52:46,330 INFO 2668 [Beidou App] App Worker started, pid is 2668
+2021-04-12 23:16:47,599 INFO 1210 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-12 23:16:47,872 INFO 1210 [Beidou App] App Worker started, pid is 1210
+2021-04-12 23:19:01,462 INFO 1665 [Beidou App] App Worker started, pid is 1665
+2021-04-12 23:19:01,681 WARN 1665 [webpack] port 6002 is in used, use 6188 instead
+2021-04-12 23:26:53,838 INFO 2668 [Beidou App] App Worker started, pid is 2668
+2021-04-12 23:26:54,009 WARN 2668 [webpack] port 6002 is in used, use 6426 instead
+2021-04-12 23:27:47,478 INFO 2829 [Beidou App] App Worker started, pid is 2829
+2021-04-12 23:27:47,708 WARN 2829 [webpack] port 6002 is in used, use 6944 instead
+2021-04-12 23:32:38,076 INFO 3488 [Beidou App] App Worker started, pid is 3488
+2021-04-12 23:32:38,343 WARN 3488 [webpack] port 6002 is in used, use 6623 instead
+2021-04-12 23:37:09,269 INFO 4030 [Beidou App] App Worker started, pid is 4030
+2021-04-12 23:37:09,462 WARN 4030 [webpack] port 6002 is in used, use 6587 instead
+2021-04-12 23:38:33,674 INFO 4226 [Beidou App] App Worker started, pid is 4226
+2021-04-12 23:38:33,883 WARN 4226 [webpack] port 6002 is in used, use 6290 instead
+2021-04-12 23:40:15,640 INFO 4449 [Beidou App] App Worker started, pid is 4449
+2021-04-12 23:40:15,825 WARN 4449 [webpack] port 6002 is in used, use 6730 instead
+2021-04-12 23:48:49,274 INFO 4880 [Beidou App] App Worker started, pid is 4880
+2021-04-12 23:48:49,442 WARN 4880 [webpack] port 6002 is in used, use 6449 instead
+2021-04-12 23:49:15,309 INFO 5028 [Beidou App] App Worker started, pid is 5028
+2021-04-12 23:49:15,503 WARN 5028 [webpack] port 6002 is in used, use 6095 instead
+2021-04-12 23:50:49,927 INFO 5182 [Beidou App] App Worker started, pid is 5182
+2021-04-12 23:50:50,107 WARN 5182 [webpack] port 6002 is in used, use 6603 instead
+2021-04-12 23:55:34,064 INFO 5561 [Beidou App] App Worker started, pid is 5561
+2021-04-12 23:56:51,629 INFO 5657 [Beidou App] App Worker started, pid is 5657
+2021-04-12 23:57:28,774 INFO 5779 [Beidou App] App Worker started, pid is 5779
+2021-04-13 13:45:31,739 INFO 4639 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-13 13:45:32,074 INFO 4639 [Beidou App] App Worker started, pid is 4639
+2021-04-13 13:54:21,828 ERROR 4639 [-/::1/-/4901ms GET /] nodejs.Error: Portals are not currently supported by the server renderer. Render them conditionally so that they only appear on the client render.
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3449:21)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+
+pid: 4639
+hostname: senla.local
+
+2021-04-13 13:54:46,779 INFO 5166 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-13 13:54:47,271 INFO 5166 [Beidou App] App Worker started, pid is 5166
+2021-04-13 13:55:01,311 ERROR 5166 [-/::1/-/2822ms GET /] nodejs.Error: Portals are not currently supported by the server renderer. Render them conditionally so that they only appear on the client render.
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3449:21)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+
+pid: 5166
+hostname: senla.local
+
+2021-04-13 13:58:13,492 ERROR 5166 [-/::1/-/1431ms GET /] nodejs.Error: Portals are not currently supported by the server renderer. Render them conditionally so that they only appear on the client render.
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3449:21)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+
+pid: 5166
+hostname: senla.local
+
+2021-04-13 14:06:43,203 ERROR 5166 [-/::1/-/261ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (1173:6)
+
+[0m [90m 1171 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 1172 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 1173 | [39m      [33m<[39m[35m/Modal> */[39m}[0m
+[0m [90m      | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 1174 | [39m    [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 1175 | [39m  )[33m;[39m[0m
+[0m [90m 1176 | [39m}[0m
+
+[0m [90m 1171 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 1172 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 1173 | [39m      [33m<[39m[35m/Modal> */[39m}[0m
+[0m [90m      | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 1174 | [39m    [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 1175 | [39m  )[33m;[39m[0m
+[0m [90m 1176 | [39m}[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:494:20)
+    at Object.jsxParseElement (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:511:19)
+    at Object.parseExprAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:522:21)
+    at Object.parseExprSubscripts (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseMaybeUnary (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2417:22)
+    at Object.parseExprOps (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:311:23)
+loc: {"line":1173,"column":6}
+pos: 45623
+code: "BABEL_PARSE_ERROR"
+pid: 5166
+hostname: senla.local
+
+2021-04-13 14:20:11,585 ERROR 5166 [-/undefined/-/1061ms GET /build/react.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 5166
+hostname: senla.local
+
+2021-04-13 14:20:11,637 ERROR 5166 [-/undefined/-/1173ms GET /build/index.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 5166
+hostname: senla.local
+
+2021-04-13 15:05:10,735 INFO 13038 [Beidou App] App Worker started, pid is 13038
+2021-04-13 17:52:33,153 INFO 16520 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-13 17:52:33,428 INFO 16520 [Beidou App] App Worker started, pid is 16520
+2021-04-13 18:00:54,695 INFO 16965 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-13 18:00:55,054 INFO 16965 [Beidou App] App Worker started, pid is 16965
+2021-04-13 18:50:44,371 INFO 17753 [Beidou App] App Worker started, pid is 17753
+2021-04-13 19:15:11,141 INFO 18536 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-13 19:15:11,763 INFO 18536 [Beidou App] App Worker started, pid is 18536
+2021-04-13 19:21:39,511 INFO 18905 [Beidou App] App Worker started, pid is 18905
+2021-04-13 19:24:32,728 INFO 19080 [Beidou App] App Worker started, pid is 19080
+2021-04-13 19:26:36,491 INFO 19400 [Beidou App] App Worker started, pid is 19400
+2021-04-13 19:28:35,187 INFO 19723 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-13 19:28:35,508 INFO 19723 [Beidou App] App Worker started, pid is 19723
+2021-04-13 19:30:05,966 INFO 19796 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-13 19:30:06,181 INFO 19796 [Beidou App] App Worker started, pid is 19796
+2021-04-13 20:48:52,958 INFO 24769 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-13 20:48:53,254 INFO 24769 [Beidou App] App Worker started, pid is 24769
+2021-04-13 20:55:13,445 INFO 25060 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-13 20:55:13,806 INFO 25060 [Beidou App] App Worker started, pid is 25060
+2021-04-13 21:18:10,455 INFO 26811 [Beidou App] App Worker started, pid is 26811
+2021-04-13 21:22:00,318 INFO 27103 [Beidou App] App Worker started, pid is 27103
+2021-04-13 21:23:50,162 INFO 27223 [Beidou App] App Worker started, pid is 27223
+2021-04-13 21:25:20,780 INFO 27370 [Beidou App] App Worker started, pid is 27370
+2021-04-13 21:25:37,255 INFO 27458 [Beidou App] App Worker started, pid is 27458
+2021-04-13 21:29:33,412 INFO 27710 [Beidou App] App Worker started, pid is 27710
+2021-04-13 21:34:19,062 INFO 27925 [Beidou App] App Worker started, pid is 27925
+2021-04-13 21:36:03,117 INFO 28067 [Beidou App] App Worker started, pid is 28067
+2021-04-13 22:02:21,593 INFO 1242 [Beidou App] App Worker started, pid is 1242
+2021-04-13 22:05:54,757 INFO 1713 [Beidou App] App Worker started, pid is 1713
+2021-04-13 22:07:02,379 INFO 1872 [Beidou App] App Worker started, pid is 1872
+2021-04-14 10:41:14,070 INFO 3378 [Beidou App] App Worker started, pid is 3378
+2021-04-14 15:17:43,591 INFO 31385 [beidou:isomorphic] isomorphic.alias detected: { client: '/Volumes/PSSD/JDP/client' }
+2021-04-14 15:17:44,129 INFO 31385 [Beidou App] App Worker started, pid is 31385
+2021-04-14 15:19:58,335 INFO 31454 [Beidou App] App Worker started, pid is 31454
+2021-04-15 11:39:40,792 INFO 6178 [Beidou App] App Worker started, pid is 6178

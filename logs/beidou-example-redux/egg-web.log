@@ -1467,3 +1467,740 @@ hostname: senla.local
 2021-04-11 22:59:29,030 INFO 34632 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
 2021-04-11 22:59:29,031 INFO 34632 [egg:core] dump config after load, 177ms
 2021-04-11 22:59:33,850 INFO 34632 [egg:core] dump config after ready, 28ms
+2021-04-12 10:47:58,874 INFO 3904 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 10:47:58,874 INFO 3904 [egg:core] dump config after load, 26ms
+2021-04-12 10:48:03,301 INFO 3904 [egg:core] dump config after ready, 16ms
+2021-04-12 12:59:26,551 INFO 4525 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 12:59:26,582 INFO 4525 [egg-multipart] stream mode enable
+2021-04-12 12:59:26,582 WARN 4525 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 12:59:26,898 INFO 4525 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 12:59:26,898 INFO 4525 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 12:59:26,898 INFO 4525 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 12:59:26,901 INFO 4525 [egg-security] use csrf middleware
+2021-04-12 12:59:26,902 INFO 4525 [egg-security] use methodnoallow middleware
+2021-04-12 12:59:26,903 INFO 4525 [egg-security] use noopen middleware
+2021-04-12 12:59:26,906 INFO 4525 [egg-security] use nosniff middleware
+2021-04-12 12:59:26,913 INFO 4525 [egg-security] use xssProtection middleware
+2021-04-12 12:59:26,915 INFO 4525 [egg-security] use dta middleware
+2021-04-12 12:59:26,915 INFO 4525 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 12:59:27,041 INFO 4525 [egg:core] dump config after load, 7ms
+2021-04-12 12:59:27,941 INFO 4525 [egg-watcher:application] watcher start success
+2021-04-12 12:59:27,950 INFO 4525 [egg:core] dump config after ready, 7ms
+2021-04-12 13:08:16,927 INFO 5073 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 13:08:16,927 INFO 5073 [egg:core] dump config after load, 11ms
+2021-04-12 13:08:18,579 INFO 5073 [egg:core] dump config after ready, 16ms
+2021-04-12 13:11:36,960 INFO 5237 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 13:11:36,960 INFO 5237 [egg:core] dump config after load, 12ms
+2021-04-12 13:11:38,658 INFO 5237 [egg:core] dump config after ready, 14ms
+2021-04-12 13:20:05,031 INFO 5468 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 13:20:05,073 INFO 5468 [egg-multipart] stream mode enable
+2021-04-12 13:20:05,073 WARN 5468 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 13:20:05,277 INFO 5468 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 13:20:05,278 INFO 5468 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 13:20:05,278 INFO 5468 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 13:20:05,280 INFO 5468 [egg-security] use csrf middleware
+2021-04-12 13:20:05,281 INFO 5468 [egg-security] use methodnoallow middleware
+2021-04-12 13:20:05,282 INFO 5468 [egg-security] use noopen middleware
+2021-04-12 13:20:05,284 INFO 5468 [egg-security] use nosniff middleware
+2021-04-12 13:20:05,284 INFO 5468 [egg-security] use xssProtection middleware
+2021-04-12 13:20:05,285 INFO 5468 [egg-security] use dta middleware
+2021-04-12 13:20:05,285 INFO 5468 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 13:20:05,388 INFO 5468 [egg:core] dump config after load, 61ms
+2021-04-12 13:20:06,140 INFO 5468 [egg-watcher:application] watcher start success
+2021-04-12 13:20:06,150 INFO 5468 [egg:core] dump config after ready, 8ms
+2021-04-12 13:32:16,017 INFO 6627 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 13:32:16,018 INFO 6627 [egg:core] dump config after load, 19ms
+2021-04-12 13:32:17,651 INFO 6627 [egg:core] dump config after ready, 14ms
+2021-04-12 13:51:53,877 INFO 6899 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 13:51:54,035 INFO 6899 [egg-multipart] stream mode enable
+2021-04-12 13:51:54,035 WARN 6899 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 13:51:54,323 INFO 6899 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 13:51:54,323 INFO 6899 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 13:51:54,324 INFO 6899 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 13:51:54,326 INFO 6899 [egg-security] use csrf middleware
+2021-04-12 13:51:54,327 INFO 6899 [egg-security] use methodnoallow middleware
+2021-04-12 13:51:54,327 INFO 6899 [egg-security] use noopen middleware
+2021-04-12 13:51:54,329 INFO 6899 [egg-security] use nosniff middleware
+2021-04-12 13:51:54,330 INFO 6899 [egg-security] use xssProtection middleware
+2021-04-12 13:51:54,330 INFO 6899 [egg-security] use dta middleware
+2021-04-12 13:51:54,330 INFO 6899 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 13:51:54,384 INFO 6899 [egg:core] dump config after load, 7ms
+2021-04-12 13:51:54,787 INFO 6899 [egg-watcher:application] watcher start success
+2021-04-12 13:51:54,797 INFO 6899 [egg:core] dump config after ready, 8ms
+2021-04-12 14:00:27,899 INFO 7417 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 14:00:27,899 INFO 7417 [egg:core] dump config after load, 38ms
+2021-04-12 14:00:29,884 INFO 7417 [egg:core] dump config after ready, 10ms
+2021-04-12 14:04:38,439 INFO 7770 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 14:04:38,439 INFO 7770 [egg:core] dump config after load, 14ms
+2021-04-12 14:04:39,954 INFO 7770 [egg:core] dump config after ready, 13ms
+2021-04-12 14:08:39,696 INFO 7961 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 14:08:39,696 INFO 7961 [egg:core] dump config after load, 12ms
+2021-04-12 14:08:41,156 INFO 7961 [egg:core] dump config after ready, 11ms
+2021-04-12 17:39:00,060 INFO 10605 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 17:39:00,094 INFO 10605 [egg-multipart] stream mode enable
+2021-04-12 17:39:00,094 WARN 10605 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 17:39:00,331 INFO 10605 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 17:39:00,331 INFO 10605 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 17:39:00,332 INFO 10605 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 17:39:00,334 INFO 10605 [egg-security] use csrf middleware
+2021-04-12 17:39:00,335 INFO 10605 [egg-security] use methodnoallow middleware
+2021-04-12 17:39:00,336 INFO 10605 [egg-security] use noopen middleware
+2021-04-12 17:39:00,338 INFO 10605 [egg-security] use nosniff middleware
+2021-04-12 17:39:00,339 INFO 10605 [egg-security] use xssProtection middleware
+2021-04-12 17:39:00,340 INFO 10605 [egg-security] use dta middleware
+2021-04-12 17:39:00,340 INFO 10605 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 17:39:00,537 INFO 10605 [egg:core] dump config after load, 13ms
+2021-04-12 17:39:01,333 INFO 10605 [egg-watcher:application] watcher start success
+2021-04-12 17:39:01,343 INFO 10605 [egg:core] dump config after ready, 7ms
+2021-04-12 17:52:00,662 INFO 12294 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 17:52:00,662 INFO 12294 [egg:core] dump config after load, 11ms
+2021-04-12 17:52:02,631 INFO 12294 [egg:core] dump config after ready, 9ms
+2021-04-12 17:54:26,125 INFO 12472 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 17:54:26,126 INFO 12472 [egg:core] dump config after load, 11ms
+2021-04-12 17:54:28,961 INFO 12472 [egg:core] dump config after ready, 11ms
+2021-04-12 18:00:13,047 INFO 12834 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 18:00:13,048 INFO 12834 [egg:core] dump config after load, 41ms
+2021-04-12 18:00:16,467 INFO 12834 [egg:core] dump config after ready, 8ms
+2021-04-12 18:03:10,907 INFO 12995 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 18:03:10,907 INFO 12995 [egg:core] dump config after load, 11ms
+2021-04-12 18:03:12,702 INFO 12995 [egg:core] dump config after ready, 14ms
+2021-04-12 18:09:56,674 INFO 13239 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 18:09:56,674 INFO 13239 [egg:core] dump config after load, 42ms
+2021-04-12 18:09:58,415 INFO 13239 [egg:core] dump config after ready, 17ms
+2021-04-12 18:12:51,978 INFO 13318 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 18:12:51,978 INFO 13318 [egg:core] dump config after load, 20ms
+2021-04-12 18:12:53,654 INFO 13318 [egg:core] dump config after ready, 8ms
+2021-04-12 18:13:56,699 INFO 13507 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 18:13:56,700 INFO 13507 [egg:core] dump config after load, 44ms
+2021-04-12 18:13:58,368 INFO 13507 [egg:core] dump config after ready, 19ms
+2021-04-12 18:15:45,649 INFO 13705 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 18:15:45,649 INFO 13705 [egg:core] dump config after load, 26ms
+2021-04-12 18:15:47,444 INFO 13705 [egg:core] dump config after ready, 25ms
+2021-04-12 18:18:22,651 INFO 13885 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 18:18:22,651 INFO 13885 [egg:core] dump config after load, 15ms
+2021-04-12 18:18:24,333 INFO 13885 [egg:core] dump config after ready, 16ms
+2021-04-12 18:27:06,397 INFO 14787 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 18:27:06,397 INFO 14787 [egg:core] dump config after load, 36ms
+2021-04-12 18:27:10,125 INFO 14787 [egg:core] dump config after ready, 44ms
+2021-04-12 18:28:03,702 INFO 14962 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 18:28:03,703 INFO 14962 [egg:core] dump config after load, 19ms
+2021-04-12 18:28:05,459 INFO 14962 [egg:core] dump config after ready, 15ms
+2021-04-12 18:31:56,675 INFO 15349 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 18:31:56,678 INFO 15349 [egg:core] dump config after load, 15ms
+2021-04-12 18:31:59,854 INFO 15349 [egg:core] dump config after ready, 20ms
+2021-04-12 19:00:40,633 ERROR 10605 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 10605
+hostname: senla.local
+
+2021-04-12 19:01:12,000 INFO 16056 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 19:01:12,095 INFO 16056 [egg-multipart] stream mode enable
+2021-04-12 19:01:12,096 WARN 16056 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 19:01:12,547 INFO 16056 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 19:01:12,547 INFO 16056 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 19:01:12,547 INFO 16056 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 19:01:12,552 INFO 16056 [egg-security] use csrf middleware
+2021-04-12 19:01:12,553 INFO 16056 [egg-security] use methodnoallow middleware
+2021-04-12 19:01:12,554 INFO 16056 [egg-security] use noopen middleware
+2021-04-12 19:01:12,665 INFO 16056 [egg-security] use nosniff middleware
+2021-04-12 19:01:12,666 INFO 16056 [egg-security] use xssProtection middleware
+2021-04-12 19:01:12,667 INFO 16056 [egg-security] use dta middleware
+2021-04-12 19:01:12,668 INFO 16056 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 19:01:13,041 INFO 16056 [egg:core] dump config after load, 7ms
+2021-04-12 19:01:13,230 INFO 16056 [egg-watcher:application] watcher start success
+2021-04-12 19:01:13,241 INFO 16056 [egg:core] dump config after ready, 9ms
+2021-04-12 19:01:27,354 ERROR 16056 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 16056
+hostname: senla.local
+
+2021-04-12 19:25:44,929 INFO 17696 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 19:25:44,930 INFO 17696 [egg:core] dump config after load, 17ms
+2021-04-12 19:25:47,664 INFO 17696 [egg:core] dump config after ready, 8ms
+2021-04-12 20:11:58,883 INFO 20809 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 20:11:58,913 INFO 20809 [egg-multipart] stream mode enable
+2021-04-12 20:11:58,913 WARN 20809 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 20:11:59,157 INFO 20809 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 20:11:59,157 INFO 20809 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 20:11:59,158 INFO 20809 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 20:11:59,161 INFO 20809 [egg-security] use csrf middleware
+2021-04-12 20:11:59,162 INFO 20809 [egg-security] use methodnoallow middleware
+2021-04-12 20:11:59,163 INFO 20809 [egg-security] use noopen middleware
+2021-04-12 20:11:59,166 INFO 20809 [egg-security] use nosniff middleware
+2021-04-12 20:11:59,174 INFO 20809 [egg-security] use xssProtection middleware
+2021-04-12 20:11:59,175 INFO 20809 [egg-security] use dta middleware
+2021-04-12 20:11:59,175 INFO 20809 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 20:11:59,267 INFO 20809 [egg:core] dump config after load, 16ms
+2021-04-12 20:11:59,552 INFO 20809 [egg-watcher:application] watcher start success
+2021-04-12 20:11:59,565 INFO 20809 [egg:core] dump config after ready, 11ms
+2021-04-12 20:12:38,512 ERROR 16056 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 16056
+hostname: senla.local
+
+2021-04-12 20:13:32,636 INFO 20906 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 20:13:32,678 INFO 20906 [egg-multipart] stream mode enable
+2021-04-12 20:13:32,679 WARN 20906 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 20:13:32,830 INFO 20906 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 20:13:32,830 INFO 20906 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 20:13:32,830 INFO 20906 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 20:13:32,833 INFO 20906 [egg-security] use csrf middleware
+2021-04-12 20:13:32,834 INFO 20906 [egg-security] use methodnoallow middleware
+2021-04-12 20:13:32,835 INFO 20906 [egg-security] use noopen middleware
+2021-04-12 20:13:32,836 INFO 20906 [egg-security] use nosniff middleware
+2021-04-12 20:13:32,836 INFO 20906 [egg-security] use xssProtection middleware
+2021-04-12 20:13:32,837 INFO 20906 [egg-security] use dta middleware
+2021-04-12 20:13:32,837 INFO 20906 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 20:13:32,950 INFO 20906 [egg:core] dump config after load, 6ms
+2021-04-12 20:13:33,489 INFO 20906 [egg-watcher:application] watcher start success
+2021-04-12 20:13:33,499 INFO 20906 [egg:core] dump config after ready, 7ms
+2021-04-12 20:13:46,065 ERROR 20906 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 20906
+hostname: senla.local
+
+2021-04-12 20:15:45,039 ERROR 20906 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 20906
+hostname: senla.local
+
+2021-04-12 20:15:53,800 ERROR 20906 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 20906
+hostname: senla.local
+
+2021-04-12 20:17:18,979 INFO 21135 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 20:17:19,050 INFO 21135 [egg-multipart] stream mode enable
+2021-04-12 20:17:19,050 WARN 21135 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 20:17:19,394 INFO 21135 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 20:17:19,395 INFO 21135 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 20:17:19,395 INFO 21135 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 20:17:19,398 INFO 21135 [egg-security] use csrf middleware
+2021-04-12 20:17:19,399 INFO 21135 [egg-security] use methodnoallow middleware
+2021-04-12 20:17:19,399 INFO 21135 [egg-security] use noopen middleware
+2021-04-12 20:17:19,401 INFO 21135 [egg-security] use nosniff middleware
+2021-04-12 20:17:19,409 INFO 21135 [egg-security] use xssProtection middleware
+2021-04-12 20:17:19,409 INFO 21135 [egg-security] use dta middleware
+2021-04-12 20:17:19,409 INFO 21135 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 20:17:19,533 INFO 21135 [egg:core] dump config after load, 8ms
+2021-04-12 20:17:20,114 INFO 21135 [egg-watcher:application] watcher start success
+2021-04-12 20:17:20,125 INFO 21135 [egg:core] dump config after ready, 9ms
+2021-04-12 20:18:18,275 ERROR 21135 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 21135
+hostname: senla.local
+
+2021-04-12 20:18:54,523 ERROR 21135 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 21135
+hostname: senla.local
+
+2021-04-12 20:19:43,397 INFO 21372 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 20:19:43,515 INFO 21372 [egg-multipart] stream mode enable
+2021-04-12 20:19:43,516 WARN 21372 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 20:19:43,795 INFO 21372 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 20:19:43,796 INFO 21372 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 20:19:43,796 INFO 21372 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 20:19:43,799 INFO 21372 [egg-security] use csrf middleware
+2021-04-12 20:19:43,800 INFO 21372 [egg-security] use methodnoallow middleware
+2021-04-12 20:19:43,800 INFO 21372 [egg-security] use noopen middleware
+2021-04-12 20:19:43,805 INFO 21372 [egg-security] use nosniff middleware
+2021-04-12 20:19:43,806 INFO 21372 [egg-security] use xssProtection middleware
+2021-04-12 20:19:43,869 INFO 21372 [egg-security] use dta middleware
+2021-04-12 20:19:43,869 INFO 21372 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 20:19:43,970 INFO 21372 [egg:core] dump config after load, 6ms
+2021-04-12 20:19:44,655 INFO 21372 [egg-watcher:application] watcher start success
+2021-04-12 20:19:44,666 INFO 21372 [egg:core] dump config after ready, 8ms
+2021-04-12 20:23:23,518 INFO 21830 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 20:23:23,559 INFO 21830 [egg-multipart] stream mode enable
+2021-04-12 20:23:23,559 WARN 21830 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 20:23:23,754 INFO 21830 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 20:23:23,755 INFO 21830 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 20:23:23,755 INFO 21830 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 20:23:23,758 INFO 21830 [egg-security] use csrf middleware
+2021-04-12 20:23:23,761 INFO 21830 [egg-security] use methodnoallow middleware
+2021-04-12 20:23:23,763 INFO 21830 [egg-security] use noopen middleware
+2021-04-12 20:23:23,765 INFO 21830 [egg-security] use nosniff middleware
+2021-04-12 20:23:23,766 INFO 21830 [egg-security] use xssProtection middleware
+2021-04-12 20:23:23,768 INFO 21830 [egg-security] use dta middleware
+2021-04-12 20:23:23,769 INFO 21830 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 20:23:23,845 INFO 21830 [egg:core] dump config after load, 14ms
+2021-04-12 20:23:24,310 INFO 21830 [egg-watcher:application] watcher start success
+2021-04-12 20:23:24,321 INFO 21830 [egg:core] dump config after ready, 8ms
+2021-04-12 21:19:39,777 INFO 22240 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 21:19:39,810 INFO 22240 [egg-multipart] stream mode enable
+2021-04-12 21:19:39,810 WARN 22240 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 21:19:40,033 INFO 22240 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 21:19:40,034 INFO 22240 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 21:19:40,034 INFO 22240 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 21:19:40,037 INFO 22240 [egg-security] use csrf middleware
+2021-04-12 21:19:40,038 INFO 22240 [egg-security] use methodnoallow middleware
+2021-04-12 21:19:40,039 INFO 22240 [egg-security] use noopen middleware
+2021-04-12 21:19:40,042 INFO 22240 [egg-security] use nosniff middleware
+2021-04-12 21:19:40,043 INFO 22240 [egg-security] use xssProtection middleware
+2021-04-12 21:19:40,044 INFO 22240 [egg-security] use dta middleware
+2021-04-12 21:19:40,044 INFO 22240 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 21:19:40,089 INFO 22240 [egg:core] dump config after load, 6ms
+2021-04-12 21:19:41,100 INFO 22240 [egg-watcher:application] watcher start success
+2021-04-12 21:19:41,109 INFO 22240 [egg:core] dump config after ready, 7ms
+2021-04-12 21:21:49,396 INFO 22494 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 21:21:49,459 INFO 22494 [egg-multipart] stream mode enable
+2021-04-12 21:21:49,459 WARN 22494 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 21:21:49,910 INFO 22494 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 21:21:49,911 INFO 22494 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 21:21:49,911 INFO 22494 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 21:21:49,928 INFO 22494 [egg-security] use csrf middleware
+2021-04-12 21:21:49,929 INFO 22494 [egg-security] use methodnoallow middleware
+2021-04-12 21:21:49,930 INFO 22494 [egg-security] use noopen middleware
+2021-04-12 21:21:49,936 INFO 22494 [egg-security] use nosniff middleware
+2021-04-12 21:21:49,939 INFO 22494 [egg-security] use xssProtection middleware
+2021-04-12 21:21:49,943 INFO 22494 [egg-security] use dta middleware
+2021-04-12 21:21:49,943 INFO 22494 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 21:21:50,093 INFO 22494 [egg:core] dump config after load, 7ms
+2021-04-12 21:21:50,673 INFO 22494 [egg-watcher:application] watcher start success
+2021-04-12 21:21:50,690 INFO 22494 [egg:core] dump config after ready, 13ms
+2021-04-12 21:27:13,181 INFO 23543 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 21:27:13,181 INFO 23543 [egg:core] dump config after load, 16ms
+2021-04-12 21:27:15,590 INFO 23543 [egg:core] dump config after ready, 25ms
+2021-04-12 21:31:17,191 INFO 24203 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 21:31:17,192 INFO 24203 [egg:core] dump config after load, 30ms
+2021-04-12 21:31:19,601 INFO 24203 [egg:core] dump config after ready, 7ms
+2021-04-12 21:39:42,722 INFO 25487 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 21:39:42,722 INFO 25487 [egg:core] dump config after load, 12ms
+2021-04-12 21:39:45,787 INFO 25487 [egg:core] dump config after ready, 10ms
+2021-04-12 21:40:44,066 INFO 25760 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 21:40:44,068 INFO 25760 [egg:core] dump config after load, 15ms
+2021-04-12 21:40:46,595 INFO 25760 [egg:core] dump config after ready, 9ms
+2021-04-12 21:42:19,195 INFO 26046 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 21:42:19,195 INFO 26046 [egg:core] dump config after load, 13ms
+2021-04-12 21:42:20,861 INFO 26046 [egg:core] dump config after ready, 10ms
+2021-04-12 21:43:21,141 INFO 26185 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 21:43:21,141 INFO 26185 [egg:core] dump config after load, 19ms
+2021-04-12 21:43:22,703 INFO 26185 [egg:core] dump config after ready, 15ms
+2021-04-12 21:44:13,933 INFO 26378 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 21:44:13,933 INFO 26378 [egg:core] dump config after load, 12ms
+2021-04-12 21:44:15,659 INFO 26378 [egg:core] dump config after ready, 16ms
+2021-04-12 21:46:34,988 INFO 26774 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 21:46:34,989 INFO 26774 [egg:core] dump config after load, 12ms
+2021-04-12 21:46:36,725 INFO 26774 [egg:core] dump config after ready, 14ms
+2021-04-12 21:56:50,236 INFO 28311 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 21:56:50,236 INFO 28311 [egg:core] dump config after load, 11ms
+2021-04-12 21:56:52,975 INFO 28311 [egg:core] dump config after ready, 9ms
+2021-04-12 21:58:05,499 INFO 28494 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 21:58:05,499 INFO 28494 [egg:core] dump config after load, 22ms
+2021-04-12 21:58:08,469 INFO 28494 [egg:core] dump config after ready, 12ms
+2021-04-12 22:46:40,612 INFO 1180 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 22:46:40,612 INFO 1180 [egg:core] dump config after load, 12ms
+2021-04-12 22:46:44,140 INFO 1180 [egg:core] dump config after ready, 41ms
+2021-04-12 22:49:27,813 INFO 1851 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 22:49:27,814 INFO 1851 [egg:core] dump config after load, 12ms
+2021-04-12 22:49:29,748 INFO 1851 [egg:core] dump config after ready, 16ms
+2021-04-12 22:51:55,074 INFO 2455 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 22:51:55,074 INFO 2455 [egg:core] dump config after load, 21ms
+2021-04-12 22:51:57,514 INFO 2455 [egg:core] dump config after ready, 24ms
+2021-04-12 22:52:46,330 INFO 2668 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 22:52:46,330 INFO 2668 [egg:core] dump config after load, 45ms
+2021-04-12 22:52:48,181 INFO 2668 [egg:core] dump config after ready, 15ms
+2021-04-12 23:16:47,529 INFO 1210 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:16:47,560 INFO 1210 [egg-multipart] stream mode enable
+2021-04-12 23:16:47,560 WARN 1210 Detect view.useHashAsset in local env, will ignore it.
+2021-04-12 23:16:47,771 INFO 1210 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-12 23:16:47,771 INFO 1210 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-12 23:16:47,772 INFO 1210 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-12 23:16:47,777 INFO 1210 [egg-security] use csrf middleware
+2021-04-12 23:16:47,779 INFO 1210 [egg-security] use methodnoallow middleware
+2021-04-12 23:16:47,780 INFO 1210 [egg-security] use noopen middleware
+2021-04-12 23:16:47,784 INFO 1210 [egg-security] use nosniff middleware
+2021-04-12 23:16:47,786 INFO 1210 [egg-security] use xssProtection middleware
+2021-04-12 23:16:47,788 INFO 1210 [egg-security] use dta middleware
+2021-04-12 23:16:47,788 INFO 1210 [egg-security] compose 6 middlewares into one security middleware
+2021-04-12 23:16:47,872 INFO 1210 [egg:core] dump config after load, 6ms
+2021-04-12 23:16:49,462 INFO 1210 [egg-watcher:application] watcher start success
+2021-04-12 23:16:49,471 INFO 1210 [egg:core] dump config after ready, 7ms
+2021-04-12 23:19:01,461 INFO 1665 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:19:01,461 INFO 1665 [egg:core] dump config after load, 38ms
+2021-04-12 23:19:04,354 INFO 1665 [egg:core] dump config after ready, 18ms
+2021-04-12 23:26:53,838 INFO 2668 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:26:53,838 INFO 2668 [egg:core] dump config after load, 13ms
+2021-04-12 23:26:58,602 INFO 2668 [egg:core] dump config after ready, 17ms
+2021-04-12 23:27:47,478 INFO 2829 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:27:47,478 INFO 2829 [egg:core] dump config after load, 25ms
+2021-04-12 23:27:49,135 INFO 2829 [egg:core] dump config after ready, 15ms
+2021-04-12 23:32:38,076 INFO 3488 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:32:38,076 INFO 3488 [egg:core] dump config after load, 18ms
+2021-04-12 23:32:40,239 INFO 3488 [egg:core] dump config after ready, 25ms
+2021-04-12 23:37:09,269 INFO 4030 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:37:09,269 INFO 4030 [egg:core] dump config after load, 11ms
+2021-04-12 23:37:11,081 INFO 4030 [egg:core] dump config after ready, 18ms
+2021-04-12 23:38:33,673 INFO 4226 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:38:33,673 INFO 4226 [egg:core] dump config after load, 30ms
+2021-04-12 23:38:35,811 INFO 4226 [egg:core] dump config after ready, 13ms
+2021-04-12 23:40:15,639 INFO 4449 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:40:15,639 INFO 4449 [egg:core] dump config after load, 32ms
+2021-04-12 23:40:17,533 INFO 4449 [egg:core] dump config after ready, 14ms
+2021-04-12 23:48:49,273 INFO 4880 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:48:49,274 INFO 4880 [egg:core] dump config after load, 12ms
+2021-04-12 23:48:50,760 INFO 4880 [egg:core] dump config after ready, 10ms
+2021-04-12 23:49:15,308 INFO 5028 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:49:15,308 INFO 5028 [egg:core] dump config after load, 16ms
+2021-04-12 23:49:17,335 INFO 5028 [egg:core] dump config after ready, 12ms
+2021-04-12 23:50:49,927 INFO 5182 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:50:49,927 INFO 5182 [egg:core] dump config after load, 25ms
+2021-04-12 23:50:51,559 INFO 5182 [egg:core] dump config after ready, 8ms
+2021-04-12 23:55:34,064 INFO 5561 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:55:34,064 INFO 5561 [egg:core] dump config after load, 11ms
+2021-04-12 23:55:35,805 INFO 5561 [egg:core] dump config after ready, 17ms
+2021-04-12 23:56:51,628 INFO 5657 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:56:51,628 INFO 5657 [egg:core] dump config after load, 10ms
+2021-04-12 23:56:53,109 INFO 5657 [egg:core] dump config after ready, 17ms
+2021-04-12 23:57:28,774 INFO 5779 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-12 23:57:28,774 INFO 5779 [egg:core] dump config after load, 12ms
+2021-04-12 23:57:30,768 INFO 5779 [egg:core] dump config after ready, 9ms
+2021-04-13 13:45:31,644 INFO 4639 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 13:45:31,679 INFO 4639 [egg-multipart] stream mode enable
+2021-04-13 13:45:31,679 WARN 4639 Detect view.useHashAsset in local env, will ignore it.
+2021-04-13 13:45:31,961 INFO 4639 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-13 13:45:31,962 INFO 4639 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-13 13:45:31,962 INFO 4639 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-13 13:45:31,965 INFO 4639 [egg-security] use csrf middleware
+2021-04-13 13:45:31,970 INFO 4639 [egg-security] use methodnoallow middleware
+2021-04-13 13:45:31,971 INFO 4639 [egg-security] use noopen middleware
+2021-04-13 13:45:31,974 INFO 4639 [egg-security] use nosniff middleware
+2021-04-13 13:45:31,976 INFO 4639 [egg-security] use xssProtection middleware
+2021-04-13 13:45:31,979 INFO 4639 [egg-security] use dta middleware
+2021-04-13 13:45:31,979 INFO 4639 [egg-security] compose 6 middlewares into one security middleware
+2021-04-13 13:45:32,074 INFO 4639 [egg:core] dump config after load, 6ms
+2021-04-13 13:45:33,118 INFO 4639 [egg-watcher:application] watcher start success
+2021-04-13 13:45:33,168 INFO 4639 [egg:core] dump config after ready, 48ms
+2021-04-13 13:54:46,623 INFO 5166 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 13:54:46,662 INFO 5166 [egg-multipart] stream mode enable
+2021-04-13 13:54:46,663 WARN 5166 Detect view.useHashAsset in local env, will ignore it.
+2021-04-13 13:54:47,012 INFO 5166 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-13 13:54:47,012 INFO 5166 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-13 13:54:47,012 INFO 5166 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-13 13:54:47,015 INFO 5166 [egg-security] use csrf middleware
+2021-04-13 13:54:47,015 INFO 5166 [egg-security] use methodnoallow middleware
+2021-04-13 13:54:47,016 INFO 5166 [egg-security] use noopen middleware
+2021-04-13 13:54:47,018 INFO 5166 [egg-security] use nosniff middleware
+2021-04-13 13:54:47,019 INFO 5166 [egg-security] use xssProtection middleware
+2021-04-13 13:54:47,019 INFO 5166 [egg-security] use dta middleware
+2021-04-13 13:54:47,019 INFO 5166 [egg-security] compose 6 middlewares into one security middleware
+2021-04-13 13:54:47,271 INFO 5166 [egg:core] dump config after load, 7ms
+2021-04-13 13:54:47,726 INFO 5166 [egg-watcher:application] watcher start success
+2021-04-13 13:54:47,737 INFO 5166 [egg:core] dump config after ready, 8ms
+2021-04-13 14:06:43,210 ERROR 5166 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 5166
+hostname: senla.local
+
+2021-04-13 15:05:10,735 INFO 13038 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 15:05:10,735 INFO 13038 [egg:core] dump config after load, 16ms
+2021-04-13 15:05:13,798 INFO 13038 [egg:core] dump config after ready, 8ms
+2021-04-13 17:52:33,032 INFO 16520 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 17:52:33,097 INFO 16520 [egg-multipart] stream mode enable
+2021-04-13 17:52:33,097 WARN 16520 Detect view.useHashAsset in local env, will ignore it.
+2021-04-13 17:52:33,346 INFO 16520 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-13 17:52:33,347 INFO 16520 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-13 17:52:33,347 INFO 16520 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-13 17:52:33,350 INFO 16520 [egg-security] use csrf middleware
+2021-04-13 17:52:33,351 INFO 16520 [egg-security] use methodnoallow middleware
+2021-04-13 17:52:33,353 INFO 16520 [egg-security] use noopen middleware
+2021-04-13 17:52:33,355 INFO 16520 [egg-security] use nosniff middleware
+2021-04-13 17:52:33,357 INFO 16520 [egg-security] use xssProtection middleware
+2021-04-13 17:52:33,358 INFO 16520 [egg-security] use dta middleware
+2021-04-13 17:52:33,358 INFO 16520 [egg-security] compose 6 middlewares into one security middleware
+2021-04-13 17:52:33,428 INFO 16520 [egg:core] dump config after load, 6ms
+2021-04-13 17:52:34,055 INFO 16520 [egg-watcher:application] watcher start success
+2021-04-13 17:52:34,064 INFO 16520 [egg:core] dump config after ready, 7ms
+2021-04-13 18:00:54,596 INFO 16965 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 18:00:54,631 INFO 16965 [egg-multipart] stream mode enable
+2021-04-13 18:00:54,631 WARN 16965 Detect view.useHashAsset in local env, will ignore it.
+2021-04-13 18:00:54,942 INFO 16965 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-13 18:00:54,942 INFO 16965 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-13 18:00:54,942 INFO 16965 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-13 18:00:54,953 INFO 16965 [egg-security] use csrf middleware
+2021-04-13 18:00:54,954 INFO 16965 [egg-security] use methodnoallow middleware
+2021-04-13 18:00:54,955 INFO 16965 [egg-security] use noopen middleware
+2021-04-13 18:00:54,958 INFO 16965 [egg-security] use nosniff middleware
+2021-04-13 18:00:54,959 INFO 16965 [egg-security] use xssProtection middleware
+2021-04-13 18:00:54,960 INFO 16965 [egg-security] use dta middleware
+2021-04-13 18:00:54,960 INFO 16965 [egg-security] compose 6 middlewares into one security middleware
+2021-04-13 18:00:55,054 INFO 16965 [egg:core] dump config after load, 10ms
+2021-04-13 18:00:55,342 INFO 16965 [egg-watcher:application] watcher start success
+2021-04-13 18:00:55,361 INFO 16965 [egg:core] dump config after ready, 16ms
+2021-04-13 18:50:44,371 INFO 17753 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 18:50:44,371 INFO 17753 [egg:core] dump config after load, 30ms
+2021-04-13 18:50:47,208 INFO 17753 [egg:core] dump config after ready, 19ms
+2021-04-13 19:15:11,038 INFO 18536 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 19:15:11,097 INFO 18536 [egg-multipart] stream mode enable
+2021-04-13 19:15:11,097 WARN 18536 Detect view.useHashAsset in local env, will ignore it.
+2021-04-13 19:15:11,562 INFO 18536 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-13 19:15:11,563 INFO 18536 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-13 19:15:11,563 INFO 18536 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-13 19:15:11,572 INFO 18536 [egg-security] use csrf middleware
+2021-04-13 19:15:11,575 INFO 18536 [egg-security] use methodnoallow middleware
+2021-04-13 19:15:11,586 INFO 18536 [egg-security] use noopen middleware
+2021-04-13 19:15:11,595 INFO 18536 [egg-security] use nosniff middleware
+2021-04-13 19:15:11,616 INFO 18536 [egg-security] use xssProtection middleware
+2021-04-13 19:15:11,628 INFO 18536 [egg-security] use dta middleware
+2021-04-13 19:15:11,628 INFO 18536 [egg-security] compose 6 middlewares into one security middleware
+2021-04-13 19:15:11,763 INFO 18536 [egg:core] dump config after load, 26ms
+2021-04-13 19:15:13,034 INFO 18536 [egg-watcher:application] watcher start success
+2021-04-13 19:15:13,044 INFO 18536 [egg:core] dump config after ready, 8ms
+2021-04-13 19:21:39,511 INFO 18905 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 19:21:39,511 INFO 18905 [egg:core] dump config after load, 43ms
+2021-04-13 19:21:41,926 INFO 18905 [egg:core] dump config after ready, 9ms
+2021-04-13 19:24:32,728 INFO 19080 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 19:24:32,728 INFO 19080 [egg:core] dump config after load, 11ms
+2021-04-13 19:24:34,994 INFO 19080 [egg:core] dump config after ready, 9ms
+2021-04-13 19:26:36,491 INFO 19400 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 19:26:36,491 INFO 19400 [egg:core] dump config after load, 13ms
+2021-04-13 19:26:38,134 INFO 19400 [egg:core] dump config after ready, 19ms
+2021-04-13 19:28:35,090 INFO 19723 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 19:28:35,153 INFO 19723 [egg-multipart] stream mode enable
+2021-04-13 19:28:35,153 WARN 19723 Detect view.useHashAsset in local env, will ignore it.
+2021-04-13 19:28:35,339 INFO 19723 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-13 19:28:35,339 INFO 19723 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-13 19:28:35,340 INFO 19723 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-13 19:28:35,359 INFO 19723 [egg-security] use csrf middleware
+2021-04-13 19:28:35,364 INFO 19723 [egg-security] use methodnoallow middleware
+2021-04-13 19:28:35,366 INFO 19723 [egg-security] use noopen middleware
+2021-04-13 19:28:35,387 INFO 19723 [egg-security] use nosniff middleware
+2021-04-13 19:28:35,389 INFO 19723 [egg-security] use xssProtection middleware
+2021-04-13 19:28:35,390 INFO 19723 [egg-security] use dta middleware
+2021-04-13 19:28:35,390 INFO 19723 [egg-security] compose 6 middlewares into one security middleware
+2021-04-13 19:28:35,508 INFO 19723 [egg:core] dump config after load, 7ms
+2021-04-13 19:28:36,510 INFO 19723 [egg-watcher:application] watcher start success
+2021-04-13 19:28:36,520 INFO 19723 [egg:core] dump config after ready, 8ms
+2021-04-13 19:30:05,899 INFO 19796 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 19:30:05,932 INFO 19796 [egg-multipart] stream mode enable
+2021-04-13 19:30:05,932 WARN 19796 Detect view.useHashAsset in local env, will ignore it.
+2021-04-13 19:30:06,123 INFO 19796 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-13 19:30:06,124 INFO 19796 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-13 19:30:06,124 INFO 19796 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-13 19:30:06,131 INFO 19796 [egg-security] use csrf middleware
+2021-04-13 19:30:06,132 INFO 19796 [egg-security] use methodnoallow middleware
+2021-04-13 19:30:06,133 INFO 19796 [egg-security] use noopen middleware
+2021-04-13 19:30:06,134 INFO 19796 [egg-security] use nosniff middleware
+2021-04-13 19:30:06,135 INFO 19796 [egg-security] use xssProtection middleware
+2021-04-13 19:30:06,136 INFO 19796 [egg-security] use dta middleware
+2021-04-13 19:30:06,136 INFO 19796 [egg-security] compose 6 middlewares into one security middleware
+2021-04-13 19:30:06,181 INFO 19796 [egg:core] dump config after load, 7ms
+2021-04-13 19:30:06,454 INFO 19796 [egg-watcher:application] watcher start success
+2021-04-13 19:30:06,465 INFO 19796 [egg:core] dump config after ready, 9ms
+2021-04-13 20:48:52,890 INFO 24769 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 20:48:52,933 INFO 24769 [egg-multipart] stream mode enable
+2021-04-13 20:48:52,933 WARN 24769 Detect view.useHashAsset in local env, will ignore it.
+2021-04-13 20:48:53,171 INFO 24769 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-13 20:48:53,172 INFO 24769 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-13 20:48:53,173 INFO 24769 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-13 20:48:53,179 INFO 24769 [egg-security] use csrf middleware
+2021-04-13 20:48:53,181 INFO 24769 [egg-security] use methodnoallow middleware
+2021-04-13 20:48:53,182 INFO 24769 [egg-security] use noopen middleware
+2021-04-13 20:48:53,186 INFO 24769 [egg-security] use nosniff middleware
+2021-04-13 20:48:53,188 INFO 24769 [egg-security] use xssProtection middleware
+2021-04-13 20:48:53,189 INFO 24769 [egg-security] use dta middleware
+2021-04-13 20:48:53,189 INFO 24769 [egg-security] compose 6 middlewares into one security middleware
+2021-04-13 20:48:53,254 INFO 24769 [egg:core] dump config after load, 6ms
+2021-04-13 20:48:53,786 INFO 24769 [egg-watcher:application] watcher start success
+2021-04-13 20:48:53,795 INFO 24769 [egg:core] dump config after ready, 7ms
+2021-04-13 20:55:13,257 INFO 25060 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 20:55:13,306 INFO 25060 [egg-multipart] stream mode enable
+2021-04-13 20:55:13,307 WARN 25060 Detect view.useHashAsset in local env, will ignore it.
+2021-04-13 20:55:13,715 INFO 25060 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-13 20:55:13,716 INFO 25060 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-13 20:55:13,716 INFO 25060 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-13 20:55:13,719 INFO 25060 [egg-security] use csrf middleware
+2021-04-13 20:55:13,724 INFO 25060 [egg-security] use methodnoallow middleware
+2021-04-13 20:55:13,725 INFO 25060 [egg-security] use noopen middleware
+2021-04-13 20:55:13,727 INFO 25060 [egg-security] use nosniff middleware
+2021-04-13 20:55:13,728 INFO 25060 [egg-security] use xssProtection middleware
+2021-04-13 20:55:13,729 INFO 25060 [egg-security] use dta middleware
+2021-04-13 20:55:13,729 INFO 25060 [egg-security] compose 6 middlewares into one security middleware
+2021-04-13 20:55:13,805 INFO 25060 [egg:core] dump config after load, 6ms
+2021-04-13 20:55:14,582 INFO 25060 [egg-watcher:application] watcher start success
+2021-04-13 20:55:14,591 INFO 25060 [egg:core] dump config after ready, 7ms
+2021-04-13 21:18:10,454 INFO 26811 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 21:18:10,454 INFO 26811 [egg:core] dump config after load, 11ms
+2021-04-13 21:18:12,270 INFO 26811 [egg:core] dump config after ready, 14ms
+2021-04-13 21:22:00,318 INFO 27103 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 21:22:00,318 INFO 27103 [egg:core] dump config after load, 18ms
+2021-04-13 21:22:01,985 INFO 27103 [egg:core] dump config after ready, 11ms
+2021-04-13 21:23:50,162 INFO 27223 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 21:23:50,162 INFO 27223 [egg:core] dump config after load, 11ms
+2021-04-13 21:23:51,804 INFO 27223 [egg:core] dump config after ready, 11ms
+2021-04-13 21:25:20,779 INFO 27370 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 21:25:20,779 INFO 27370 [egg:core] dump config after load, 11ms
+2021-04-13 21:25:22,273 INFO 27370 [egg:core] dump config after ready, 10ms
+2021-04-13 21:25:37,255 INFO 27458 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 21:25:37,255 INFO 27458 [egg:core] dump config after load, 18ms
+2021-04-13 21:25:39,761 INFO 27458 [egg:core] dump config after ready, 13ms
+2021-04-13 21:29:33,411 INFO 27710 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 21:29:33,412 INFO 27710 [egg:core] dump config after load, 11ms
+2021-04-13 21:29:34,919 INFO 27710 [egg:core] dump config after ready, 12ms
+2021-04-13 21:34:19,062 INFO 27925 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 21:34:19,062 INFO 27925 [egg:core] dump config after load, 20ms
+2021-04-13 21:34:20,673 INFO 27925 [egg:core] dump config after ready, 11ms
+2021-04-13 21:36:03,117 INFO 28067 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 21:36:03,117 INFO 28067 [egg:core] dump config after load, 11ms
+2021-04-13 21:36:04,597 INFO 28067 [egg:core] dump config after ready, 17ms
+2021-04-13 22:02:21,587 INFO 1242 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 22:02:21,593 INFO 1242 [egg:core] dump config after load, 18ms
+2021-04-13 22:02:24,183 INFO 1242 [egg:core] dump config after ready, 16ms
+2021-04-13 22:05:54,756 INFO 1713 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 22:05:54,756 INFO 1713 [egg:core] dump config after load, 10ms
+2021-04-13 22:05:56,302 INFO 1713 [egg:core] dump config after ready, 11ms
+2021-04-13 22:07:02,378 INFO 1872 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-13 22:07:02,379 INFO 1872 [egg:core] dump config after load, 11ms
+2021-04-13 22:07:03,870 INFO 1872 [egg:core] dump config after ready, 14ms
+2021-04-14 10:41:14,069 INFO 3378 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-14 10:41:14,070 INFO 3378 [egg:core] dump config after load, 11ms
+2021-04-14 10:41:16,793 INFO 3378 [egg:core] dump config after ready, 8ms
+2021-04-14 15:17:43,513 INFO 31385 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-14 15:17:43,559 INFO 31385 [egg-multipart] stream mode enable
+2021-04-14 15:17:43,559 WARN 31385 Detect view.useHashAsset in local env, will ignore it.
+2021-04-14 15:17:43,919 INFO 31385 [egg-static] starting static serve /public -> /Volumes/PSSD/JDP/app/public
+2021-04-14 15:17:43,919 INFO 31385 [egg-static] starting static serve /build -> /Volumes/PSSD/JDP/build
+2021-04-14 15:17:43,919 INFO 31385 [egg-static] starting static serve / -> /Volumes/PSSD/JDP/root
+2021-04-14 15:17:43,926 INFO 31385 [egg-security] use csrf middleware
+2021-04-14 15:17:43,928 INFO 31385 [egg-security] use methodnoallow middleware
+2021-04-14 15:17:44,002 INFO 31385 [egg-security] use noopen middleware
+2021-04-14 15:17:44,049 INFO 31385 [egg-security] use nosniff middleware
+2021-04-14 15:17:44,051 INFO 31385 [egg-security] use xssProtection middleware
+2021-04-14 15:17:44,052 INFO 31385 [egg-security] use dta middleware
+2021-04-14 15:17:44,052 INFO 31385 [egg-security] compose 6 middlewares into one security middleware
+2021-04-14 15:17:44,129 INFO 31385 [egg:core] dump config after load, 7ms
+2021-04-14 15:17:44,447 INFO 31385 [egg-watcher:application] watcher start success
+2021-04-14 15:17:44,457 INFO 31385 [egg:core] dump config after ready, 8ms
+2021-04-14 15:19:58,332 INFO 31454 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-14 15:19:58,334 INFO 31454 [egg:core] dump config after load, 66ms
+2021-04-14 15:20:01,743 INFO 31454 [egg:core] dump config after ready, 9ms
+2021-04-15 11:39:40,792 INFO 6178 [egg:logger] init all loggers with options: {"dir":"/Volumes/PSSD/JDP/logs/beidou-example-redux","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-example-redux-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-04-15 11:39:40,792 INFO 6178 [egg:core] dump config after load, 18ms
+2021-04-15 11:39:45,146 INFO 6178 [egg:core] dump config after ready, 23ms

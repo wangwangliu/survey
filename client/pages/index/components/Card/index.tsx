@@ -28,7 +28,7 @@ function index(props: Props) {
 
   return (
     <div className={cx('card', className)}>
-      <div className={cx('header_')}>{qnrId}. {q}</div>
+      <div className={cx('header_')}><p><span>*</span>{qnrId}. {q}</p></div>
       {
         !!k.length &&
         k.map((item, index) => {
@@ -44,7 +44,7 @@ function index(props: Props) {
               }
             }
             setKey(answer);
-            onClick({qnrId,type,answer,content:""});
+            onClick({qnrId,type,answer:answer.sort(),content:""});
           }}>
             <div className={cx(type == 1 ? 'radio' : 'checkbox', key.indexOf(item) > -1 ? 'ed' : '')}></div>
             <div className={cx('content')}>{options[item]}</div>

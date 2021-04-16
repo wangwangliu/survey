@@ -7,7 +7,9 @@
   box-sizing: border-box;
   padding-bottom:px2rem(55);
   // padding-top:px2rem(36);
-
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+ 
   .pick_{
     padding:0 rem(10);
     .tit__{
@@ -25,7 +27,7 @@
   .progress{
     position: fixed;
     z-index:10;
-    top:rem(51);
+    top:3.3rem;
     left:0;
     height:rem(2);
     width:100%;
@@ -89,7 +91,7 @@
   .question_box{
     padding:rem(10);
     .phone{
-      font-size:rem(10);
+      font-size:rem(16);
       margin-top:rem(20);
       line-height:1.5;
       input{  
@@ -102,7 +104,8 @@
         width:rem(150);
         color: #062034;
         height:rem(24);
-        padding-left:rem(10)
+        padding-left:rem(10);
+        border-radius: 0;
       }
       input:focus{   
         border:none;
@@ -168,53 +171,172 @@
     }
   }  
 }
+
 .popup-list{
   height:100vh;
   width:100vw;
   position: relative;
-  &.top{
-    padding-top: 0.5rem;
+ 
+  &.f{
+    display: flex;
+    flex-direction: column;
   }
+
+  &.ff{
+    height:50vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  &.top{
+    padding-top: 1rem;
+    overflow-y: auto;
+    p{
+      margin-top:1rem;
+      text-align: center;
+    }
+  }
+
+  
   .success{
     width:rem(60);
-    height:rem(60);
-    background:url(#{$path}/success.png) center center no-repeat;
+    height:rem(10);
+    // background:url(#{$path}/success.png) center center no-repeat;
     background-size: contain;
     margin:0 auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   p{
-    font-size: rem(12);
-    text-align: center;
-    margin-top:rem(10);
-    margin-bottom:rem(10);
-    color:#bbbbbb;
+    font-size: rem(16);
+    text-align: left;
+    color:#062034;
+
   }
   img{
     width:98%;
     height:auto;
     margin:rem(2) auto;
   }
-  iframe{
-    border:0;
-    height:100vh;
+  .placeholder{
+    height:rem(50);
     width:100vw;
-    overflow-y: scroll;
-    box-sizing: border-box;
-    padding-bottom:rem(45)
+    flex-shrink: 0;
   }
-  .agree_btn{
+  .iiframe{
+    // height:calc(100vh - 3.5rem);
+    flex-grow: 1;
     width:100vw;
-    height:rem(45);
+    text-align: left;
+    color:#062034;
+    font-size:rem(13);
+    box-sizing: border-box;
+    padding:rem(10);
+    padding-bottom:rem(50);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    &.fff{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      ._logo{
+        width:65%;
+        height:rem(50);
+        background:url(#{$path}/logo_jd.png) center center no-repeat;
+        background-size: contain;
+        margin-top:rem(20);
+      }
+      .advertising{
+        width:100%;
+        height:18rem;
+        background:#fff;
+        margin-top:rem(10);
+        img{
+          width:100%;
+          height:auto;
+        }
+      }
+    }
+  
+    &.iii{
+      width:100%;
+      padding:0;
+      padding-bottom:0;
+    }
+    p{
+      color:#062034;
+      font-size:rem(13);
+      text-align: left;
+    }
+  }
+
+  .protocol{
+    width:100vw;
+    height:rem(40);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .r{
+      width:rem(18);
+      height:rem(18);
+      flex-shrink: 0;
+      background:url(#{$path}/radio.png) center center no-repeat;
+      background-size: contain;
+      margin-right:rem(3);
+      &.ed{
+        background:url(#{$path}/radioed.png) center center no-repeat;
+        background-size: contain;
+      }
+    }
+    .rp1{
+      width:rem(200);
+      white-space: nowrap;
+      font-size:rem(13);
+      text-align: left;
+      .rpp1{
+        color:#062034;
+       
+      }
+      .rpp2{
+        color:#53a2e0
+      }
+    }
+
+  }
+  
+  .agree_btn{
+    width:90vw;
+    height:rem(40);
+    flex-shrink: 0;
+    border-radius: rem(40);
+    margin: auto;
+    // height:calc(3.5rem+ constant(safe-area-inset-bottom));
+    // height:calc(3.5rem+ env(safe-area-inset-bottom));
     background:#cd0e2d;
     color:#fff;
     font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    left:0;
-    bottom:0;
-    position: fixed;
-    z-index:10000;
+    // padding-bottom:0;
+    // padding-bottom: constant(safe-area-inset-bottom); /* 兼容 iOS < 11.2 */
+    // padding-bottom: env(safe-area-inset-bottom); 
+  }
+}
+
+
+
+.policy_modal{
+  z-index:20000;
+  transform: translateZ(2px);
+  :global{
+    .am-modal-content{overflow:visible}
+    .am-modal-close{top: 10px;right:10px}
   }
 }

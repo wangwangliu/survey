@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Application Start",
+    "start": 1618384797112,
+    "end": 1618384801734,
+    "duration": 4622,
+    "pid": 31454,
+    "index": 0
+  },
+  {
+    "name": "Load Plugin",
+    "start": 1618384797117,
+    "end": 1618384798100,
+    "duration": 983,
+    "pid": 31454,
+    "index": 1
+  },
+  {
+    "name": "Load Config",
+    "start": 1618384798100,
+    "end": 1618384798244,
+    "duration": 144,
+    "pid": 31454,
+    "index": 2
+  },
+  {
+    "name": "Require(0) config/config.default.js",
+    "start": 1618384798101,
+    "end": 1618384798137,
+    "duration": 36,
+    "pid": 31454,
+    "index": 3
+  },
+  {
+    "name": "Require(1) config/config.local.js",
+    "start": 1618384798143,
+    "end": 1618384798159,
+    "duration": 16,
+    "pid": 31454,
+    "index": 4
+  },
+  {
+    "name": "Require(2) node_modules/egg-session/config/config.default.js",
+    "start": 1618384798160,
+    "end": 1618384798162,
+    "duration": 2,
+    "pid": 31454,
+    "index": 5
+  },
+  {
+    "name": "Require(3) node_modules/egg-security/config/config.default.js",
+    "start": 1618384798165,
+    "end": 1618384798166,
+    "duration": 1,
+    "pid": 31454,
+    "index": 6
+  },
+  {
+    "name": "Require(4) node_modules/egg-jsonp/config/config.default.js",
+    "start": 1618384798168,
+    "end": 1618384798171,
+    "duration": 3,
+    "pid": 31454,
+    "index": 7
+  },
+  {
+    "name": "Require(5) node_modules/egg-onerror/config/config.default.js",
+    "start": 1618384798173,
+    "end": 1618384798178,
+    "duration": 5,
+    "pid": 31454,
+    "index": 8
+  },
+  {
+    "name": "Require(6) node_modules/egg-watcher/config/config.default.js",
+    "start": 1618384798178,
+    "end": 1618384798181,
+    "duration": 3,
+    "pid": 31454,
+    "index": 9
+  },
+  {
+    "name": "Require(7) node_modules/egg-schedule/config/config.default.js",
+    "start": 1618384798182,
+    "end": 1618384798183,
+    "duration": 1,
+    "pid": 31454,
+    "index": 10
+  },
+  {
+    "name": "Require(8) node_modules/egg-multipart/config/config.default.js",
+    "start": 1618384798184,
+    "end": 1618384798185,
+    "duration": 1,
+    "pid": 31454,
+    "index": 11
+  },
+  {
+    "name": "Require(9) node_modules/egg-development/config/config.default.js",
+    "start": 1618384798188,
+    "end": 1618384798196,
+    "duration": 8,
+    "pid": 31454,
+    "index": 12
+  },
+  {
+    "name": "Require(10) node_modules/egg-logrotator/config/config.default.js",
+    "start": 1618384798197,
+    "end": 1618384798199,
+    "duration": 2,
+    "pid": 31454,
+    "index": 13
+  },
+  {
+    "name": "Require(11) node_modules/egg-static/config/config.default.js",
+    "start": 1618384798199,
+    "end": 1618384798200,
+    "duration": 1,
+    "pid": 31454,
+    "index": 14
+  },
+  {
+    "name": "Require(12) node_modules/egg-view/config/config.default.js",
+    "start": 1618384798201,
+    "end": 1618384798202,
+    "duration": 1,
+    "pid": 31454,
+    "index": 15
+  },
+  {
+    "name": "Require(13) node_modules/beidou-view/config/config.default.js",
+    "start": 1618384798202,
+    "end": 1618384798203,
+    "duration": 1,
+    "pid": 31454,
+    "index": 16
+  },
+  {
+    "name": "Require(14) node_modules/beidou-view-react/config/config.default.js",
+    "start": 1618384798207,
+    "end": 1618384798211,
+    "duration": 4,
+    "pid": 31454,
+    "index": 17
+  },
+  {
+    "name": "Require(15) node_modules/beidou-webpack/config/config.default.js",
+    "start": 1618384798212,
+    "end": 1618384798214,
+    "duration": 2,
+    "pid": 31454,
+    "index": 18
+  },
+  {
+    "name": "Require(16) node_modules/beidou-isomorphic/config/config.default.js",
+    "start": 1618384798215,
+    "end": 1618384798217,
+    "duration": 2,
+    "pid": 31454,
+    "index": 19
+  },
+  {
+    "name": "Require(17) node_modules/beidou-router/config/config.default.js",
+    "start": 1618384798218,
+    "end": 1618384798219,
+    "duration": 1,
+    "pid": 31454,
+    "index": 20
+  },
+  {
+    "name": "Require(18) node_modules/egg/config/config.default.js",
+    "start": 1618384798219,
+    "end": 1618384798226,
+    "duration": 7,
+    "pid": 31454,
+    "index": 21
+  },
+  {
+    "name": "Require(19) node_modules/beidou-core/config/config.default.js",
+    "start": 1618384798229,
+    "end": 1618384798230,
+    "duration": 1,
+    "pid": 31454,
+    "index": 22
+  },
+  {
+    "name": "Require(20) config/config.default.js",
+    "start": 1618384798230,
+    "end": 1618384798230,
+    "duration": 0,
+    "pid": 31454,
+    "index": 23
+  },
+  {
+    "name": "Require(21) node_modules/egg-security/config/config.local.js",
+    "start": 1618384798231,
+    "end": 1618384798232,
+    "duration": 1,
+    "pid": 31454,
+    "index": 24
+  },
+  {
+    "name": "Require(22) node_modules/egg-watcher/config/config.local.js",
+    "start": 1618384798233,
+    "end": 1618384798234,
+    "duration": 1,
+    "pid": 31454,
+    "index": 25
+  },
+  {
+    "name": "Require(23) node_modules/egg-view/config/config.local.js",
+    "start": 1618384798235,
+    "end": 1618384798235,
+    "duration": 0,
+    "pid": 31454,
+    "index": 26
+  },
+  {
+    "name": "Require(24) node_modules/beidou-view-react/config/config.local.js",
+    "start": 1618384798236,
+    "end": 1618384798237,
+    "duration": 1,
+    "pid": 31454,
+    "index": 27
+  },
+  {
+    "name": "Require(25) node_modules/egg/config/config.local.js",
+    "start": 1618384798239,
+    "end": 1618384798242,
+    "duration": 3,
+    "pid": 31454,
+    "index": 28
+  },
+  {
+    "name": "Require(26) node_modules/beidou-core/config/config.local.js",
+    "start": 1618384798243,
+    "end": 1618384798244,
+    "duration": 1,
+    "pid": 31454,
+    "index": 29
+  },
+  {
+    "name": "Require(27) config/config.local.js",
+    "start": 1618384798244,
+    "end": 1618384798244,
+    "duration": 0,
+    "pid": 31454,
+    "index": 30
+  },
+  {
+    "name": "Before Start in node_modules/egg-core/lib/egg.js:303:10",
+    "start": 1618384798316,
+    "end": 1618384801731,
+    "duration": 3415,
+    "pid": 31454,
+    "index": 31
+  },
+  {
+    "name": "Require(28) node_modules/beidou-webpack/config/webpack/webpack.browser.js",
+    "start": 1618384798758,
+    "end": 1618384800231,
+    "duration": 1473,
+    "pid": 31454,
+    "index": 32
+  },
+  {
+    "name": "Require(29) config/webpack.config.js",
+    "start": 1618384800254,
+    "end": 1618384800795,
+    "duration": 541,
+    "pid": 31454,
+    "index": 33
+  }
+]

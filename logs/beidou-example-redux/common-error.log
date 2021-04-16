@@ -1984,3 +1984,569 @@ name: "unhandledRejectionError"
 pid: 27853
 hostname: senla.local
 
+2021-04-12 17:42:40,164 ERROR 10605 [-/::1/-/592ms GET /] nodejs.Error: Portals are not currently supported by the server renderer. Render them conditionally so that they only appear on the client render.
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3449:21)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+
+pid: 10605
+hostname: senla.local
+
+2021-04-12 19:00:40,589 ERROR 10605 [-/::1/-/335ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (375:8)
+
+[0m [90m 373 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 374 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 375 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 376 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 377 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 378 | [39m                      转让[0m
+
+[0m [90m 373 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 374 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 375 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 376 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 377 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 378 | [39m                      转让[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":375,"column":8}
+pos: 16865
+code: "BABEL_PARSE_ERROR"
+pid: 10605
+hostname: senla.local
+
+2021-04-12 19:00:40,626 ERROR 10605 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 10605
+hostname: senla.local
+
+2021-04-12 19:01:27,325 ERROR 16056 [-/::1/-/1249ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (375:8)
+
+[0m [90m 373 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 374 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 375 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 376 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 377 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 378 | [39m                      转让[0m
+
+[0m [90m 373 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 374 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 375 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 376 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 377 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 378 | [39m                      转让[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":375,"column":8}
+pos: 16865
+code: "BABEL_PARSE_ERROR"
+pid: 16056
+hostname: senla.local
+
+2021-04-12 19:01:27,351 ERROR 16056 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 16056
+hostname: senla.local
+
+2021-04-12 20:12:38,484 ERROR 16056 [-/::1/-/440ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (365:8)
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":365,"column":8}
+pos: 16127
+code: "BABEL_PARSE_ERROR"
+pid: 16056
+hostname: senla.local
+
+2021-04-12 20:12:38,502 ERROR 16056 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 16056
+hostname: senla.local
+
+2021-04-12 20:13:46,052 ERROR 20906 [-/::1/-/1125ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (365:8)
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":365,"column":8}
+pos: 16127
+code: "BABEL_PARSE_ERROR"
+pid: 20906
+hostname: senla.local
+
+2021-04-12 20:13:46,065 ERROR 20906 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 20906
+hostname: senla.local
+
+2021-04-12 20:15:45,016 ERROR 20906 [-/::1/-/248ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (365:8)
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":365,"column":8}
+pos: 16127
+code: "BABEL_PARSE_ERROR"
+pid: 20906
+hostname: senla.local
+
+2021-04-12 20:15:45,036 ERROR 20906 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 20906
+hostname: senla.local
+
+2021-04-12 20:15:53,794 ERROR 20906 [-/::1/-/325ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (365:8)
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+
+[0m [90m 363 | [39m                      [33m<[39m[33mstrong[39m[33m>[39m其他第三方独立实体运营的网站、平台和服务[33m<[39m[33m/[39m[33mstrong[39m[33m>[39m与我们共享的您的信息。我们还可能允许您从我们的服务跳转到其他服务，或者通过其他第三方独立实体运营的网站、平台和服务（例如社交媒体平台上的品牌页面）获取我们的服务。这些由其他第三方独立实体运营的内容可能会收集和使用您的个人信息，并受其自身隐私政策或个人信息保护规则的约束，包括他们与我们共享什么信息。因此，我们建议您查阅其隐私政策和使用协议。[0m
+[0m [90m 364 | [39m                [33m<[39m[33m/[39m[33mli[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 365 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 366 | [39m                  [33m<[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 367 | [39m                    [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 368 | [39m                      转让[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":365,"column":8}
+pos: 16219
+code: "BABEL_PARSE_ERROR"
+pid: 20906
+hostname: senla.local
+
+2021-04-12 20:15:53,797 ERROR 20906 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 20906
+hostname: senla.local
+
+2021-04-12 20:18:18,263 ERROR 21135 [-/::1/-/1642ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <ul> (626:16)
+
+[0m [90m 624 | [39m                    [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 625 | [39m                  [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 626 | [39m                [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 627 | [39m              [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 628 | [39m            [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 629 | [39m          [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+
+[0m [90m 624 | [39m                    [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 625 | [39m                  [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 626 | [39m                [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m     | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 627 | [39m              [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 628 | [39m            [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 629 | [39m          [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+loc: {"line":626,"column":16}
+pos: 27470
+code: "BABEL_PARSE_ERROR"
+pid: 21135
+hostname: senla.local
+
+2021-04-12 20:18:18,273 ERROR 21135 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 21135
+hostname: senla.local
+
+2021-04-12 20:18:54,493 ERROR 21135 [-/::1/-/373ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Expected corresponding JSX closing tag for <div> (185:6)
+
+[0m [90m 183 | [39m          [33m>[39m同 意[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 184 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 185 | [39m      [33m<[39m[33m/[39m[33mModal[39m[33m>[39m[0m
+[0m [90m     | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 186 | [39m      [33m<[39m[33mModal[39m[0m
+[0m [90m 187 | [39m        popup[0m
+[0m [90m 188 | [39m        visible[33m=[39m{successModal}[0m
+
+[0m [90m 183 | [39m          [33m>[39m同 意[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 184 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 185 | [39m      [33m<[39m[33m/[39m[33mModal[39m[33m>[39m[0m
+[0m [90m     | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 186 | [39m      [33m<[39m[33mModal[39m[0m
+[0m [90m 187 | [39m        popup[0m
+[0m [90m 188 | [39m        visible[33m=[39m{successModal}[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:475:18)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:432:34)
+    at Object.jsxParseElement (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:511:19)
+    at Object.parseExprAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:522:21)
+    at Object.parseExprSubscripts (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:519:21)
+loc: {"line":185,"column":6}
+pos: 5797
+code: "BABEL_PARSE_ERROR"
+pid: 21135
+hostname: senla.local
+
+2021-04-12 20:18:54,511 ERROR 21135 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 21135
+hostname: senla.local
+
+2021-04-13 13:54:21,828 ERROR 4639 [-/::1/-/4901ms GET /] nodejs.Error: Portals are not currently supported by the server renderer. Render them conditionally so that they only appear on the client render.
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3449:21)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+
+pid: 4639
+hostname: senla.local
+
+2021-04-13 13:55:01,311 ERROR 5166 [-/::1/-/2822ms GET /] nodejs.Error: Portals are not currently supported by the server renderer. Render them conditionally so that they only appear on the client render.
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3449:21)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+
+pid: 5166
+hostname: senla.local
+
+2021-04-13 13:58:13,486 ERROR 5166 [-/::1/-/1431ms GET /] nodejs.Error: Portals are not currently supported by the server renderer. Render them conditionally so that they only appear on the client render.
+    at ReactDOMServerRenderer.render (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3449:21)
+    at ReactDOMServerRenderer.read (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:3373:29)
+    at renderToStaticMarkup (/Volumes/PSSD/JDP/node_modules/react-dom/cjs/react-dom-server.node.development.js:4004:27)
+    at ReactView.renderElement (/Volumes/PSSD/JDP/node_modules/beidou-view-react/lib/react-view.js:22:9)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/partial.js:35:27)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/redux.js:36:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+    at module.exports (/Volumes/PSSD/JDP/node_modules/beidou-view/app/view-middlewares/initialprops.js:33:9)
+    at dispatch (/Volumes/PSSD/JDP/node_modules/koa-compose/index.js:42:32)
+
+pid: 5166
+hostname: senla.local
+
+2021-04-13 14:06:43,199 ERROR 5166 [-/::1/-/261ms GET /] nodejs.SyntaxError: /Volumes/PSSD/JDP/client/pages/index/pages/discover/index.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (1173:6)
+
+[0m [90m 1171 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 1172 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 1173 | [39m      [33m<[39m[35m/Modal> */[39m}[0m
+[0m [90m      | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 1174 | [39m    [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 1175 | [39m  )[33m;[39m[0m
+[0m [90m 1176 | [39m}[0m
+
+[0m [90m 1171 | [39m        [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 1172 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 1173 | [39m      [33m<[39m[35m/Modal> */[39m}[0m
+[0m [90m      | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 1174 | [39m    [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 1175 | [39m  )[33m;[39m[0m
+[0m [90m 1176 | [39m}[0m
+    at Object._raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:241:45)
+    at Object.raiseWithData (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:236:17)
+    at Object.raise (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js:220:17)
+    at Object.jsxParseElementAt (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:494:20)
+    at Object.jsxParseElement (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:511:19)
+    at Object.parseExprAtom (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/jsx/index.js:522:21)
+    at Object.parseExprSubscripts (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:539:23)
+    at Object.parseMaybeUnary (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:519:21)
+    at Object.parseMaybeUnary (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/plugins/typescript/index.js:2417:22)
+    at Object.parseExprOps (/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/expression.js:311:23)
+loc: {"line":1173,"column":6}
+pos: 45623
+code: "BABEL_PARSE_ERROR"
+pid: 5166
+hostname: senla.local
+
+2021-04-13 14:06:43,210 ERROR 5166 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js'
+    at Object.openSync (fs.js:457:3)
+    at Object.readFileSync (fs.js:359:35)
+    at ErrorView.getFrameSource (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:131:21)
+    at /Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:154:30
+    at Array.map (<anonymous>)
+    at ErrorView.parseError (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:152:18)
+    at ErrorView.toHTML (/Volumes/PSSD/JDP/node_modules/egg-onerror/lib/error_view.js:36:24)
+    at Object.html (/Volumes/PSSD/JDP/node_modules/egg-onerror/app.js:86:29)
+    at Object.app.context.onerror (/Volumes/PSSD/JDP/node_modules/koa-onerror/index.js:84:23)
+    at onerror (/Volumes/PSSD/JDP/node_modules/koa/lib/application.js:163:32)
+errno: -2
+syscall: "open"
+code: "ENOENT"
+path: "/Volumes/PSSD/JDP/node_modules/@babel/parser/src/parser/location.js"
+name: "unhandledRejectionError"
+pid: 5166
+hostname: senla.local
+
+2021-04-13 14:20:11,583 ERROR 5166 [-/undefined/-/1061ms GET /build/react.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 5166
+hostname: senla.local
+
+2021-04-13 14:20:11,635 ERROR 5166 [-/undefined/-/1173ms GET /build/index.js] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at Socket._writeGeneric (net.js:780:11)
+    at Socket._write (net.js:792:8)
+    at doWrite (_stream_writable.js:441:12)
+    at clearBuffer (_stream_writable.js:580:7)
+    at Socket.Writable.uncork (_stream_writable.js:336:7)
+    at ServerResponse.OutgoingMessage.uncork (_http_outgoing.js:244:17)
+    at connectionCorkNT (_http_outgoing.js:698:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+errno: "EPIPE"
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 5166
+hostname: senla.local
+

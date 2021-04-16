@@ -7,6 +7,7 @@ import styles from './index.m.scss';
 import get from 'lodash/get';
 import remove from 'lodash/remove';
 import img from 'client/pages/index/images/top.jpg';
+import img2 from 'client/pages/index/images/log.png';
 import store from 'store2';
 
 import classnames from 'classnames/bind';
@@ -26,14 +27,18 @@ function index(props) {
   } = props;
 
   const [param, setParam] = useState<any[]>([]);
+  const [img_, setImg] = useState<any[]>([])
+  const [policy,setPolicyModal] = useState(false);
+  const [isCheck,setCheck] =  useState(false);
   // const [modal, setModal] = useState(false);
 
   useEffect(() => {
     // setModal(true)
+    // setPolicyModal())
     dispatch({
       type: 'global/update',
       payload: {
-        modal: store('protocol') ? false : true
+        modal: true
       }
     })
   }, [])
@@ -59,11 +64,11 @@ function index(props) {
                   return get(n, 'qnrId') != get(item, 'qnrId')
                 })
               }
-              if(get(item,'type')==2&&!get(item,'answer').length){
+              if (get(item, 'type') == 2 && !get(item, 'answer').length) {
                 dispatch({
                   type: 'discover/update',
                   payload: {
-                    percent: ((parameter.length) / (question.length + 1)) * 100
+                    percent: ((parameter.length) / (question.length)) * 100
                   }
                 })
                 setParam(parameter);
@@ -75,7 +80,7 @@ function index(props) {
               dispatch({
                 type: 'discover/update',
                 payload: {
-                  percent: ((parameter.length) / (question.length + 1)) * 100
+                  percent: ((parameter.length) / (question.length)) * 100
                 }
               })
               // console.log(percent, parameter, 'percent', (parameter.length) / (question.length + 1), `parseInt((parameter.length)/(question.length+1))`, parameter.length)
@@ -90,35 +95,35 @@ function index(props) {
               parameter = parameter.filter((n, index) => {
                 return get(n, 'qnrId') != 12
               });
-              if(value==''){
-                dispatch({
-                  type: 'discover/update',
-                  payload: {
-                    percent: ((parameter.length) / (question.length + 1)) * 100
-                  }
-                })
-                setParam(parameter);
+              if (value == '') {
+                // dispatch({
+                //   type: 'discover/update',
+                //   payload: {
+                //     percent: ((parameter.length) / (question.length + 1)) * 100
+                //   }
+                // })
+                // setParam(parameter);
                 return
               }
               parameter.push({ "qnrId": 12, "type": 3, "answer": [], "content": value });
-              setParam(parameter);
-              dispatch({
-                type: 'discover/update',
-                payload: {
-                  percent: ((parameter.length) / (question.length + 1)) * 100
-                }
-              })
+            //   setParam(parameter);
+            //   dispatch({
+            //     type: 'discover/update',
+            //     payload: {
+            //       percent: ((parameter.length) / (question.length + 1)) * 100
+            //     }
+            //   })
             }} placeholder="请输入手机号" type="tel" />
         </div>
       </div>
 
       <div className={cx('btn_wrap')}>
-        <div className={cx('btn_', param.length == 12 ? '' : 'disb_')}
+        <div className={cx('btn_', param.length == 11 ? '' : 'disb_')}
           onClick={() => {
-            if (param.length != 12) {
+            if (param.length != 11) {
               return Toast.info('请填写完调研', 1);
             }
-            if (!/^1[3|4|5|7|8][0-9]{9}$/.test(phone.trim())) {
+            if (!!phone.trim()&&(!/^1[3|4|5|7|8][0-9]{9}$/.test(phone.trim()))) {
               return Toast.info('请填写正确手机号', 1);
             }
             Toast.loading('系统分析中....', 1000000);
@@ -139,6 +144,7 @@ function index(props) {
                         successModal: true
                       }
                     })
+                    setImg(result);
                   }, 0);
                 }
               })
@@ -149,6 +155,7 @@ function index(props) {
       <Modal
         popup
         visible={modal}
+        // visible={false}
         onClose={() => {
           dispatch({
             type: 'global/update',
@@ -160,17 +167,50 @@ function index(props) {
         animationType="slide-up"
       // afterClose={() => { alert('afterClose'); }}
       >
-        <div className={cx('popup-list')}>
-          <iframe src="https://privacy.jdponline.cn/privacy.html#section1"></iframe>
+        <div className={cx('popup-list','f')}>
+        <div className={cx('iiframe','fff')}>
+            <div className={cx('_logo')}></div>
+            <div className={cx('advertising')}>
+            <img src={img2} />
+            </div>
+        </div>
+          <div className={cx('protocol')}>
+              <div className={cx('r',isCheck?'ed':'')} 
+                onClick={()=>{
+                    setCheck(!isCheck)
+                }}
+              />
+              <div className={cx('rp1')}>
+                 <span className={cx('rpp1')}
+                    onClick={()=>{
+                        setCheck(!isCheck)
+                    }} 
+                 >请认真阅读并同意</span> <span  className={cx('rpp2')}
+                 onClick={()=>{
+                     console.log(111);
+                    dispatch({
+                        type: 'global/update',
+                        payload: {
+                            policy: true
+                        }
+                      })
+                    // setPolicyModal(true)
+                }}
+                 >《隐私条款》</span>
+              </div>
+          </div>
           <div className={cx('agree_btn')}
             onClick={() => {
+                if(!isCheck){
+                    return Toast.info('请勾选同意隐私条款',1)
+                }
               dispatch({
                 type: 'global/update',
                 payload: {
                   modal: false
                 }
               })
-              store('protocol', 1)
+              // store('_protocol_', 1)
               // dispatch({
               //   type: 'discover/update',
               //   payload: {
@@ -178,7 +218,8 @@ function index(props) {
               //   }
               // })
             }}
-          >同 意</div>
+          >开始答题</div>
+          <div className={cx('placeholder')}></div>
         </div>
       </Modal>
       <Modal
@@ -197,9 +238,13 @@ function index(props) {
       >
         <div className={cx('popup-list', 'top')}>
           <div className={cx('success')}></div>
-          <p>我们猜您应该是:</p>
-          <img src='https://b.bdstatic.com/searchbox/icms/searchbox/img/wise%E6%A1%86%E4%B8%8Bb.png' />
-          <img src='https://b.bdstatic.com/searchbox/icms/searchbox/img/wise%E6%A1%86%E4%B8%8Bb.png' />
+          <p>长按图片即可保存，快把你的人设分享到朋友圈吧~</p>
+          {
+            !!img_.length &&
+            img_.map((item, index) => {
+              return <img key={index} src={`http://h5-research.devops-jdp.com/research${item}`} />
+            })
+          }
         </div>
       </Modal>
     </div>

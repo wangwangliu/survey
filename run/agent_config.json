@@ -214,7 +214,7 @@
       },
       "devServer": {
         "contentBase": false,
-        "port": 6814,
+        "port": 6002,
         "noInfo": true,
         "quiet": false,
         "clientLogLevel": "warning",
